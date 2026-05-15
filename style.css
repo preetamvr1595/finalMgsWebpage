@@ -10,10 +10,10 @@
     --gray: #8A8A8A;
 
     /* Gold palette — warm amber honey */
-    --gold: #C6A75E;
-    --gold-dim: #A8842D;
-    --gold-bright: #E5D3A1;
-    --gold-gradient: linear-gradient(135deg, #C6A75E 0%, #E5D3A1 50%, #A8842D 100%);
+    --gold: #8F7124;
+    --gold-dim: #6B541A;
+    --gold-bright: #B5964D;
+    --gold-gradient: linear-gradient(135deg, #8F7124 0%, #B5964D 50%, #6B541A 100%);
 
     /* Legacy mappings */
     --charcoal: var(--section-contrast);
@@ -71,7 +71,7 @@ img { display: block; max-width: 100%; }
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
-    background: linear-gradient(135deg, #C6A75E, #A8842D);
+    background: linear-gradient(135deg, #8F7124, #6B541A);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

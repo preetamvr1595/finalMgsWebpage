@@ -13,7 +13,7 @@ async function loadInitialData() {
 
 async function loadProducts() {
   try {
-    const res = await fetch('/api/products');
+    const res = await fetch(window.getApiBase() + '/api/products');
     if (!res.ok) throw new Error('Failed to fetch products');
     const data = await res.json();
     products = data.map(p => ({
@@ -21,8 +21,8 @@ async function loadProducts() {
       name: p.name || 'Untitled',
       category: p.category || 'uncategorized',
       tag: p.tag || '',
-      image: (p.images && p.images[0]) || p.image || 'assets/placeholder.png',
-      images: p.images || (p.image ? [p.image] : []),
+      image: window.resolveImageUrl((p.images && p.images[0]) || p.image),
+      images: (p.images || (p.image ? [p.image] : [])).map(img => window.resolveImageUrl(img)),
       hallmark: p.hallmark || 'HUID',
       purity: p.purity || '',
       weight: p.weight || '',
@@ -43,7 +43,9 @@ function renderFilters() {
 
   const categories = [...new Set(products.map(p => p.category).filter(Boolean))];
   
-  filterContainer.innerHTML = categories.map(cat => `
+  filterContainer.innerHTML = `
+    <button class="filter-btn ${activeFilter === 'all' ? 'active' : ''}" data-filter="all">All</button>
+  ` + categories.map(cat => `
     <button class="filter-btn ${activeFilter === cat ? 'active' : ''}" data-filter="${cat}">
       ${cat.charAt(0).toUpperCase() + cat.slice(1)}
     </button>
@@ -62,7 +64,7 @@ function renderFilters() {
 
 async function loadOffers() {
   try {
-    const res = await fetch('/api/offers');
+    const res = await fetch(window.getApiBase() + '/api/offers');
     const data = await res.json();
     offers = data.filter(o => o.active);
     if (offers.length > 0) {
@@ -129,12 +131,22 @@ function renderProducts(filter = 'all') {
   const grid = document.getElementById('product-grid');
   if (!grid) return;
 
-  const filtered = products.filter(p => p.category === filter || p.tag === filter);
+  const filtered = (filter === 'all') 
+    ? products 
+    : products.filter(p => 
+        (p.category && p.category.toLowerCase() === filter.toLowerCase()) || 
+        (p.tag && p.tag.toLowerCase() === filter.toLowerCase())
+      );
+
+  if (filtered.length === 0) {
+    grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:4rem;color:var(--muted)">No items found in this category.</div>`;
+    return;
+  }
 
   grid.innerHTML = filtered.map(p => `
     <div class="product-card animate-in" data-id="${p.id}">
       <div class="product-card-img image-frame">
-        <img src="${p.image}" alt="${p.name} — ${p.hallmark} Hallmark, MGS Jewellery Davanagere" loading="lazy">
+        <img src="${p.image}" alt="${p.name} — ${p.hallmark} Hallmark, MGS Jewellery Davanagere" loading="lazy" onerror="this.src='assets/placeholder.png'">
       </div>
       <div class="product-card-info">
         <div class="pc-hallmark-row">

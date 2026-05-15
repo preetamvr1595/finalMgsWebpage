@@ -452,7 +452,7 @@ body { padding-top: calc(2.1rem + 4.5rem); }
   font-family: var(--font-mono);
   font-size: 0.7rem;
   letter-spacing: 0.25em;
-  color: #A8842D;
+  color: var(--gold-dim);
   text-transform: uppercase;
   display: block;
   margin-bottom: 1rem;
@@ -466,7 +466,7 @@ body { padding-top: calc(2.1rem + 4.5rem); }
 }
 
 .heritage-text strong {
-  color: #A8842D;
+  color: var(--gold-dim);
   text-shadow: 0 2px 8px rgba(168,132,45,0.25);
   background: radial-gradient(circle, rgba(198,167,94,0.12) 0%, transparent 70%);
   padding: 0 4px;
@@ -478,7 +478,7 @@ body { padding-top: calc(2.1rem + 4.5rem); }
   width: 18px;
   height: 18px;
   flex-shrink: 0;
-  background: radial-gradient(circle, #C6A75E 0%, rgba(198,167,94,0.8) 40%, transparent 70%);
+  background: radial-gradient(circle, var(--gold) 0%, rgba(198,167,94,0.8) 40%, transparent 70%);
   border-radius: 50%;
   box-shadow: 0 0 12px rgba(198,167,94,0.35);
   margin-top: 6px;

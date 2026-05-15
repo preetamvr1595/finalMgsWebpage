@@ -137,10 +137,10 @@ npx serve .
 
 ## 📞 Business Info
 
-- **Store:** MGS Jewellery, P.J. Extension, Davanagere — 577 002
+- **Store:** MGS Jewellery, Vijayalakshmi Road, Near Clock Tower, Davanagere — 577 001
 - **Established:** 1999
 - **Speciality:** Senior Goldsmith & Maker — 22K BIS/HUID Hallmark Certified
-- **WhatsApp:** +91 98765 43210
+- **WhatsApp:** +91 80 2500 0000
 
 ---
 

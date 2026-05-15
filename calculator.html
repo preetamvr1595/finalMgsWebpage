@@ -7,12 +7,12 @@
   <meta name="description" content="Calculate the value of your gold in real-time with our Davanagere live gold rate calculator. Transparent pricing with no hidden charges.">
   <link rel="stylesheet" href="global.css">
   <style>
-    body { padding-top: calc(2.1rem + 4.5rem); min-height: 100vh; }
+    body { padding-top: 6.5rem; min-height: 100vh; }
     .calc-page { padding: 6rem 7% 8rem; background: var(--ivory); }
     .calc-page-header { text-align: center; margin-bottom: 4rem; }
-    .calc-page-header .label { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 1rem; }
-    .calc-page-header h1 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1rem; }
-    .calc-page-header p { color: var(--white-dim); max-width: 500px; margin: 0 auto; }
+    .calc-page-header .label { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); display: block; margin-bottom: 1rem; font-weight: 600; }
+    .calc-page-header h1 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1rem; color: var(--text-dark); }
+    .calc-page-header p { color: var(--body-text); max-width: 500px; margin: 0 auto; }
 
     .calc-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 1100px; margin: 0 auto; }
 
@@ -25,15 +25,15 @@
       border-radius: 12px;
     }
     .calc-card-header {
-      background: rgba(212,175,55,0.06);
-      border-bottom: 1px solid rgba(198,167,94,0.12);
+      background: rgba(143,113,36,0.08);
+      border-bottom: 1px solid rgba(143,113,36,0.2);
       padding: 1.2rem 1.8rem;
       display: flex;
       align-items: center;
       gap: 0.8rem;
     }
-    .calc-card-header .ch-icon { font-size: 1.2rem; color: var(--gold); }
-    .calc-card-header h2 { font-family: var(--font-mono); font-size: 0.88rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-bright); }
+    .calc-card-header .ch-icon { font-size: 1.2rem; color: var(--gold-dim); }
+    .calc-card-header h2 { font-family: var(--font-mono); font-size: 0.88rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); font-weight: 600; }
     .calc-card-body { padding: 1.8rem; }
 
     .calc-field { margin-bottom: 1.4rem; }
@@ -140,14 +140,12 @@
       text-align: center;
     }
     .live-rate-cell:last-child { border-right: none; }
-    .lrc-metal { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gray); margin-bottom: 0.5rem; }
+    .lrc-metal { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--body-text); margin-bottom: 0.5rem; font-weight: 600; }
     .lrc-price {
       font-family: var(--font-serif);
       font-size: 1.6rem;
-      background: var(--gold-gradient);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      background-clip: text;
+      color: var(--gold-dim);
+      font-weight: 700;
     }
     .lrc-unit { font-size: 0.65rem; color: var(--gray); margin-top: 0.2rem; }
     .lrc-change { margin-top: 0.3rem; font-family: var(--font-mono); font-size: 0.65rem; }
@@ -183,6 +181,23 @@
 </head>
 <body>
 
+<!-- ===== NAVBAR ===== -->
+<nav id="site-navbar">
+  <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="collections.html">Collections</a></li>
+    <li><a href="offers.html">Offers</a></li>
+    <li><a href="calculator.html" class="active">Calculator</a></li>
+    <li><a href="heritage.html">Heritage</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="https://wa.me/917892314633" target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">✦ WhatsApp</a>
+  </div>
+  <div class="nav-hamburger" id="hamburger-btn"><span></span><span></span><span></span></div>
+</nav>
+
+<!-- ===== GOLD TICKER ===== -->
 <div id="gold-ticker">
   <span class="ticker-label">LIVE RATES ▸</span>
   <div class="ticker-track" id="ticker-track">
@@ -198,20 +213,6 @@
   </div>
 </div>
 
-<nav id="site-navbar" style="top:2.1rem">
-  <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="collections.html">Collections</a></li>
-    <li><a href="offers.html">Offers</a></li>
-    <li><a href="calculator.html" class="active">Calculator</a></li>
-    <li><a href="heritage.html">Heritage</a></li>
-  </ul>
-  <div class="nav-actions">
-    <a href="https://wa.me/919876543210" target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">✦ WhatsApp</a>
-  </div>
-  <div class="nav-hamburger" id="hamburger-btn"><span></span><span></span><span></span></div>
-</nav>
 <div id="mobile-overlay"></div>
 <div id="mobile-menu">
   <span class="menu-close" id="menu-close">✕</span>
@@ -231,8 +232,6 @@
   </div>
 
   <div class="calc-layout">
-
-    <!-- LIVE RATES TABLE -->
     <div class="calc-card rates-table-card animate-in">
       <div class="calc-card-header">
         <span class="ch-icon">◈</span>
@@ -266,7 +265,6 @@
       </div>
     </div>
 
-    <!-- GOLD VALUE CALCULATOR -->
     <div class="calc-card animate-in">
       <div class="calc-card-header">
         <span class="ch-icon">⚖</span>
@@ -334,13 +332,12 @@
           </div>
         </div>
 
-        <a href="https://wa.me/919876543210?text=Hello%20MGS!%20I've%20calculated%20my%20jewelry%20value%20and%20would%20like%20to%20get%20an%20exact%20quote." target="_blank" class="btn btn-whatsapp" style="width:100%;justify-content:center;margin-top:1.2rem" id="gvc-whatsapp-btn">
+        <a href="https://wa.me/917892314633?text=Hello%20MGS!%20I've%20calculated%20my%20jewelry%20value%20and%20would%20like%20to%20get%20an%20exact%20quote." target="_blank" class="btn btn-whatsapp" style="width:100%;justify-content:center;margin-top:1.2rem" id="gvc-whatsapp-btn">
           ✦ Get Exact Quote on WhatsApp
         </a>
       </div>
     </div>
 
-    <!-- EMI CALCULATOR -->
     <div class="calc-card animate-in">
       <div class="calc-card-header">
         <span class="ch-icon">📅</span>
@@ -404,11 +401,9 @@
       </div>
     </div>
 
-    <!-- DISCLAIMER -->
     <div class="disclaimer-box animate-in">
       <strong>◆ Pricing Disclaimer:</strong> Values shown are estimates based on today's live gold rates and MGS Jewellery's standard wastage of 7.99% — the lowest in Davanagere. Final prices may vary based on specific design complexity, stone quality, and exact weight. All EMI calculations are indicative. For an exact quote, please contact us directly on WhatsApp. <strong>MGS Jewellery charges are maker-direct, minimizing the markup overheads of large retail chains.</strong> All pieces carry BIS 916 or HUID hallmark certification.
     </div>
-
   </div>
 </main>
 
@@ -423,7 +418,6 @@
 
 <script src="global.js"></script>
 <script>
-// Gold Value Calculator
 function calcGVC() {
   const purity = parseInt(document.getElementById('gvc-purity').value);
   const weight = parseFloat(document.getElementById('gvc-weight').value) || 0;
@@ -446,7 +440,6 @@ function calcGVC() {
   document.getElementById('gvc-gst-val').textContent = fmt(gst);
   document.getElementById('gvc-total-val').textContent = fmt(total);
 
-  // Update rates table as well
   if (window.liveGoldRates) {
     const r22 = document.getElementById('rate-g22');
     const r24 = document.getElementById('rate-g24');
@@ -457,7 +450,6 @@ function calcGVC() {
   }
 }
 
-// Expose to global for ticker updates
 window.calcMiniGold = calcGVC;
 
 ['gvc-purity','gvc-weight','gvc-wastage','gvc-making'].forEach(id => {
@@ -477,7 +469,6 @@ if (gvcSlider) {
 
 calcGVC();
 
-// EMI Calculator
 function calcEMI() {
   const total = parseFloat(document.getElementById('emi-amount').value) || 0;
   const down = parseFloat(document.getElementById('emi-down').value) || 0;
@@ -503,7 +494,6 @@ function calcEMI() {
   document.getElementById('emi-interest-val').textContent = fmt(totalInterest);
   document.getElementById('emi-total-val').textContent = fmt(totalPayable);
 
-  // Build amortization schedule
   const tbody = document.getElementById('emi-tbody');
   let balance = loan;
   let rows = '';

@@ -63,13 +63,31 @@ window.triggerAnimations();
 window.mgsSettings = {};
 window.liveGoldRates = { 22: 14225, 24: 14936, silver: 285 };
 
+// Global API Base URL resolver
+window.getApiBase = () => {
+  const protocol = window.location.protocol;
+  const hostname = window.location.hostname;
+  return window.location.port === '8000' ? `${protocol}//${hostname}:5000` : '';
+};
+
+// Global Image URL resolver
+window.resolveImageUrl = (url) => {
+  if (!url) return 'assets/placeholder.png';
+  if (url.startsWith('http') || url.startsWith('data:')) return url;
+  if (url.startsWith('/uploads') || url.startsWith('uploads')) {
+    const cleanUrl = url.startsWith('/') ? url : '/' + url;
+    return window.getApiBase() + cleanUrl;
+  }
+  return url;
+};
+
 function formatINR(amount) {
   return '₹' + Math.round(amount).toLocaleString('en-IN');
 }
 
 async function fetchSettings() {
   try {
-    const res = await fetch('/api/settings');
+    const res = await fetch(window.getApiBase() + '/api/settings');
     const data = await res.json();
     window.mgsSettings = data;
     applySettings(data);
@@ -88,7 +106,7 @@ function applySettings(s) {
 
 async function updateTicker() {
   try {
-    const res = await fetch('/api/rates');
+    const res = await fetch(window.getApiBase() + '/api/rates');
     const data = await res.json();
     
     const updateRate = (id, val) => {

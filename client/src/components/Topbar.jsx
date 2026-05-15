@@ -14,7 +14,6 @@ export default function Topbar(){
         <h2 className="text-3xl font-serif text-gray-900">Admin Dashboard</h2>
       </div>
       <div className="flex items-center gap-4">
-        <div className="px-4 py-2 bg-gold text-white rounded-lg">WhatsApp</div>
         {getToken() && <button onClick={handleLogout} className="py-2 px-3 border rounded">Logout</button>}
       </div>
     </header>

@@ -32,10 +32,10 @@
     "image": "https://finalmgswebpage.onrender.com/assets/images/hero_main.png",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "P.J. Extension, 4th Cross",
+      "streetAddress": "34 1, Vijayalakshmi Road, Near Clock Tower",
       "addressLocality": "Davanagere",
       "addressRegion": "KA",
-      "postalCode": "577002",
+      "postalCode": "577001",
       "addressCountry": "IN"
     },
     "geo": {
@@ -44,7 +44,7 @@
       "longitude": "75.9218"
     },
     "url": "https://finalmgswebpage.onrender.com/",
-    "telephone": "+918025000000",
+    "telephone": "+91 80 2500 0000",
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
@@ -66,6 +66,27 @@
 </head>
 <body>
 
+<!-- ===== NAVBAR ===== -->
+<nav id="site-navbar">
+  <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
+  <ul class="nav-links">
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="collections.html">Collections</a></li>
+    <li><a href="offers.html">Offers</a></li>
+    <li><a href="calculator.html">Calculator</a></li>
+      <li><a href="heritage.html">Heritage</a></li>
+      <li><a href="#" onclick="window.location.href=window.getApiBase()+'/admin/login';return false;">Admin Login</a></li>
+  </ul>
+  <div class="nav-actions">
+    <a href="https://wa.me/917892314633?text=Hello%20MGS%20Jewellery!%20I%27d%20like%20to%20inquire%20about%20your%20collection." target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">
+      ✦ WhatsApp
+    </a>
+  </div>
+  <div class="nav-hamburger" id="hamburger-btn" role="button" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
 <!-- ===== GOLD TICKER ===== -->
 <div id="gold-ticker">
   <span class="ticker-label">LIVE RATES ▸</span>
@@ -81,27 +102,6 @@
     <div class="ticker-item" id="t-custom-dup"><span class="metal" id="ticker-custom-dup" style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
   </div>
 </div>
-
-<!-- ===== NAVBAR ===== -->
-<nav id="site-navbar" style="top:2.1rem">
-  <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
-  <ul class="nav-links">
-    <li><a href="index.html" class="active">Home</a></li>
-    <li><a href="collections.html">Collections</a></li>
-    <li><a href="offers.html">Offers</a></li>
-    <li><a href="calculator.html">Calculator</a></li>
-      <li><a href="heritage.html">Heritage</a></li>
-      <li><a href="/admin/login">Admin Login</a></li>
-  </ul>
-  <div class="nav-actions">
-    <a href="https://wa.me/919876543210?text=Hello%20MGS%20Jewellery!%20I%27d%20like%20to%20inquire%20about%20your%20collection." target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">
-      ✦ WhatsApp
-    </a>
-  </div>
-  <div class="nav-hamburger" id="hamburger-btn" role="button" aria-label="Open menu">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
 
 <!-- ===== MOBILE MENU ===== -->
 <div id="mobile-overlay"></div>
@@ -131,7 +131,7 @@
     </p>
     <div class="hero-actions animate-in">
       <a href="collections.html" class="btn btn-gold" id="hero-explore-btn">Explore Collection ▸</a>
-      <a href="https://wa.me/919876543210?text=Hello!%20I%27d%20like%20to%20inquire%20about%20your%20jewelry%20collection." target="_blank" class="btn btn-outline" id="hero-whatsapp-btn">✦ Inquire on WhatsApp</a>
+      <a href="https://wa.me/917892314633?text=Hello!%20I%27d%20like%20to%20inquire%20about%20your%20jewelry%20collection." target="_blank" class="btn btn-outline" id="hero-whatsapp-btn">✦ Inquire on WhatsApp</a>
     </div>
     <div class="hero-trust-badges animate-in">
       <span class="hallmark-badge">✦ HUID Hallmark</span>
@@ -323,25 +323,17 @@
 <section id="stores">
   <div class="section-header animate-in">
     <span class="label">Visit Us</span>
-    <h2>Our Stores in Davanagere</h2>
+    <h2>Our Store in Davanagere</h2>
     <div class="section-underline"></div>
   </div>
-  <div class="stores-grid animate-in">
-    <div class="store-card">
-      <div class="store-num">01</div>
+  <div class="stores-grid animate-in" style="display: flex; justify-content: center;">
+    <div class="store-card" style="max-width: 450px; width: 100%;">
+      <div class="store-num">◈</div>
       <h3>MGS Main Showroom</h3>
-      <p class="store-address">P.J. Extension, 4th Cross<br>Davanagere — 577 002</p>
+      <p class="store-address">34/1, Vijayalakshmi Road, Station Road<br>Davanagere — 577 001<br>Near Clock Tower</p>
       <p class="store-hours">Mon–Sat: 10:00 AM – 8:30 PM<br>Sunday: 10:00 AM – 2:00 PM</p>
       <a href="tel:+918025000000" class="store-phone">📞 +91 80 2500 0000</a>
-      <a href="https://maps.google.com/?q=MGS+Jewellery+Davanagere" target="_blank" class="btn btn-outline" style="margin-top:1rem;width:100%;justify-content:center" id="store1-maps-btn">Open in Maps ▸</a>
-    </div>
-    <div class="store-card">
-      <div class="store-num">02</div>
-      <h3>MGS Bridal Studio</h3>
-      <p class="store-address">MCC B Block, Station Road<br>Davanagere — 577 001</p>
-      <p class="store-hours">Mon–Sat: 10:00 AM – 8:00 PM<br>Sunday: By Appointment</p>
-      <a href="tel:+918025000001" class="store-phone">📞 +91 80 2500 0001</a>
-      <a href="https://maps.google.com/?q=MGS+Bridal+Studio+Davanagere" target="_blank" class="btn btn-outline" style="margin-top:1rem;width:100%;justify-content:center" id="store2-maps-btn">Open in Maps ▸</a>
+      <a href="https://www.google.com/maps/search/34%2F1,+Vijayalakshmi+Road,+Near+Clock+Tower,+Davanagere" target="_blank" class="btn btn-outline" style="margin-top:1rem;width:100%;justify-content:center" id="store-maps-btn">Open in Maps ▸</a>
     </div>
   </div>
 </section>
@@ -358,10 +350,10 @@
         <a href="#" id="footer-fb" aria-label="Facebook">
           <svg class="svg-gold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z"/></svg>
         </a>
-        <a href="#" id="footer-ig" aria-label="Instagram">
+        <a href="https://www.instagram.com/_mgs_jewellers_?igsh=MWh5NzFicWFwdWR5cA%3D%3D&utm_source=qr" id="footer-ig" aria-label="Instagram" target="_blank">
           <svg class="svg-gold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg>
         </a>
-        <a href="https://wa.me/919876543210" target="_blank" id="footer-wa" aria-label="WhatsApp">
+        <a href="https://wa.me/917892314633" target="_blank" id="footer-wa" aria-label="WhatsApp">
           <svg class="svg-gold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3.5 20.5L3 22l1.5-.5A11 11 0 0 0 20.5 3.5zM17 15.2c-.3.9-1.6 1.8-2.2 1.9-.6.2-1 .2-1.8-.1-2.9-1-5-3.6-5.4-3.9-.4-.4-1-.6-1.2-.9-.2-.3-.2-.6.2-1 .4-.4.9-1 1.4-1.1.5-.2 1-.2 1.5.2.5.4 1.6 1.8 3 3 1 1 1.5 1.4 1.8 1.9.3.5.2.9 0 1.1z"/></svg>
         </a>
         <a href="#" id="footer-yt" aria-label="YouTube">
@@ -394,7 +386,7 @@
       <h4>Contact</h4>
       <ul>
         <li><a href="tel:+918025000000">📞 +91 80 2500 0000</a></li>
-        <li><a href="https://wa.me/919876543210">✦ WhatsApp</a></li>
+        <li><a href="https://wa.me/917892314633">✦ WhatsApp</a></li>
         <li><a href="mailto:info@mgsjewellery.com">✉ info@mgsjewellery.com</a></li>
       </ul>
 
@@ -410,7 +402,7 @@
   </div>
 </footer>
 
-<script src="global.js"></script>
-<script src="index.js"></script>
+<script src="global.js?v=1.1"></script>
+<script src="index.js?v=1.1"></script>
 </body>
 </html>

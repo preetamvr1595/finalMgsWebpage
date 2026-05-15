@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npx http-server -p 8000"
+    "start": "cd server && node index.js",
+    "dev": "cd server && node index.js",
+    "static-only": "npx http-server -p 8000"
   }
 }

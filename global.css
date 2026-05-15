@@ -28,11 +28,11 @@
   --success:     #2ECC71;
 
   /* ── Gold palette — warm amber honey ── */
-  --gold:        #C6A75E;
-  --gold-dim:    #A8842D;
-  --gold-bright: #E5D3A1;
-  --gold-gradient:   linear-gradient(135deg, #C6A75E 0%, #E5D3A1 45%, #A8842D 100%);
-  --gold-gradient-h: linear-gradient(90deg,  #C6A75E 0%, #E5D3A1 50%, #C6A75E 100%);
+  --gold:        #8F7124;
+  --gold-dim:    #6B541A;
+  --gold-bright: #B5964D;
+  --gold-gradient:   linear-gradient(135deg, #8F7124 0%, #B5964D 45%, #6B541A 100%);
+  --gold-gradient-h: linear-gradient(90deg,  #8F7124 0%, #B5964D 50%, #8F7124 100%);
 
   /* ── Borders ── */
   --border:        rgba(198,167,94,0.14);
@@ -154,7 +154,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); }
   transition:var(--transition); border-radius:var(--radius); cursor:pointer;
 }
 .btn-gold {
-  background:linear-gradient(135deg,#C6A75E,#A8842D);
+  background:linear-gradient(135deg,#8F7124,#6B541A);
   color:#FFFFFF; border:none;
   box-shadow:0 6px 18px rgba(168,132,45,0.15), 0 0 30px rgba(198,167,94,0.08);
   text-shadow: var(--gold-text-shadow);
@@ -291,7 +291,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); }
 
 .nav-logo {
   font-family:var(--font-serif); font-size:1.6rem; font-weight:600; letter-spacing:0.1em;
-  background:linear-gradient(135deg,#C6A75E,#A8842D);
+  background:linear-gradient(135deg,#8F7124,#6B541A);
   -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text;
 }
 .nav-links { display:flex; gap:2.5rem; align-items:center; }
@@ -302,7 +302,7 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); }
 .nav-links a::after {
   content:''; position:absolute; bottom:-6px; left:0;
   width:0; height:2px;
-  background:linear-gradient(90deg,#C6A75E,#A8842D);
+  background:linear-gradient(90deg,#8F7124,#6B541A);
   transition:var(--transition);
 }
 .nav-links a:hover        { color:var(--gold-dim); }
@@ -338,7 +338,13 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); }
   padding:0.5rem 5%;
   display:flex; align-items:center; gap:3rem;
   font-family:var(--font-mono); font-size:0.72rem; letter-spacing:0.1em;
-  overflow:hidden; position:fixed; top:0; width:100%; z-index:999;
+  overflow:hidden; position:fixed; top:4.4rem; width:100%; z-index:999;
+  transition: var(--transition);
+}
+
+/* Adjust ticker position when navbar shrinks on scroll */
+#site-navbar.scrolled + #gold-ticker {
+  top: 3.6rem;
 }
 #gold-ticker .ticker-label { color:var(--gold); font-weight:600; white-space:nowrap; flex-shrink:0; }
 .ticker-track { display:flex; gap:4rem; animation:ticker-scroll 30s linear infinite; white-space:nowrap; }

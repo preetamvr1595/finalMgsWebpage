@@ -332,7 +332,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "8.29g",
-      "category": "necklaces",
+      "category": "mangalsutra",
       "tag": "new",
       "_id": "prod_1778728951005_23"
     },
@@ -642,7 +642,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "5.09g",
-      "category": "earrings",
+      "category": "diamond",
       "tag": "new",
       "_id": "prod_1778728951005_45"
     },
@@ -866,7 +866,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "6.00g",
-      "category": "rings",
+      "category": "diamond",
       "tag": "",
       "_id": "prod_1778728951005_61"
     },
@@ -992,7 +992,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "2.90g",
-      "category": "rings",
+      "category": "diamond",
       "tag": "",
       "_id": "prod_1778728951005_70"
     },
@@ -1286,7 +1286,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "20.21g",
-      "category": "mangalsutra",
+      "category": "diamond",
       "tag": "",
       "_id": "prod_1778728951005_91"
     },
@@ -1342,7 +1342,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "13.85g",
-      "category": "mangalsutra",
+      "category": "diamond",
       "tag": "",
       "_id": "prod_1778728951005_95"
     },
@@ -1440,7 +1440,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "15.95g",
-      "category": "mangalsutra",
+      "category": "diamond",
       "tag": "new",
       "_id": "prod_1778728951005_102"
     },
@@ -1706,7 +1706,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "0.92g",
-      "category": "pendants",
+      "category": "diamond",
       "tag": "",
       "_id": "prod_1778728951005_121"
     },
@@ -1874,7 +1874,7 @@
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "0.85g",
-      "category": "pendants",
+      "category": "diamond",
       "tag": "",
       "_id": "prod_1778728951005_133"
     },
@@ -2168,19 +2168,6 @@
       "createdAt": "2026-05-14T13:27:46.565Z"
     },
     {
-      "title": "hare_krishna",
-      "description": "hare_krishna",
-      "poster": "/uploads/1778777040980-IMG_20180913_151341.jpg",
-      "wastage": "",
-      "discount": "",
-      "extraValue": "",
-      "endDate": "",
-      "active": true,
-      "_id": "1778777041074",
-      "createdAt": "2026-05-14T16:44:01.074Z",
-      "updatedAt": "2026-05-15T01:09:29.295Z"
-    },
-    {
       "title": "Test Browser Offer",
       "description": "This is a test offer to verify the connection between admin and main webpage.",
       "poster": "",
@@ -2193,12 +2180,12 @@
     }
   ],
   "rates": {
-    "gold24": "11111",
-    "gold22": "1000",
-    "silver": "100000",
+    "gold24": 15658.94,
+    "gold22": 14910.7,
+    "silver": 292.84,
     "tickerText": "ON FESTIVAL OFFERS",
     "manual": false,
-    "lastUpdated": "2026-05-15T04:34:42.698Z"
+    "lastUpdated": "2026-05-15T12:01:09.333Z"
   },
   "users": [
     {

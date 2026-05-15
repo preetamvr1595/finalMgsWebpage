@@ -19,3 +19,9 @@ chain.png
 
 # Env
 .env
+
+# Cache and Temp
+.npm-cache/
+scratch/
+server/.npm-cache/
+client/.npm-cache/

@@ -36,11 +36,8 @@ export default function Dashboard(){
 
   return (
     <div className="space-y-6">
-      <div className="grid grid-cols-4 gap-6">
-        <Card className="text-center">
-          <div className="text-xs font-mono uppercase tracking-widest text-gray-400">Total Products</div>
-          <div className="text-3xl font-serif text-gray-900 mt-1">{stats.products}</div>
-        </Card>
+      <div className="grid grid-cols-3 gap-6">
+
         <Card className="text-center">
           <div className="text-xs font-mono uppercase tracking-widest text-gray-400">Active Offers</div>
           <div className="text-3xl font-serif text-gray-900 mt-1">{stats.offers}</div>
@@ -65,16 +62,13 @@ export default function Dashboard(){
               <span className="w-2 h-2 rounded-full bg-green-500"></span>
               Live gold rates synchronized with GoldPriceZ API
             </li>
-            <li className="flex items-center gap-2">
-              <span className="w-2 h-2 rounded-full bg-gold"></span>
-              New products can now be managed dynamically
-            </li>
+
           </ul>
         </Card>
         <Card>
           <h3 className="font-serif text-xl">Quick Actions</h3>
           <div className="mt-4 space-y-3">
-            <button className="btn-lux w-full py-2.5">Add new product</button>
+
             <button className="w-full py-2.5 border border-gray-100 rounded-lg hover:bg-gray-50 transition-colors">Manage Offers</button>
           </div>
         </Card>

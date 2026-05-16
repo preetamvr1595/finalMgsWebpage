@@ -18,7 +18,7 @@ export default function Sidebar(){
       </div>
       <nav className="space-y-2">
         <NavItem to="/admin">Dashboard</NavItem>
-        <NavItem to="/admin/products">Products</NavItem>
+
         <NavItem to="/admin/collections">Collections</NavItem>
         <NavItem to="/admin/content">Content</NavItem>
         <NavItem to="/admin/offers">Offers</NavItem>

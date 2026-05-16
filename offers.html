@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Festival Offers & Gold Deals | MGS Jewellery Davanagere</title>
-  <meta name="description" content="Save more at MGS Jewellery! Get the lowest wastage (7.99%) and special festival discounts on making charges. Davanagere's most transparent gold pricing.">
+  <meta name="description"
+    content="Save more at MGS Jewellery! Get the lowest wastage (7.99%) and special festival discounts on making charges. Davanagere's most transparent gold pricing.">
   <link rel="stylesheet" href="global.css">
   <style>
-    body { padding-top: 6.5rem; }
-    .offers-page { padding: 6rem 7% 8rem; background: var(--ivory); }
-    .offers-page-header { text-align: center; margin-bottom: 5rem; }
-    .offers-page-header .label { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold); display: block; margin-bottom: 1rem; }
+    body {
+      padding-top: 6.5rem;
+    }
+
+    .offers-page {
+      padding: 6rem 7% 8rem;
+      background: var(--ivory);
+    }
+
+    .offers-page-header {
+      text-align: center;
+      margin-bottom: 5rem;
+    }
+
+    .offers-page-header .label {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold);
+      display: block;
+      margin-bottom: 1rem;
+    }
 
     /* ACTIVE OFFER HERO */
     .offer-hero {
@@ -22,11 +43,21 @@
       padding-bottom: 6rem;
       border-bottom: 1px solid var(--border);
     }
-    .offer-hero-poster { position: relative; }
-    .offer-hero-poster img { width: 100%; border: 1px solid var(--border-bright); box-shadow: var(--glow-bright); }
+
+    .offer-hero-poster {
+      position: relative;
+    }
+
+    .offer-hero-poster img {
+      width: 100%;
+      border: 1px solid var(--border-bright);
+      box-shadow: var(--glow-bright);
+    }
+
     .offer-hero-badge {
       position: absolute;
-      top: 1.5rem; right: 1.5rem;
+      top: 1.5rem;
+      right: 1.5rem;
       background: var(--gold-gradient);
       color: var(--black);
       font-family: var(--font-mono);
@@ -36,7 +67,11 @@
       text-transform: uppercase;
       padding: 0.5rem 1rem;
     }
-    .offer-hero-details { padding-top: 1rem; }
+
+    .offer-hero-details {
+      padding-top: 1rem;
+    }
+
     .offer-hero-details .status-dot {
       display: inline-flex;
       align-items: center;
@@ -48,15 +83,28 @@
       text-transform: uppercase;
       margin-bottom: 1.5rem;
     }
+
     .status-dot::before {
       content: '';
-      width: 8px; height: 8px;
+      width: 8px;
+      height: 8px;
       border-radius: 50%;
       background: var(--success);
       animation: pulse 2s infinite;
     }
-    .offer-hero-details h1 { font-size: 2.5rem; margin-bottom: 1rem; color: var(--text-dark); text-shadow: var(--gold-text-shadow); }
-    .offer-hero-details > p { color: var(--body-text); line-height: 1.8; margin-bottom: 2rem; }
+
+    .offer-hero-details h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      color: var(--text-dark);
+      text-shadow: var(--gold-text-shadow);
+    }
+
+    .offer-hero-details>p {
+      color: var(--body-text);
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
 
     .offer-value-grid {
       display: grid;
@@ -64,14 +112,16 @@
       gap: 1rem;
       margin-bottom: 2.5rem;
     }
+
     .offer-value-cell {
       padding: 1.2rem;
       background: #FFFFFF;
-      border: 1px solid rgba(198,167,94,0.14);
+      border: 1px solid rgba(198, 167, 94, 0.14);
       text-align: center;
-      box-shadow: 0 8px 24px rgba(198,167,94,0.06);
+      box-shadow: 0 8px 24px rgba(198, 167, 94, 0.06);
       border-radius: 10px;
     }
+
     .ovc-value {
       font-family: var(--font-serif);
       font-size: 1.6rem;
@@ -82,44 +132,137 @@
       display: block;
       text-shadow: var(--gold-text-shadow);
     }
-    .ovc-label { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; color: var(--muted); text-transform: uppercase; margin-top: 0.3rem; }
+
+    .ovc-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      color: var(--muted);
+      text-transform: uppercase;
+      margin-top: 0.3rem;
+    }
 
     /* COUNTDOWN (reuse from index) */
     .big-countdown {
       background: #FFFFFF;
-      border: 1px solid rgba(198,167,94,0.14);
+      border: 1px solid rgba(198, 167, 94, 0.14);
       padding: 1.5rem;
       display: flex;
       flex-direction: column;
       align-items: center;
       margin-bottom: 2rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.04), 0 0 30px rgba(198,167,94,0.08);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 0 30px rgba(198, 167, 94, 0.08);
     }
-    .bc-label { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.2em; color: var(--gold-dim); margin-bottom: 1rem; text-transform: uppercase; }
-    .bc-display { display: flex; gap: 0.5rem; align-items: center; }
-    .bc-unit { text-align: center; }
-    .bc-unit span:first-child { font-family: var(--font-mono); font-size: 2.5rem; color: var(--gold-bright); display: block; font-weight: 600; }
-    .bc-unit span:last-child { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; color: var(--gray); text-transform: uppercase; }
-    .bc-sep { font-size: 1.5rem; color: var(--gold-dim); padding-bottom: 1.5rem; }
+
+    .bc-label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      color: var(--gold-dim);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+
+    .bc-display {
+      display: flex;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    .bc-unit {
+      text-align: center;
+    }
+
+    .bc-unit span:first-child {
+      font-family: var(--font-mono);
+      font-size: 2.5rem;
+      color: var(--gold-bright);
+      display: block;
+      font-weight: 600;
+    }
+
+    .bc-unit span:last-child {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      color: var(--gray);
+      text-transform: uppercase;
+    }
+
+    .bc-sep {
+      font-size: 1.5rem;
+      color: var(--gold-dim);
+      padding-bottom: 1.5rem;
+    }
 
     /* ALL OFFERS GRID */
-    .offers-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .offers-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
     .past-offer-card {
       background: var(--charcoal);
       border: 1px solid var(--border);
       overflow: hidden;
       transition: var(--transition);
     }
-    .past-offer-card:hover { border-color: var(--border-bright); box-shadow: var(--glow); transform: translateY(-3px); }
-    .past-offer-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
-    .poc-info { padding: 1.2rem; }
-    .poc-status { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 0.5rem; }
-    .poc-status.active { color: var(--success); }
-    .poc-status.upcoming { color: var(--gold); }
-    .poc-status.expired { color: var(--gray); }
-    .poc-info h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
-    .poc-info p { font-size: 0.8rem; color: var(--white-dim); margin-bottom: 1rem; }
-    .poc-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+
+    .past-offer-card:hover {
+      border-color: var(--border-bright);
+      box-shadow: var(--glow);
+      transform: translateY(-3px);
+    }
+
+    .past-offer-card img {
+      width: 100%;
+      aspect-ratio: 4/3;
+      object-fit: cover;
+    }
+
+    .poc-info {
+      padding: 1.2rem;
+    }
+
+    .poc-status {
+      font-family: var(--font-mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      margin-bottom: 0.5rem;
+    }
+
+    .poc-status.active {
+      color: var(--success);
+    }
+
+    .poc-status.upcoming {
+      color: var(--gold);
+    }
+
+    .poc-status.expired {
+      color: var(--gray);
+    }
+
+    .poc-info h3 {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .poc-info p {
+      font-size: 0.8rem;
+      color: var(--white-dim);
+      margin-bottom: 1rem;
+    }
+
+    .poc-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-bottom: 1rem;
+    }
+
     .poc-tag {
       padding: 0.2rem 0.6rem;
       font-family: var(--font-mono);
@@ -131,12 +274,23 @@
     }
 
     @media (max-width: 1024px) {
-      .offer-hero { grid-template-columns: 1fr; }
-      .offers-grid { grid-template-columns: repeat(2, 1fr); }
+      .offer-hero {
+        grid-template-columns: 1fr;
+      }
+
+      .offers-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
+
     @media (max-width: 600px) {
-      .offers-grid { grid-template-columns: 1fr; }
-      .offer-value-grid { grid-template-columns: 1fr 1fr; }
+      .offers-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .offer-value-grid {
+        grid-template-columns: 1fr 1fr;
+      }
     }
   </style>
 
@@ -147,14 +301,16 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://finalmgswebpage.onrender.com/offers.html">
   <meta property="og:title" content="Festival Offers & Gold Deals | MGS Jewellery Davanagere">
-  <meta property="og:description" content="Save more at MGS Jewellery! Get the lowest wastage (7.99%) and special festival discounts on making charges. Davanagere's most transparent gold pricing.">
+  <meta property="og:description"
+    content="Save more at MGS Jewellery! Get the lowest wastage (7.99%) and special festival discounts on making charges. Davanagere's most transparent gold pricing.">
   <meta property="og:image" content="https://finalmgswebpage.onrender.com/assets/images/hero_main.png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://finalmgswebpage.onrender.com/offers.html">
   <meta name="twitter:title" content="Festival Offers & Gold Deals | MGS Jewellery">
-  <meta name="twitter:description" content="Check out the latest gold offers and festival deals at MGS Jewellery Davanagere. Lowest wastage and making charge discounts.">
+  <meta name="twitter:description"
+    content="Check out the latest gold offers and festival deals at MGS Jewellery Davanagere. Lowest wastage and making charge discounts.">
   <meta name="twitter:image" content="https://finalmgswebpage.onrender.com/assets/images/hero_main.png">
 
   <!-- JSON-LD Breadcrumbs -->
@@ -176,111 +332,126 @@
   }
   </script>
 </head>
+
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav id="site-navbar">
-  <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="collections.html">Collections</a></li>
-    <li><a href="offers.html" class="active">Offers</a></li>
-    <li><a href="calculator.html">Calculator</a></li>
-    <li><a href="heritage.html">Heritage</a></li>
-    <li><a href="#" onclick="window.location.href=window.getApiBase()+'/admin/login';return false;">Admin Login</a></li>
-  </ul>
-  <div class="nav-actions">
-    <a href="https://wa.me/917892314633" target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">✦ WhatsApp</a>
-  </div>
-  <div class="nav-hamburger" id="hamburger-btn"><span></span><span></span><span></span></div>
-</nav>
+  <!-- ===== NAVBAR ===== -->
+  <nav id="site-navbar">
+    <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="offers.html" class="active">Offers</a></li>
+      <li><a href="calculator.html">Gold Rate</a></li>
+      <li><a href="heritage.html">Our Legacy</a></li>
+      <li><a href="#" onclick="window.location.href=window.getApiBase()+'/admin/login';return false;">Admin Login</a>
+      </li>
+    </ul>
+    <div class="nav-actions">
+      <a href="https://wa.me/917892314633" target="_blank" class="btn btn-whatsapp"
+        style="padding:0.5rem 1.2rem;font-size:0.7rem">✦ WhatsApp</a>
+    </div>
+    <div class="nav-hamburger" id="hamburger-btn"><span></span><span></span><span></span></div>
+  </nav>
 
-<!-- ===== GOLD TICKER ===== -->
-<div id="gold-ticker">
-  <span class="ticker-label">LIVE RATES ▸</span>
-  <div class="ticker-track" id="ticker-track">
-    <div class="ticker-item" id="t-gold22"><span class="metal">22K GOLD / 10g</span><span class="price" id="gold22">₹6,842</span><span class="change up" id="gold22c">▲ 0.4%</span></div>
-    <div class="ticker-item" id="t-gold24"><span class="metal">24K GOLD / 10g</span><span class="price" id="gold24">₹7,490</span><span class="change up" id="gold24c">▲ 0.3%</span></div>
-    <div class="ticker-item" id="t-silver"><span class="metal">SILVER / kg</span><span class="price" id="silver">₹89,200</span><span class="change down" id="silverc">▼ 0.1%</span></div>
-    <div class="ticker-item" id="t-custom"><span class="metal" id="ticker-custom" style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
-    <!-- Duplicate for seamless scroll -->
-    <div class="ticker-item" id="t-gold22-dup"><span class="metal">22K GOLD / 10g</span><span class="price" id="gold22-dup">₹6,842</span><span class="change up" id="gold22c-dup">▲ 0.4%</span></div>
-    <div class="ticker-item" id="t-gold24-dup"><span class="metal">24K GOLD / 10g</span><span class="price" id="gold24-dup">₹7,490</span><span class="change up" id="gold24c-dup">▲ 0.3%</span></div>
-    <div class="ticker-item" id="t-silver-dup"><span class="metal">SILVER / kg</span><span class="price" id="silver-dup">₹89,200</span><span class="change down" id="silverc-dup">▼ 0.1%</span></div>
-    <div class="ticker-item" id="t-custom-dup"><span class="metal" id="ticker-custom-dup" style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
-  </div>
-</div>
-
-<div id="mobile-overlay"></div>
-<div id="mobile-menu">
-  <span class="menu-close" id="menu-close">✕</span>
-  <a href="index.html">Home</a><a href="collections.html">Collections</a>
-  <a href="offers.html">Festival Offers</a><a href="calculator.html">Gold Calculator</a>
-  <a href="heritage.html">Our Heritage</a><a href="/admin/login">Admin</a>
-</div>
-
-<main class="offers-page">
-  <div class="offers-page-header animate-in">
-    <span class="label">Limited Period</span>
-    <h1 style="font-family:var(--font-serif);font-size:clamp(2rem,4vw,3.5rem)">Festival Offers & Deals</h1>
-    <p style="color:var(--white-dim);max-width:550px;margin:1rem auto 0">MGS Jewellery's maker-direct advantage — passed directly to you during every major festival.</p>
-    <div class="section-underline"></div>
-  </div>
-
-  <!-- ACTIVE OFFER HERO (Dynamic) -->
-  <div id="hero-offer-container">
-    <div class="text-center py-20 bg-white/50 rounded-2xl border-2 border-dashed border-gold/20">
-      <p class="text-gold font-serif text-xl">Loading Latest Offers...</p>
+  <!-- ===== GOLD TICKER ===== -->
+  <div id="gold-ticker">
+    <span class="ticker-label">LIVE RATES ▸</span>
+    <div class="ticker-track" id="ticker-track">
+      <div class="ticker-item" id="t-gold22"><span class="metal">22K GOLD / 10g</span><span class="price"
+          id="gold22">₹6,842</span><span class="change up" id="gold22c">▲ 0.4%</span></div>
+      <div class="ticker-item" id="t-gold24"><span class="metal">24K GOLD / 10g</span><span class="price"
+          id="gold24">₹7,490</span><span class="change up" id="gold24c">▲ 0.3%</span></div>
+      <div class="ticker-item" id="t-silver"><span class="metal">SILVER / kg</span><span class="price"
+          id="silver">₹89,200</span><span class="change down" id="silverc">▼ 0.1%</span></div>
+      <div class="ticker-item" id="t-custom"><span class="metal" id="ticker-custom" style="color:var(--gold-bright)">✦
+          LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item" id="t-gold22-dup"><span class="metal">22K GOLD / 10g</span><span class="price"
+          id="gold22-dup">₹6,842</span><span class="change up" id="gold22c-dup">▲ 0.4%</span></div>
+      <div class="ticker-item" id="t-gold24-dup"><span class="metal">24K GOLD / 10g</span><span class="price"
+          id="gold24-dup">₹7,490</span><span class="change up" id="gold24c-dup">▲ 0.3%</span></div>
+      <div class="ticker-item" id="t-silver-dup"><span class="metal">SILVER / kg</span><span class="price"
+          id="silver-dup">₹89,200</span><span class="change down" id="silverc-dup">▼ 0.1%</span></div>
+      <div class="ticker-item" id="t-custom-dup"><span class="metal" id="ticker-custom-dup"
+          style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
     </div>
   </div>
 
-  <!-- ALL OFFERS GRID -->
-  <div class="section-header animate-in mt-20">
-    <span class="label">Our Offers</span>
-    <h2>All Festival Collections</h2>
-    <div class="section-underline"></div>
+  <div id="mobile-overlay"></div>
+  <div id="mobile-menu">
+    <span class="menu-close" id="menu-close">✕</span>
+    <a href="index.html">Home</a><a href="collections.html">Collections</a>
+    <a href="offers.html">Festival Offers</a><a href="calculator.html">Gold Calculator</a>
+    <a href="heritage.html">Our Heritage</a><a href="/admin/login">Admin</a>
   </div>
 
-  <div class="offers-grid animate-in" id="offers-grid">
-    <!-- Managed by JS -->
-  </div>
-</main>
+  <main class="offers-page">
+    <div class="offers-page-header animate-in">
+      <span class="label">Limited Period</span>
+      <h1 style="font-family:var(--font-serif);font-size:clamp(2rem,4vw,3.5rem)">Festival Offers & Deals</h1>
+      <p style="color:var(--white-dim);max-width:550px;margin:1rem auto 0">MGS Jewellery's maker-direct advantage —
+        passed directly to you during every major festival.</p>
+      <div class="section-underline"></div>
+    </div>
 
-<footer id="site-footer">
-  <div class="footer-bottom" style="border-top:none;padding-top:0">
-    <span>© 2024 MGS Jewellery · Est. 1999 · Davanagere · All Rights Reserved</span>
-    <div class="footer-hallmarks"><span>HUID HALLMARK</span><span>BIS 916</span><span>22K PURE GOLD</span></div>
-  </div>
-</footer>
+    <!-- ACTIVE OFFER HERO (Dynamic) -->
+    <div id="hero-offer-container">
+      <div class="text-center py-20 bg-white/50 rounded-2xl border-2 border-dashed border-gold/20">
+        <p class="text-gold font-serif text-xl">Loading Latest Offers...</p>
+      </div>
+    </div>
 
-<script src="global.js?v=1.1"></script>
-<script>
-// Handled by global.js
+    <!-- ALL OFFERS GRID -->
+    <div class="section-header animate-in mt-20">
+      <span class="label">Our Offers</span>
+      <h2>All Festival Collections</h2>
+      <div class="section-underline"></div>
+    </div>
 
-async function loadOffers() {
-  try {
-    const res = await fetch(window.getApiBase() + '/api/offers');
-    const offers = await res.json();
-    const active = offers.filter(o => o.active);
-    
-    if (active.length > 0) {
-      renderHeroOffer(active[0]);
+    <div class="offers-grid animate-in" id="offers-grid">
+      <!-- Managed by JS -->
+    </div>
+  </main>
+
+  <footer id="site-footer">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <div class="developer-credit" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://trigonvertexskp.vercel.app/" target="_blank" style="font-weight: 800; font-size: 1.1rem; color: var(--gold-bright); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase;">Developed by Trigon Vertex</a>
+        <a href="mailto:sarvammayadev@gmail.com" target="_blank" class="btn btn-outline" style="padding: 0.4rem 1.2rem; font-size: 0.8rem; border-color: var(--gold-dim); color: var(--gold-bright);">Contact Us</a>
+      </div>
+      <div class="footer-hallmarks"><span>HUID HALLMARK</span><span>BIS 916</span><span>22K PURE GOLD</span></div>
+    </div>
+  </footer>
+
+  <script src="global.js?v=1.1"></script>
+  <script>
+    // Handled by global.js
+
+    async function loadOffers() {
+      try {
+        const res = await fetch(window.getApiBase() + '/api/offers');
+        const offers = await res.json();
+        const active = offers.filter(o => o.active);
+
+        if (active.length > 0) {
+          renderHeroOffer(active[0]);
+        }
+        renderAllOffers(offers);
+
+        if (window.triggerAnimations) window.triggerAnimations();
+      } catch (e) {
+        console.error('Error loading offers', e);
+      }
     }
-    renderAllOffers(offers);
-    
-    if (window.triggerAnimations) window.triggerAnimations();
-  } catch (e) {
-    console.error('Error loading offers', e);
-  }
-}
 
-function renderHeroOffer(offer) {
-  const container = document.getElementById('hero-offer-container');
-  if (!container) return;
-  
-  const poster = window.resolveImageUrl(offer.poster) || 'assets/diwali_poster.png';
+    function renderHeroOffer(offer) {
+      const container = document.getElementById('hero-offer-container');
+      if (!container) return;
 
-  container.innerHTML = `
+      const poster = window.resolveImageUrl(offer.poster) || 'assets/diwali_poster.png';
+
+      container.innerHTML = `
     <div class="offer-hero animate-in">
       <div class="offer-hero-poster image-frame">
         <img src="${poster}" alt="${offer.title}">
@@ -333,43 +504,43 @@ function renderHeroOffer(offer) {
     </div>
   `;
 
-  if (offer.endDate) {
-    const offerEnd = new Date(offer.endDate);
-    function countdown() {
-      const diff = offerEnd - new Date();
-      if (diff <= 0) {
+      if (offer.endDate) {
+        const offerEnd = new Date(offer.endDate);
+        function countdown() {
+          const diff = offerEnd - new Date();
+          if (diff <= 0) {
+            const cd = document.querySelector('.big-countdown');
+            if (cd) cd.style.display = 'none';
+            return;
+          }
+          const pad = n => String(Math.floor(n)).padStart(2, '0');
+          const d = document.getElementById('bcd-days');
+          const h = document.getElementById('bcd-hours');
+          const m = document.getElementById('bcd-mins');
+          const s = document.getElementById('bcd-secs');
+          if (d) d.textContent = pad(diff / 86400000);
+          if (h) h.textContent = pad((diff % 86400000) / 3600000);
+          if (m) m.textContent = pad((diff % 3600000) / 60000);
+          if (s) s.textContent = pad((diff % 60000) / 1000);
+        }
+        setInterval(countdown, 1000);
+        countdown();
+      } else {
         const cd = document.querySelector('.big-countdown');
         if (cd) cd.style.display = 'none';
+      }
+    }
+
+    function renderAllOffers(offers) {
+      const grid = document.getElementById('offers-grid');
+      if (!grid) return;
+
+      if (offers.length === 0) {
+        grid.innerHTML = '<p class="text-center py-10 text-gray-500 col-span-full">No other offers available at this time.</p>';
         return;
       }
-      const pad = n => String(Math.floor(n)).padStart(2,'0');
-      const d = document.getElementById('bcd-days');
-      const h = document.getElementById('bcd-hours');
-      const m = document.getElementById('bcd-mins');
-      const s = document.getElementById('bcd-secs');
-      if (d) d.textContent = pad(diff/86400000);
-      if (h) h.textContent = pad((diff%86400000)/3600000);
-      if (m) m.textContent = pad((diff%3600000)/60000);
-      if (s) s.textContent = pad((diff%60000)/1000);
-    }
-    setInterval(countdown, 1000); 
-    countdown();
-  } else {
-    const cd = document.querySelector('.big-countdown');
-    if (cd) cd.style.display = 'none';
-  }
-}
 
-function renderAllOffers(offers) {
-  const grid = document.getElementById('offers-grid');
-  if (!grid) return;
-  
-  if (offers.length === 0) {
-    grid.innerHTML = '<p class="text-center py-10 text-gray-500 col-span-full">No other offers available at this time.</p>';
-    return;
-  }
-
-  grid.innerHTML = offers.map(o => `
+      grid.innerHTML = offers.map(o => `
     <div class="past-offer-card animate-in">
       <img src="${resolveImageUrl(o.poster) || 'assets/placeholder_poster.png'}" alt="${o.title}">
       <div class="poc-info">
@@ -384,9 +555,10 @@ function renderAllOffers(offers) {
       </div>
     </div>
   `).join('');
-}
+    }
 
-loadOffers();
-</script>
+    loadOffers();
+  </script>
 </body>
+
 </html>

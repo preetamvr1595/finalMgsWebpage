@@ -1,47 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Live Gold Price Calculator | MGS Jewellery Davanagere</title>
-  <meta name="description" content="Calculate the value of your gold in real-time with our Davanagere live gold rate calculator. Transparent pricing with no hidden charges.">
+  <meta name="description"
+    content="Calculate the value of your gold in real-time with our Davanagere live gold rate calculator. Transparent pricing with no hidden charges.">
   <link rel="stylesheet" href="global.css">
   <style>
-    body { padding-top: 6.5rem; min-height: 100vh; }
-    .calc-page { padding: 6rem 7% 8rem; background: var(--ivory); }
-    .calc-page-header { text-align: center; margin-bottom: 4rem; }
-    .calc-page-header .label { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--gold-dim); display: block; margin-bottom: 1rem; font-weight: 600; }
-    .calc-page-header h1 { font-size: clamp(2rem, 4vw, 3rem); margin-bottom: 1rem; color: var(--text-dark); }
-    .calc-page-header p { color: var(--body-text); max-width: 500px; margin: 0 auto; }
+    body {
+      padding-top: 6.5rem;
+      min-height: 100vh;
+    }
 
-    .calc-layout { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; max-width: 1100px; margin: 0 auto; }
+    .calc-page {
+      padding: 6rem 7% 8rem;
+      background: var(--ivory);
+    }
+
+    .calc-page-header {
+      text-align: center;
+      margin-bottom: 4rem;
+    }
+
+    .calc-page-header .label {
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      display: block;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .calc-page-header h1 {
+      font-size: clamp(2rem, 4vw, 3rem);
+      margin-bottom: 1rem;
+      color: var(--text-dark);
+    }
+
+    .calc-page-header p {
+      color: var(--body-text);
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .calc-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
 
     /* GOLD VALUE CALCULATOR */
     .calc-card {
       background: #FFFFFF;
-      border: 1px solid rgba(198,167,94,0.16);
+      border: 1px solid rgba(198, 167, 94, 0.16);
       overflow: hidden;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.04), 0 0 30px rgba(198,167,94,0.08);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 0 30px rgba(198, 167, 94, 0.08);
       border-radius: 12px;
     }
+
     .calc-card-header {
-      background: rgba(143,113,36,0.08);
-      border-bottom: 1px solid rgba(143,113,36,0.2);
+      background: rgba(143, 113, 36, 0.08);
+      border-bottom: 1px solid rgba(143, 113, 36, 0.2);
       padding: 1.2rem 1.8rem;
       display: flex;
       align-items: center;
       gap: 0.8rem;
     }
-    .calc-card-header .ch-icon { font-size: 1.2rem; color: var(--gold-dim); }
-    .calc-card-header h2 { font-family: var(--font-mono); font-size: 0.88rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold-dim); font-weight: 600; }
-    .calc-card-body { padding: 1.8rem; }
 
-    .calc-field { margin-bottom: 1.4rem; }
-    .calc-field label { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.2em; text-transform: uppercase; color: var(--gray); display: block; margin-bottom: 0.5rem; }
-    .calc-field input, .calc-field select {
+    .calc-card-header .ch-icon {
+      font-size: 1.2rem;
+      color: var(--gold-dim);
+    }
+
+    .calc-card-header h2 {
+      font-family: var(--font-mono);
+      font-size: 0.88rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--gold-dim);
+      font-weight: 600;
+    }
+
+    .calc-card-body {
+      padding: 1.8rem;
+    }
+
+    .calc-field {
+      margin-bottom: 1.4rem;
+    }
+
+    .calc-field label {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      color: var(--gray);
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+
+    .calc-field input,
+    .calc-field select {
       width: 100%;
       background: var(--section-contrast);
-      border: 1px solid rgba(198,167,94,0.12);
+      border: 1px solid rgba(198, 167, 94, 0.12);
       color: var(--text-dark);
       padding: 0.8rem 1rem;
       font-family: var(--font-sans);
@@ -49,10 +117,24 @@
       outline: none;
       transition: var(--transition);
     }
-    .calc-field input:focus, .calc-field select:focus { border-color: var(--gold); box-shadow: 0 0 10px rgba(212,175,55,0.1); }
-    .calc-field select option { background: var(--charcoal); color: var(--white); }
 
-    .calc-slider-row { display: flex; align-items: center; gap: 1rem; }
+    .calc-field input:focus,
+    .calc-field select:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 10px rgba(212, 175, 55, 0.1);
+    }
+
+    .calc-field select option {
+      background: var(--charcoal);
+      color: var(--white);
+    }
+
+    .calc-slider-row {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
     .calc-slider {
       flex: 1;
       -webkit-appearance: none;
@@ -62,14 +144,17 @@
       outline: none;
       border-radius: 0;
     }
+
     .calc-slider::-webkit-slider-thumb {
       -webkit-appearance: none;
-      width: 16px; height: 16px;
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
       background: var(--gold);
       cursor: pointer;
-      box-shadow: 0 0 8px rgba(212,175,55,0.5);
+      box-shadow: 0 0 8px rgba(212, 175, 55, 0.5);
     }
+
     .calc-slider-val {
       font-family: var(--font-mono);
       font-size: 0.9rem;
@@ -80,11 +165,12 @@
 
     .calc-result-box {
       background: var(--section-contrast);
-      border: 1px solid rgba(198,167,94,0.12);
+      border: 1px solid rgba(198, 167, 94, 0.12);
       padding: 1.5rem;
       margin-top: 1rem;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.04), 0 0 30px rgba(198,167,94,0.06);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 0 30px rgba(198, 167, 94, 0.06);
     }
+
     .calc-result-row {
       display: flex;
       justify-content: space-between;
@@ -93,10 +179,28 @@
       border-bottom: 1px solid var(--border);
       font-size: 0.85rem;
     }
-    .calc-result-row:last-child { border-bottom: none; }
-    .crr-label { color: var(--gray); font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; }
-    .crr-value { color: var(--text-dark); font-weight: 500; }
-    .crr-total .crr-label { color: var(--gold-dim); }
+
+    .calc-result-row:last-child {
+      border-bottom: none;
+    }
+
+    .crr-label {
+      color: var(--gray);
+      font-family: var(--font-mono);
+      font-size: 0.7rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .crr-value {
+      color: var(--text-dark);
+      font-weight: 500;
+    }
+
+    .crr-total .crr-label {
+      color: var(--gold-dim);
+    }
+
     .crr-total .crr-value {
       font-family: var(--font-serif);
       font-size: 1.8rem;
@@ -112,7 +216,13 @@
       max-height: 250px;
       overflow-y: auto;
     }
-    .emi-schedule table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+
+    .emi-schedule table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.78rem;
+    }
+
     .emi-schedule th {
       font-family: var(--font-mono);
       font-size: 0.6rem;
@@ -120,41 +230,82 @@
       text-transform: uppercase;
       color: var(--gold);
       padding: 0.5rem;
-      background: rgba(212,175,55,0.05);
+      background: rgba(212, 175, 55, 0.05);
       border-bottom: 1px solid var(--border);
       text-align: left;
     }
-    .emi-schedule td { padding: 0.5rem; border-bottom: 1px solid rgba(212,175,55,0.05); color: var(--white-dim); }
-    .emi-schedule tr:last-child td { border-bottom: none; }
+
+    .emi-schedule td {
+      padding: 0.5rem;
+      border-bottom: 1px solid rgba(212, 175, 55, 0.05);
+      color: var(--white-dim);
+    }
+
+    .emi-schedule tr:last-child td {
+      border-bottom: none;
+    }
 
     /* RATES TABLE */
-    .rates-table-card { grid-column: span 2; }
+    .rates-table-card {
+      grid-column: span 2;
+    }
+
     .live-rates-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 0;
     }
+
     .live-rate-cell {
       padding: 1.5rem;
       border-right: 1px solid var(--border);
       text-align: center;
     }
-    .live-rate-cell:last-child { border-right: none; }
-    .lrc-metal { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--body-text); margin-bottom: 0.5rem; font-weight: 600; }
+
+    .live-rate-cell:last-child {
+      border-right: none;
+    }
+
+    .lrc-metal {
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--body-text);
+      margin-bottom: 0.5rem;
+      font-weight: 600;
+    }
+
     .lrc-price {
       font-family: var(--font-serif);
       font-size: 1.6rem;
       color: var(--gold-dim);
       font-weight: 700;
     }
-    .lrc-unit { font-size: 0.65rem; color: var(--gray); margin-top: 0.2rem; }
-    .lrc-change { margin-top: 0.3rem; font-family: var(--font-mono); font-size: 0.65rem; }
-    .lrc-change.up { color: var(--success); }
-    .lrc-change.down { color: #E74C3C; }
+
+    .lrc-unit {
+      font-size: 0.65rem;
+      color: var(--gray);
+      margin-top: 0.2rem;
+    }
+
+    .lrc-change {
+      margin-top: 0.3rem;
+      font-family: var(--font-mono);
+      font-size: 0.65rem;
+    }
+
+    .lrc-change.up {
+      color: var(--success);
+    }
+
+    .lrc-change.down {
+      color: #E74C3C;
+    }
 
     .disclaimer-box {
       grid-column: span 2;
-      background: rgba(212,175,55,0.04);
+      background: rgba(212, 175, 55, 0.04);
       border: 1px solid var(--border);
       padding: 1.2rem 1.8rem;
       font-family: var(--font-mono);
@@ -163,12 +314,24 @@
       letter-spacing: 0.05em;
       line-height: 1.8;
     }
-    .disclaimer-box strong { color: var(--gold-dim); }
+
+    .disclaimer-box strong {
+      color: var(--gold-dim);
+    }
 
     @media (max-width: 768px) {
-      .calc-layout { grid-template-columns: 1fr; }
-      .rates-table-card, .disclaimer-box { grid-column: span 1; }
-      .live-rates-grid { grid-template-columns: repeat(2, 1fr); }
+      .calc-layout {
+        grid-template-columns: 1fr;
+      }
+
+      .rates-table-card,
+      .disclaimer-box {
+        grid-column: span 1;
+      }
+
+      .live-rates-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
     }
   </style>
 
@@ -179,14 +342,16 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://finalmgswebpage.onrender.com/calculator.html">
   <meta property="og:title" content="Live Gold Price Calculator | MGS Jewellery Davanagere">
-  <meta property="og:description" content="Calculate the value of your gold in real-time with our Davanagere live gold rate calculator. Transparent pricing with no hidden charges.">
+  <meta property="og:description"
+    content="Calculate the value of your gold in real-time with our Davanagere live gold rate calculator. Transparent pricing with no hidden charges.">
   <meta property="og:image" content="https://finalmgswebpage.onrender.com/assets/images/hero_main.png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://finalmgswebpage.onrender.com/calculator.html">
   <meta name="twitter:title" content="Live Gold Price Calculator | MGS Jewellery">
-  <meta name="twitter:description" content="Get real-time gold value calculations based on today's live rates in Davanagere. No hidden charges.">
+  <meta name="twitter:description"
+    content="Get real-time gold value calculations based on today's live rates in Davanagere. No hidden charges.">
   <meta name="twitter:image" content="https://finalmgswebpage.onrender.com/assets/images/hero_main.png">
 
   <!-- JSON-LD Breadcrumbs -->
@@ -238,355 +403,386 @@
   }
   </script>
 </head>
+
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav id="site-navbar">
-  <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="collections.html">Collections</a></li>
-    <li><a href="offers.html">Offers</a></li>
-    <li><a href="calculator.html" class="active">Calculator</a></li>
-    <li><a href="heritage.html">Heritage</a></li>
-  </ul>
-  <div class="nav-actions">
-    <a href="https://wa.me/917892314633" target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">✦ WhatsApp</a>
-  </div>
-  <div class="nav-hamburger" id="hamburger-btn"><span></span><span></span><span></span></div>
-</nav>
-
-<!-- ===== GOLD TICKER ===== -->
-<div id="gold-ticker">
-  <span class="ticker-label">LIVE RATES ▸</span>
-  <div class="ticker-track" id="ticker-track">
-    <div class="ticker-item" id="t-gold22"><span class="metal">22K GOLD / 10g</span><span class="price" id="gold22">₹6,842</span><span class="change up" id="gold22c">▲ 0.4%</span></div>
-    <div class="ticker-item" id="t-gold24"><span class="metal">24K GOLD / 10g</span><span class="price" id="gold24">₹7,490</span><span class="change up" id="gold24c">▲ 0.3%</span></div>
-    <div class="ticker-item" id="t-silver"><span class="metal">SILVER / kg</span><span class="price" id="silver">₹89,200</span><span class="change down" id="silverc">▼ 0.1%</span></div>
-    <div class="ticker-item" id="t-custom"><span class="metal" id="ticker-custom" style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
-    <!-- Duplicate for seamless scroll -->
-    <div class="ticker-item" id="t-gold22-dup"><span class="metal">22K GOLD / 10g</span><span class="price" id="gold22-dup">₹6,842</span><span class="change up" id="gold22c-dup">▲ 0.4%</span></div>
-    <div class="ticker-item" id="t-gold24-dup"><span class="metal">24K GOLD / 10g</span><span class="price" id="gold24-dup">₹7,490</span><span class="change up" id="gold24c-dup">▲ 0.3%</span></div>
-    <div class="ticker-item" id="t-silver-dup"><span class="metal">SILVER / kg</span><span class="price" id="silver-dup">₹89,200</span><span class="change down" id="silverc-dup">▼ 0.1%</span></div>
-    <div class="ticker-item" id="t-custom-dup"><span class="metal" id="ticker-custom-dup" style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
-  </div>
-</div>
-
-<div id="mobile-overlay"></div>
-<div id="mobile-menu">
-  <span class="menu-close" id="menu-close">✕</span>
-  <a href="index.html">Home</a>
-  <a href="collections.html">Collections</a>
-  <a href="offers.html">Festival Offers</a>
-  <a href="calculator.html">Gold Calculator</a>
-  <a href="heritage.html">Our Heritage</a>
-</div>
-
-<main class="calc-page">
-  <div class="calc-page-header animate-in">
-    <span class="label">Transparent Pricing</span>
-    <h1>Gold Value & EMI Calculator</h1>
-    <p>Know exactly what you pay. Our pricing model eliminates big-brand overheads — you get maker-direct value.</p>
-    <div class="section-underline"></div>
-  </div>
-
-  <div class="calc-layout">
-    <div class="calc-card rates-table-card animate-in">
-      <div class="calc-card-header">
-        <span class="ch-icon">◈</span>
-        <h2>Today's Live Rates — Updated Every 5 Min</h2>
-      </div>
-      <div class="live-rates-grid">
-        <div class="live-rate-cell">
-          <div class="lrc-metal">22K Gold</div>
-          <div class="lrc-price" id="rate-g22">₹6,842</div>
-          <div class="lrc-unit">per gram</div>
-          <div class="lrc-change up" id="rate-g22c">▲ 0.4% Today</div>
-        </div>
-        <div class="live-rate-cell">
-          <div class="lrc-metal">24K Gold</div>
-          <div class="lrc-price" id="rate-g24">₹7,490</div>
-          <div class="lrc-unit">per gram</div>
-          <div class="lrc-change up">▲ 0.3% Today</div>
-        </div>
-        <div class="live-rate-cell">
-          <div class="lrc-metal">18K Gold</div>
-          <div class="lrc-price" id="rate-g18">₹5,620</div>
-          <div class="lrc-unit">per gram</div>
-          <div class="lrc-change up">▲ 0.2% Today</div>
-        </div>
-        <div class="live-rate-cell">
-          <div class="lrc-metal">Silver</div>
-          <div class="lrc-price" id="rate-sil" style="font-size:1.2rem">₹89,200</div>
-          <div class="lrc-unit">per kg</div>
-          <div class="lrc-change down">▼ 0.1% Today</div>
-        </div>
-      </div>
+  <!-- ===== NAVBAR ===== -->
+  <nav id="site-navbar">
+    <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="offers.html">Offers</a></li>
+      <li><a href="calculator.html" class="active">Gold Rate</a></li>
+      <li><a href="heritage.html">Our Legacy</a></li>
+      <li><a href="#" onclick="window.location.href=window.getApiBase()+'/admin/login';return false;">Admin Login</a>
+      </li>
+    </ul>
+    <div class="nav-actions">
+      <a href="https://wa.me/917892314633" target="_blank" class="btn btn-whatsapp"
+        style="padding:0.5rem 1.2rem;font-size:0.7rem">✦ WhatsApp</a>
     </div>
+    <div class="nav-hamburger" id="hamburger-btn"><span></span><span></span><span></span></div>
+  </nav>
 
-    <div class="calc-card animate-in">
-      <div class="calc-card-header">
-        <span class="ch-icon">⚖</span>
-        <h2>Gold Value Calculator</h2>
-      </div>
-      <div class="calc-card-body">
-        <div class="calc-field">
-          <label>Gold Purity</label>
-          <select id="gvc-purity">
-            <option value="22">22K Gold (91.6% Pure)</option>
-            <option value="24">24K Gold (99.9% Pure)</option>
-            <option value="18">18K Gold (75% Pure)</option>
-          </select>
-        </div>
-        <div class="calc-field">
-          <label>Weight (grams)</label>
-          <div class="calc-slider-row">
-            <input type="range" class="calc-slider" id="gvc-slider" min="0.5" max="200" step="0.5" value="10">
-            <span class="calc-slider-val" id="gvc-slider-val">10 g</span>
-          </div>
-          <input type="number" id="gvc-weight" value="10" min="0.1" step="0.1" style="margin-top:0.5rem;width:100%;background:var(--charcoal-light);border:1px solid var(--border);color:var(--white);padding:0.6rem 0.8rem;font-size:0.9rem;outline:none;font-family:var(--font-sans)">
-        </div>
-        <div class="calc-field">
-          <label>MGS Wastage Rate</label>
-          <select id="gvc-wastage">
-            <option value="7.99">7.99% — MGS Standard (Lowest in Town)</option>
-            <option value="12">12% — Market Average</option>
-            <option value="0">0% — Gold Value Only</option>
-          </select>
-        </div>
-        <div class="calc-field">
-          <label>Making Charges (per gram)</label>
-          <select id="gvc-making">
-            <option value="0">₹0 — Festival Offer (100% OFF)</option>
-            <option value="150">₹150/g — Light Designs</option>
-            <option value="300">₹300/g — Standard</option>
-            <option value="500">₹500/g — Intricate Work</option>
-          </select>
-        </div>
-
-        <div class="calc-result-box" id="gvc-result">
-          <div class="calc-result-row">
-            <span class="crr-label">Gold Rate (per gram)</span>
-            <span class="crr-value" id="gvc-rate-val">₹6,842</span>
-          </div>
-          <div class="calc-result-row">
-            <span class="crr-label">Net Weight Value</span>
-            <span class="crr-value" id="gvc-base-val">₹68,420</span>
-          </div>
-          <div class="calc-result-row">
-            <span class="crr-label">Wastage (7.99%)</span>
-            <span class="crr-value" id="gvc-wastage-val">₹5,469</span>
-          </div>
-          <div class="calc-result-row">
-            <span class="crr-label">Making Charges</span>
-            <span class="crr-value" id="gvc-making-val">₹0</span>
-          </div>
-          <div class="calc-result-row" style="border-top:1px solid var(--border-bright);margin-top:0.5rem;padding-top:0.8rem">
-            <span class="crr-label">GST (3%)</span>
-            <span class="crr-value" id="gvc-gst-val">₹2,217</span>
-          </div>
-          <div class="calc-result-row crr-total" style="padding-top:0.5rem">
-            <span class="crr-label" style="font-size:0.75rem">TOTAL ESTIMATED PRICE</span>
-            <span class="crr-value" id="gvc-total-val">₹76,106</span>
-          </div>
-        </div>
-
-        <a href="https://wa.me/917892314633?text=Hello%20MGS!%20I've%20calculated%20my%20jewelry%20value%20and%20would%20like%20to%20get%20an%20exact%20quote." target="_blank" class="btn btn-whatsapp" style="width:100%;justify-content:center;margin-top:1.2rem" id="gvc-whatsapp-btn">
-          ✦ Get Exact Quote on WhatsApp
-        </a>
-      </div>
-    </div>
-
-    <div class="calc-card animate-in">
-      <div class="calc-card-header">
-        <span class="ch-icon">📅</span>
-        <h2>EMI Calculator</h2>
-      </div>
-      <div class="calc-card-body">
-        <div class="calc-field">
-          <label>Jewelry Amount (₹)</label>
-          <input type="number" id="emi-amount" value="100000" min="10000" step="1000">
-        </div>
-        <div class="calc-field">
-          <label>Down Payment (₹)</label>
-          <div class="calc-slider-row">
-            <input type="range" class="calc-slider" id="emi-down-slider" min="0" max="90" step="5" value="20">
-            <span class="calc-slider-val" id="emi-down-pct">20%</span>
-          </div>
-          <input type="number" id="emi-down" value="20000" style="margin-top:0.5rem;width:100%;background:var(--charcoal-light);border:1px solid var(--border);color:var(--white);padding:0.6rem 0.8rem;font-size:0.9rem;outline:none;font-family:var(--font-sans)">
-        </div>
-        <div class="calc-field">
-          <label>Loan Tenure</label>
-          <select id="emi-tenure">
-            <option value="6">6 Months</option>
-            <option value="12" selected>12 Months</option>
-            <option value="18">18 Months</option>
-            <option value="24">24 Months</option>
-            <option value="36">36 Months</option>
-          </select>
-        </div>
-        <div class="calc-field">
-          <label>Interest Rate (% per annum)</label>
-          <input type="number" id="emi-rate" value="12" min="0" max="30" step="0.5">
-        </div>
-
-        <div class="calc-result-box" id="emi-result">
-          <div class="calc-result-row">
-            <span class="crr-label">Loan Amount</span>
-            <span class="crr-value" id="emi-loan-val">₹80,000</span>
-          </div>
-          <div class="calc-result-row">
-            <span class="crr-label">Monthly EMI</span>
-            <span class="crr-value" id="emi-monthly-val">₹7,109</span>
-          </div>
-          <div class="calc-result-row">
-            <span class="crr-label">Total Interest</span>
-            <span class="crr-value" id="emi-interest-val">₹5,308</span>
-          </div>
-          <div class="calc-result-row crr-total">
-            <span class="crr-label" style="font-size:0.75rem">TOTAL AMOUNT PAYABLE</span>
-            <span class="crr-value" id="emi-total-val">₹1,05,308</span>
-          </div>
-        </div>
-
-        <div class="emi-schedule" id="emi-schedule">
-          <table>
-            <thead>
-              <tr><th>#</th><th>EMI</th><th>Principal</th><th>Interest</th><th>Balance</th></tr>
-            </thead>
-            <tbody id="emi-tbody"></tbody>
-          </table>
-        </div>
-      </div>
-    </div>
-
-    <div class="disclaimer-box animate-in">
-      <strong>◆ Pricing Disclaimer:</strong> Values shown are estimates based on today's live gold rates and MGS Jewellery's standard wastage of 7.99% — the lowest in Davanagere. Final prices may vary based on specific design complexity, stone quality, and exact weight. All EMI calculations are indicative. For an exact quote, please contact us directly on WhatsApp. <strong>MGS Jewellery charges are maker-direct, minimizing the markup overheads of large retail chains.</strong> All pieces carry BIS 916 or HUID hallmark certification.
+  <!-- ===== GOLD TICKER ===== -->
+  <div id="gold-ticker">
+    <span class="ticker-label">LIVE RATES ▸</span>
+    <div class="ticker-track" id="ticker-track">
+      <div class="ticker-item" id="t-gold22"><span class="metal">22K GOLD / 10g</span><span class="price"
+          id="gold22">₹6,842</span><span class="change up" id="gold22c">▲ 0.4%</span></div>
+      <div class="ticker-item" id="t-gold24"><span class="metal">24K GOLD / 10g</span><span class="price"
+          id="gold24">₹7,490</span><span class="change up" id="gold24c">▲ 0.3%</span></div>
+      <div class="ticker-item" id="t-silver"><span class="metal">SILVER / kg</span><span class="price"
+          id="silver">₹89,200</span><span class="change down" id="silverc">▼ 0.1%</span></div>
+      <div class="ticker-item" id="t-custom"><span class="metal" id="ticker-custom" style="color:var(--gold-bright)">✦
+          LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item" id="t-gold22-dup"><span class="metal">22K GOLD / 10g</span><span class="price"
+          id="gold22-dup">₹6,842</span><span class="change up" id="gold22c-dup">▲ 0.4%</span></div>
+      <div class="ticker-item" id="t-gold24-dup"><span class="metal">24K GOLD / 10g</span><span class="price"
+          id="gold24-dup">₹7,490</span><span class="change up" id="gold24c-dup">▲ 0.3%</span></div>
+      <div class="ticker-item" id="t-silver-dup"><span class="metal">SILVER / kg</span><span class="price"
+          id="silver-dup">₹89,200</span><span class="change down" id="silverc-dup">▼ 0.1%</span></div>
+      <div class="ticker-item" id="t-custom-dup"><span class="metal" id="ticker-custom-dup"
+          style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
     </div>
   </div>
-</main>
 
-<footer id="site-footer">
-  <div class="footer-bottom" style="border-top:none;padding-top:0">
-    <span>© 2024 MGS Jewellery · Est. 1999 · Davanagere · All Rights Reserved</span>
-    <div class="footer-hallmarks">
-      <span>HUID HALLMARK</span><span>BIS 916</span><span>22K PURE GOLD</span>
-    </div>
+  <div id="mobile-overlay"></div>
+  <div id="mobile-menu">
+    <span class="menu-close" id="menu-close">✕</span>
+    <a href="index.html">Home</a>
+    <a href="collections.html">Collections</a>
+    <a href="offers.html">Festival Offers</a>
+    <a href="calculator.html">Gold Calculator</a>
+    <a href="heritage.html">Our Heritage</a>
   </div>
-</footer>
 
-<script src="global.js"></script>
-<script>
-function calcGVC() {
-  const purity = parseInt(document.getElementById('gvc-purity').value);
-  const weight = parseFloat(document.getElementById('gvc-weight').value) || 0;
-  const wastage = (parseFloat(window.mgsSettings.wastageRate) / 100) || 0.0799;
-  const making = parseFloat(document.getElementById('gvc-making').value) || 0;
-  const rate = (window.liveGoldRates && window.liveGoldRates[purity]) || 6842;
+  <main class="calc-page">
+    <div class="calc-page-header animate-in">
+      <span class="label">Transparent Pricing</span>
+      <h1>Gold Value & EMI Calculator</h1>
+      <p>Know exactly what you pay. Our pricing model eliminates big-brand overheads — you get maker-direct value.</p>
+      <div class="section-underline"></div>
+    </div>
 
-  const baseVal = weight * rate;
-  const wastageAmt = baseVal * wastage;
-  const makingAmt = weight * making;
-  const subTotal = baseVal + wastageAmt + makingAmt;
-  const gst = subTotal * 0.03;
-  const total = subTotal + gst;
+    <div class="calc-layout">
+      <div class="calc-card rates-table-card animate-in">
+        <div class="calc-card-header">
+          <span class="ch-icon">◈</span>
+          <h2>Today's Live Rates — Updated Every 5 Min</h2>
+        </div>
+        <div class="live-rates-grid">
+          <div class="live-rate-cell">
+            <div class="lrc-metal">22K Gold</div>
+            <div class="lrc-price" id="rate-g22">₹6,842</div>
+            <div class="lrc-unit">per gram</div>
+            <div class="lrc-change up" id="rate-g22c">▲ 0.4% Today</div>
+          </div>
+          <div class="live-rate-cell">
+            <div class="lrc-metal">24K Gold</div>
+            <div class="lrc-price" id="rate-g24">₹7,490</div>
+            <div class="lrc-unit">per gram</div>
+            <div class="lrc-change up">▲ 0.3% Today</div>
+          </div>
+          <div class="live-rate-cell">
+            <div class="lrc-metal">18K Gold</div>
+            <div class="lrc-price" id="rate-g18">₹5,620</div>
+            <div class="lrc-unit">per gram</div>
+            <div class="lrc-change up">▲ 0.2% Today</div>
+          </div>
+          <div class="live-rate-cell">
+            <div class="lrc-metal">Silver</div>
+            <div class="lrc-price" id="rate-sil" style="font-size:1.2rem">₹89,200</div>
+            <div class="lrc-unit">per kg</div>
+            <div class="lrc-change down">▼ 0.1% Today</div>
+          </div>
+        </div>
+      </div>
 
-  const fmt = v => '₹' + Math.round(v).toLocaleString('en-IN');
-  document.getElementById('gvc-rate-val').textContent = fmt(rate);
-  document.getElementById('gvc-base-val').textContent = fmt(baseVal);
-  document.getElementById('gvc-wastage-val').textContent = fmt(wastageAmt);
-  document.getElementById('gvc-making-val').textContent = making === 0 ? '₹0 (Festival Offer!)' : fmt(makingAmt);
-  document.getElementById('gvc-gst-val').textContent = fmt(gst);
-  document.getElementById('gvc-total-val').textContent = fmt(total);
+      <div class="calc-card animate-in">
+        <div class="calc-card-header">
+          <span class="ch-icon">⚖</span>
+          <h2>Gold Value Calculator</h2>
+        </div>
+        <div class="calc-card-body">
+          <div class="calc-field">
+            <label>Gold Purity</label>
+            <select id="gvc-purity">
+              <option value="22">22K Gold (91.6% Pure)</option>
+              <option value="24">24K Gold (99.9% Pure)</option>
+              <option value="18">18K Gold (75% Pure)</option>
+            </select>
+          </div>
+          <div class="calc-field">
+            <label>Weight (grams)</label>
+            <div class="calc-slider-row">
+              <input type="range" class="calc-slider" id="gvc-slider" min="0.5" max="200" step="0.5" value="10">
+              <span class="calc-slider-val" id="gvc-slider-val">10 g</span>
+            </div>
+            <input type="number" id="gvc-weight" value="10" min="0.1" step="0.1"
+              style="margin-top:0.5rem;width:100%;background:var(--charcoal-light);border:1px solid var(--border);color:var(--white);padding:0.6rem 0.8rem;font-size:0.9rem;outline:none;font-family:var(--font-sans)">
+          </div>
+          <div class="calc-field">
+            <label>MGS Wastage Rate</label>
+            <select id="gvc-wastage">
+              <option value="7.99">7.99% — MGS Standard (Lowest in Town)</option>
+              <option value="12">12% — Market Average</option>
+              <option value="0">0% — Gold Value Only</option>
+            </select>
+          </div>
+          <div class="calc-field">
+            <label>Making Charges (per gram)</label>
+            <select id="gvc-making">
+              <option value="0">₹0 — Festival Offer (100% OFF)</option>
+              <option value="150">₹150/g — Light Designs</option>
+              <option value="300">₹300/g — Standard</option>
+              <option value="500">₹500/g — Intricate Work</option>
+            </select>
+          </div>
 
-  if (window.liveGoldRates) {
-    const r22 = document.getElementById('rate-g22');
-    const r24 = document.getElementById('rate-g24');
-    const rSil = document.getElementById('rate-sil');
-    if (r22) r22.textContent = fmt(window.liveGoldRates[22]);
-    if (r24) r24.textContent = fmt(window.liveGoldRates[24]);
-    if (rSil) rSil.textContent = fmt(window.liveGoldRates.silver * 1000);
-  }
-}
+          <div class="calc-result-box" id="gvc-result">
+            <div class="calc-result-row">
+              <span class="crr-label">Gold Rate (per gram)</span>
+              <span class="crr-value" id="gvc-rate-val">₹6,842</span>
+            </div>
+            <div class="calc-result-row">
+              <span class="crr-label">Net Weight Value</span>
+              <span class="crr-value" id="gvc-base-val">₹68,420</span>
+            </div>
+            <div class="calc-result-row">
+              <span class="crr-label">Wastage (7.99%)</span>
+              <span class="crr-value" id="gvc-wastage-val">₹5,469</span>
+            </div>
+            <div class="calc-result-row">
+              <span class="crr-label">Making Charges</span>
+              <span class="crr-value" id="gvc-making-val">₹0</span>
+            </div>
+            <div class="calc-result-row"
+              style="border-top:1px solid var(--border-bright);margin-top:0.5rem;padding-top:0.8rem">
+              <span class="crr-label">GST (3%)</span>
+              <span class="crr-value" id="gvc-gst-val">₹2,217</span>
+            </div>
+            <div class="calc-result-row crr-total" style="padding-top:0.5rem">
+              <span class="crr-label" style="font-size:0.75rem">TOTAL ESTIMATED PRICE</span>
+              <span class="crr-value" id="gvc-total-val">₹76,106</span>
+            </div>
+          </div>
 
-window.calcMiniGold = calcGVC;
+          <a href="https://wa.me/917892314633?text=Hello%20MGS!%20I've%20calculated%20my%20jewelry%20value%20and%20would%20like%20to%20get%20an%20exact%20quote."
+            target="_blank" class="btn btn-whatsapp" style="width:100%;justify-content:center;margin-top:1.2rem"
+            id="gvc-whatsapp-btn">
+            ✦ Get Exact Quote on WhatsApp
+          </a>
+        </div>
+      </div>
 
-['gvc-purity','gvc-weight','gvc-wastage','gvc-making'].forEach(id => {
-  document.getElementById(id)?.addEventListener('change', calcGVC);
-  document.getElementById(id)?.addEventListener('input', calcGVC);
-});
+      <div class="calc-card animate-in">
+        <div class="calc-card-header">
+          <span class="ch-icon">📅</span>
+          <h2>EMI Calculator</h2>
+        </div>
+        <div class="calc-card-body">
+          <div class="calc-field">
+            <label>Jewelry Amount (₹)</label>
+            <input type="number" id="emi-amount" value="100000" min="10000" step="1000">
+          </div>
+          <div class="calc-field">
+            <label>Down Payment (₹)</label>
+            <div class="calc-slider-row">
+              <input type="range" class="calc-slider" id="emi-down-slider" min="0" max="90" step="5" value="20">
+              <span class="calc-slider-val" id="emi-down-pct">20%</span>
+            </div>
+            <input type="number" id="emi-down" value="20000"
+              style="margin-top:0.5rem;width:100%;background:var(--charcoal-light);border:1px solid var(--border);color:var(--white);padding:0.6rem 0.8rem;font-size:0.9rem;outline:none;font-family:var(--font-sans)">
+          </div>
+          <div class="calc-field">
+            <label>Loan Tenure</label>
+            <select id="emi-tenure">
+              <option value="6">6 Months</option>
+              <option value="12" selected>12 Months</option>
+              <option value="18">18 Months</option>
+              <option value="24">24 Months</option>
+              <option value="36">36 Months</option>
+            </select>
+          </div>
+          <div class="calc-field">
+            <label>Interest Rate (% per annum)</label>
+            <input type="number" id="emi-rate" value="12" min="0" max="30" step="0.5">
+          </div>
 
-const gvcSlider = document.getElementById('gvc-slider');
-if (gvcSlider) {
-  gvcSlider.addEventListener('input', () => {
-    const v = gvcSlider.value;
-    document.getElementById('gvc-slider-val').textContent = v + ' g';
-    document.getElementById('gvc-weight').value = v;
+          <div class="calc-result-box" id="emi-result">
+            <div class="calc-result-row">
+              <span class="crr-label">Loan Amount</span>
+              <span class="crr-value" id="emi-loan-val">₹80,000</span>
+            </div>
+            <div class="calc-result-row">
+              <span class="crr-label">Monthly EMI</span>
+              <span class="crr-value" id="emi-monthly-val">₹7,109</span>
+            </div>
+            <div class="calc-result-row">
+              <span class="crr-label">Total Interest</span>
+              <span class="crr-value" id="emi-interest-val">₹5,308</span>
+            </div>
+            <div class="calc-result-row crr-total">
+              <span class="crr-label" style="font-size:0.75rem">TOTAL AMOUNT PAYABLE</span>
+              <span class="crr-value" id="emi-total-val">₹1,05,308</span>
+            </div>
+          </div>
+
+          <div class="emi-schedule" id="emi-schedule">
+            <table>
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>EMI</th>
+                  <th>Principal</th>
+                  <th>Interest</th>
+                  <th>Balance</th>
+                </tr>
+              </thead>
+              <tbody id="emi-tbody"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="disclaimer-box animate-in">
+        <strong>◆ Pricing Disclaimer:</strong> Values shown are estimates based on today's live gold rates and MGS
+        Jewellery's standard wastage of 7.99% — the lowest in Davanagere. Final prices may vary based on specific design
+        complexity, stone quality, and exact weight. All EMI calculations are indicative. For an exact quote, please
+        contact us directly on WhatsApp. <strong>MGS Jewellery charges are maker-direct, minimizing the markup overheads
+          of large retail chains.</strong> All pieces carry BIS 916 or HUID hallmark certification.
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer">
+    <div class="footer-bottom" style="border-top:none;padding-top:0">
+      <div class="developer-credit" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://trigonvertexskp.vercel.app/" target="_blank" style="font-weight: 800; font-size: 1.1rem; color: var(--gold-bright); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase;">Developed by Trigon Vertex</a>
+        <a href="mailto:sarvammayadev@gmail.com" target="_blank" class="btn btn-outline" style="padding: 0.4rem 1.2rem; font-size: 0.8rem; border-color: var(--gold-dim); color: var(--gold-bright);">Contact Us</a>
+      </div>
+      <div class="footer-hallmarks">
+        <span>HUID HALLMARK</span><span>BIS 916</span><span>22K PURE GOLD</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="global.js"></script>
+  <script>
+    function calcGVC() {
+      const purity = parseInt(document.getElementById('gvc-purity').value);
+      const weight = parseFloat(document.getElementById('gvc-weight').value) || 0;
+      const wastage = (parseFloat(window.mgsSettings.wastageRate) / 100) || 0.0799;
+      const making = parseFloat(document.getElementById('gvc-making').value) || 0;
+      const rate = (window.liveGoldRates && window.liveGoldRates[purity]) || 6842;
+
+      const baseVal = weight * rate;
+      const wastageAmt = baseVal * wastage;
+      const makingAmt = weight * making;
+      const subTotal = baseVal + wastageAmt + makingAmt;
+      const gst = subTotal * 0.03;
+      const total = subTotal + gst;
+
+      const fmt = v => '₹' + Math.round(v).toLocaleString('en-IN');
+      document.getElementById('gvc-rate-val').textContent = fmt(rate);
+      document.getElementById('gvc-base-val').textContent = fmt(baseVal);
+      document.getElementById('gvc-wastage-val').textContent = fmt(wastageAmt);
+      document.getElementById('gvc-making-val').textContent = making === 0 ? '₹0 (Festival Offer!)' : fmt(makingAmt);
+      document.getElementById('gvc-gst-val').textContent = fmt(gst);
+      document.getElementById('gvc-total-val').textContent = fmt(total);
+
+      if (window.liveGoldRates) {
+        const r22 = document.getElementById('rate-g22');
+        const r24 = document.getElementById('rate-g24');
+        const rSil = document.getElementById('rate-sil');
+        if (r22) r22.textContent = fmt(window.liveGoldRates[22]);
+        if (r24) r24.textContent = fmt(window.liveGoldRates[24]);
+        if (rSil) rSil.textContent = fmt(window.liveGoldRates.silver * 1000);
+      }
+    }
+
+    window.calcMiniGold = calcGVC;
+
+    ['gvc-purity', 'gvc-weight', 'gvc-wastage', 'gvc-making'].forEach(id => {
+      document.getElementById(id)?.addEventListener('change', calcGVC);
+      document.getElementById(id)?.addEventListener('input', calcGVC);
+    });
+
+    const gvcSlider = document.getElementById('gvc-slider');
+    if (gvcSlider) {
+      gvcSlider.addEventListener('input', () => {
+        const v = gvcSlider.value;
+        document.getElementById('gvc-slider-val').textContent = v + ' g';
+        document.getElementById('gvc-weight').value = v;
+        calcGVC();
+      });
+    }
+
     calcGVC();
-  });
-}
 
-calcGVC();
+    function calcEMI() {
+      const total = parseFloat(document.getElementById('emi-amount').value) || 0;
+      const down = parseFloat(document.getElementById('emi-down').value) || 0;
+      const months = parseInt(document.getElementById('emi-tenure').value);
+      const annualRate = parseFloat(document.getElementById('emi-rate').value) / 100;
+      const monthlyRate = annualRate / 12;
+      const loan = total - down;
 
-function calcEMI() {
-  const total = parseFloat(document.getElementById('emi-amount').value) || 0;
-  const down = parseFloat(document.getElementById('emi-down').value) || 0;
-  const months = parseInt(document.getElementById('emi-tenure').value);
-  const annualRate = parseFloat(document.getElementById('emi-rate').value) / 100;
-  const monthlyRate = annualRate / 12;
-  const loan = total - down;
+      let emi, totalPayable, totalInterest;
+      if (monthlyRate === 0) {
+        emi = loan / months;
+        totalPayable = loan + down;
+        totalInterest = 0;
+      } else {
+        emi = loan * monthlyRate * Math.pow(1 + monthlyRate, months) / (Math.pow(1 + monthlyRate, months) - 1);
+        totalPayable = emi * months + down;
+        totalInterest = emi * months - loan;
+      }
 
-  let emi, totalPayable, totalInterest;
-  if (monthlyRate === 0) {
-    emi = loan / months;
-    totalPayable = loan + down;
-    totalInterest = 0;
-  } else {
-    emi = loan * monthlyRate * Math.pow(1 + monthlyRate, months) / (Math.pow(1 + monthlyRate, months) - 1);
-    totalPayable = emi * months + down;
-    totalInterest = emi * months - loan;
-  }
+      const fmt = v => '₹' + Math.round(v).toLocaleString('en-IN');
+      document.getElementById('emi-loan-val').textContent = fmt(loan);
+      document.getElementById('emi-monthly-val').textContent = fmt(emi);
+      document.getElementById('emi-interest-val').textContent = fmt(totalInterest);
+      document.getElementById('emi-total-val').textContent = fmt(totalPayable);
 
-  const fmt = v => '₹' + Math.round(v).toLocaleString('en-IN');
-  document.getElementById('emi-loan-val').textContent = fmt(loan);
-  document.getElementById('emi-monthly-val').textContent = fmt(emi);
-  document.getElementById('emi-interest-val').textContent = fmt(totalInterest);
-  document.getElementById('emi-total-val').textContent = fmt(totalPayable);
+      const tbody = document.getElementById('emi-tbody');
+      let balance = loan;
+      let rows = '';
+      for (let i = 1; i <= months; i++) {
+        const interest = balance * monthlyRate;
+        const principal = emi - interest;
+        balance -= principal;
+        rows += `<tr><td>${i}</td><td>${fmt(emi)}</td><td>${fmt(principal)}</td><td>${fmt(interest)}</td><td>${fmt(Math.max(0, balance))}</td></tr>`;
+      }
+      if (tbody) tbody.innerHTML = rows;
+    }
 
-  const tbody = document.getElementById('emi-tbody');
-  let balance = loan;
-  let rows = '';
-  for (let i = 1; i <= months; i++) {
-    const interest = balance * monthlyRate;
-    const principal = emi - interest;
-    balance -= principal;
-    rows += `<tr><td>${i}</td><td>${fmt(emi)}</td><td>${fmt(principal)}</td><td>${fmt(interest)}</td><td>${fmt(Math.max(0, balance))}</td></tr>`;
-  }
-  if (tbody) tbody.innerHTML = rows;
-}
+    ['emi-amount', 'emi-down', 'emi-tenure', 'emi-rate'].forEach(id => {
+      document.getElementById(id)?.addEventListener('input', calcEMI);
+    });
 
-['emi-amount','emi-down','emi-tenure','emi-rate'].forEach(id => {
-  document.getElementById(id)?.addEventListener('input', calcEMI);
-});
+    const emiDownSlider = document.getElementById('emi-down-slider');
+    emiDownSlider?.addEventListener('input', () => {
+      const pct = parseInt(emiDownSlider.value);
+      const total = parseFloat(document.getElementById('emi-amount').value) || 0;
+      const down = Math.round(total * pct / 100);
+      document.getElementById('emi-down-pct').textContent = pct + '%';
+      document.getElementById('emi-down').value = down;
+      calcEMI();
+    });
 
-const emiDownSlider = document.getElementById('emi-down-slider');
-emiDownSlider?.addEventListener('input', () => {
-  const pct = parseInt(emiDownSlider.value);
-  const total = parseFloat(document.getElementById('emi-amount').value) || 0;
-  const down = Math.round(total * pct / 100);
-  document.getElementById('emi-down-pct').textContent = pct + '%';
-  document.getElementById('emi-down').value = down;
-  calcEMI();
-});
+    document.getElementById('emi-amount')?.addEventListener('input', () => {
+      const pct = parseInt(document.getElementById('emi-down-slider').value);
+      const total = parseFloat(document.getElementById('emi-amount').value) || 0;
+      document.getElementById('emi-down').value = Math.round(total * pct / 100);
+      calcEMI();
+    });
 
-document.getElementById('emi-amount')?.addEventListener('input', () => {
-  const pct = parseInt(document.getElementById('emi-down-slider').value);
-  const total = parseFloat(document.getElementById('emi-amount').value) || 0;
-  document.getElementById('emi-down').value = Math.round(total * pct / 100);
-  calcEMI();
-});
-
-calcEMI();
-</script>
+    calcEMI();
+  </script>
 </body>
+
 </html>

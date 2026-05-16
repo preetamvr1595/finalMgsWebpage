@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Our Heritage & Story | MGS Jewellery Davanagere — Since 1999</title>
-  <meta name="description" content="Learn about MGS Jewellery's 24-year legacy as a Senior Goldsmith and Maker in Davanagere. Discover the difference of buying direct from the maker.">
-  <meta name="keywords" content="MGS Jewellery heritage, Davanagere goldsmith history, gold jewellery maker Davanagere, BIS HUID hallmark, 22k jewellery Davanagere, MGS Jewellery story">
+  <meta name="description"
+    content="Learn about MGS Jewellery's 24-year legacy as a Senior Goldsmith and Maker in Davanagere. Discover the difference of buying direct from the maker.">
+  <meta name="keywords"
+    content="MGS Jewellery heritage, Davanagere goldsmith history, gold jewellery maker Davanagere, BIS HUID hallmark, 22k jewellery Davanagere, MGS Jewellery story">
   <link rel="stylesheet" href="global.css">
   <style>
-  :root {
-    --gold:        #8F7124;
-    --gold-dim:    #6B541A;
-    --gold-bright: #B5964D;
-    --gold-gradient:   linear-gradient(135deg, #8F7124 0%, #B5964D 45%, #6B541A 100%);
-    --gold-gradient-h: linear-gradient(90deg,  #8F7124 0%, #B5964D 50%, #8F7124 100%);
-  }
-  body { padding-top: 6.5rem; }
+    :root {
+      --gold: #8F7124;
+      --gold-dim: #6B541A;
+      --gold-bright: #B5964D;
+      --gold-gradient: linear-gradient(135deg, #8F7124 0%, #B5964D 45%, #6B541A 100%);
+      --gold-gradient-h: linear-gradient(90deg, #8F7124 0%, #B5964D 50%, #8F7124 100%);
+    }
+
+    body {
+      padding-top: 6.5rem;
+    }
 
     /* ===== HERO ===== */
     #heritage-hero {
@@ -27,21 +33,24 @@
       overflow: hidden;
       background: var(--section-contrast);
     }
+
     .heritage-hero-bg {
       position: absolute;
       inset: 0;
       background:
-        radial-gradient(ellipse at 80% 50%, rgba(212,175,55,0.07) 0%, transparent 55%),
-        radial-gradient(ellipse at 10% 80%, rgba(212,175,55,0.04) 0%, transparent 50%);
+        radial-gradient(ellipse at 80% 50%, rgba(212, 175, 55, 0.07) 0%, transparent 55%),
+        radial-gradient(ellipse at 10% 80%, rgba(212, 175, 55, 0.04) 0%, transparent 50%);
     }
+
     .heritage-grid-pattern {
       position: absolute;
       inset: 0;
       background-image:
-        linear-gradient(rgba(212,175,55,0.035) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(212,175,55,0.035) 1px, transparent 1px);
+        linear-gradient(rgba(212, 175, 55, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(212, 175, 55, 0.035) 1px, transparent 1px);
       background-size: 70px 70px;
     }
+
     .heritage-hero-inner {
       position: relative;
       z-index: 1;
@@ -51,6 +60,7 @@
       align-items: center;
       width: 100%;
     }
+
     .heritage-hero-text .eyebrow {
       font-family: var(--font-mono);
       font-size: 0.72rem;
@@ -60,6 +70,7 @@
       display: block;
       margin-bottom: 1.5rem;
     }
+
     .heritage-hero-text h1 {
       font-size: clamp(2.8rem, 5vw, 5.5rem);
       color: var(--text-dark);
@@ -67,6 +78,7 @@
       margin-bottom: 1.5rem;
       text-shadow: var(--gold-text-shadow);
     }
+
     .heritage-hero-text h1 em {
       font-style: italic;
       background: var(--gold-gradient);
@@ -74,6 +86,7 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
     .heritage-hero-text p {
       color: var(--body-text);
       font-size: 1.05rem;
@@ -81,14 +94,17 @@
       max-width: 520px;
       margin-bottom: 2.5rem;
     }
+
     .hero-stat-row {
       display: flex;
       gap: 2.5rem;
       flex-wrap: wrap;
     }
+
     .hero-stat {
       text-align: center;
     }
+
     .hero-stat .num {
       font-family: var(--font-serif);
       font-size: 2.8rem;
@@ -100,6 +116,7 @@
       line-height: 1;
       display: block;
     }
+
     .hero-stat .lbl {
       font-family: var(--font-mono);
       font-size: 0.65rem;
@@ -109,6 +126,7 @@
       margin-top: 0.4rem;
       display: block;
     }
+
     .hero-stat-divider {
       width: 1px;
       background: var(--border);
@@ -119,6 +137,7 @@
     .heritage-hero-visual {
       position: relative;
     }
+
     .hero-img-main {
       width: 100%;
       aspect-ratio: 3/4;
@@ -126,6 +145,7 @@
       border: 1px solid var(--border-bright);
       display: block;
     }
+
     .hero-img-accent {
       position: absolute;
       bottom: -2.5rem;
@@ -136,6 +156,7 @@
       border: 1px solid var(--border-bright);
       outline: 6px solid var(--black);
     }
+
     .hero-year-badge {
       position: absolute;
       top: 2rem;
@@ -146,8 +167,20 @@
       text-align: center;
       font-family: var(--font-mono);
     }
-    .hero-year-badge .yr { font-size: 2rem; font-weight: 700; line-height: 1; display: block; }
-    .hero-year-badge .yr-label { font-size: 0.6rem; letter-spacing: 0.2em; display: block; margin-top: 0.2rem; }
+
+    .hero-year-badge .yr {
+      font-size: 2rem;
+      font-weight: 700;
+      line-height: 1;
+      display: block;
+    }
+
+    .hero-year-badge .yr-label {
+      font-size: 0.6rem;
+      letter-spacing: 0.2em;
+      display: block;
+      margin-top: 0.2rem;
+    }
 
     /* ===== GOLD DIVIDER LINE ===== */
     .gold-rule {
@@ -161,6 +194,7 @@
     .heritage-section {
       padding: 7rem 5%;
     }
+
     .heritage-section.alt {
       background: var(--section-contrast);
     }
@@ -169,31 +203,36 @@
     #founding {
       padding: 7rem 5%;
     }
+
     .founding-inner {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 6rem;
       align-items: center;
     }
+
     .founding-visual {
       position: relative;
     }
+
     .founding-img {
       width: 100%;
       aspect-ratio: 4/5;
       object-fit: cover;
       border: 1px solid var(--border);
     }
+
     .founding-quote-card {
       position: absolute;
       bottom: -2rem;
       right: -2rem;
       background: #FFFFFF;
-      border: 1px solid rgba(198,167,94,0.12);
+      border: 1px solid rgba(198, 167, 94, 0.12);
       padding: 1.5rem;
       max-width: 280px;
-      box-shadow: 0 8px 24px rgba(198,167,94,0.06);
+      box-shadow: 0 8px 24px rgba(198, 167, 94, 0.06);
     }
+
     .founding-quote-card blockquote {
       font-family: var(--font-serif);
       font-size: 1.1rem;
@@ -202,6 +241,7 @@
       line-height: 1.5;
       margin-bottom: 0.8rem;
     }
+
     .founding-quote-card cite {
       font-family: var(--font-mono);
       font-size: 0.65rem;
@@ -209,6 +249,7 @@
       text-transform: uppercase;
       color: var(--white-dim);
     }
+
     .founding-text .section-label {
       font-family: var(--font-mono);
       font-size: 0.72rem;
@@ -218,17 +259,20 @@
       display: block;
       margin-bottom: 1rem;
     }
+
     .founding-text h2 {
       font-size: clamp(2rem, 3vw, 3.2rem);
       color: var(--white);
       margin-bottom: 1.5rem;
     }
+
     .founding-text p {
       color: var(--white-dim);
       line-height: 1.9;
       font-size: 0.95rem;
       margin-bottom: 1.2rem;
     }
+
     .founding-text p strong {
       color: var(--gold-bright);
     }
@@ -238,15 +282,18 @@
       padding: 7rem 5%;
       background: var(--section-contrast);
     }
+
     .timeline-header {
       text-align: center;
       margin-bottom: 5rem;
     }
+
     .timeline-wrap {
       position: relative;
       max-width: 860px;
       margin: 0 auto;
     }
+
     .timeline-wrap::before {
       content: '';
       position: absolute;
@@ -257,6 +304,7 @@
       background: linear-gradient(180deg, transparent, var(--gold-dim) 10%, var(--gold-dim) 90%, transparent);
       transform: translateX(-50%);
     }
+
     .timeline-item {
       display: grid;
       grid-template-columns: 1fr 60px 1fr;
@@ -264,10 +312,24 @@
       margin-bottom: 4rem;
       align-items: center;
     }
-    .timeline-item.right .tl-content { grid-column: 3; text-align: left; }
-    .timeline-item.right .tl-empty { grid-column: 1; }
-    .timeline-item.left .tl-content { grid-column: 1; text-align: right; }
-    .timeline-item.left .tl-empty { grid-column: 3; }
+
+    .timeline-item.right .tl-content {
+      grid-column: 3;
+      text-align: left;
+    }
+
+    .timeline-item.right .tl-empty {
+      grid-column: 1;
+    }
+
+    .timeline-item.left .tl-content {
+      grid-column: 1;
+      text-align: right;
+    }
+
+    .timeline-item.left .tl-empty {
+      grid-column: 3;
+    }
 
     .tl-node {
       grid-column: 2;
@@ -277,14 +339,16 @@
       gap: 0.5rem;
       z-index: 1;
     }
+
     .tl-dot {
       width: 14px;
       height: 14px;
       border-radius: 50%;
       background: var(--gold-gradient);
-      box-shadow: 0 0 12px rgba(212,175,55,0.5);
+      box-shadow: 0 0 12px rgba(212, 175, 55, 0.5);
       flex-shrink: 0;
     }
+
     .tl-year {
       font-family: var(--font-mono);
       font-size: 0.68rem;
@@ -294,14 +358,17 @@
       background: var(--charcoal);
       padding: 0.1rem 0.3rem;
     }
+
     .tl-content {
       padding: 0 2rem;
     }
+
     .tl-content h3 {
       font-size: 1.2rem;
       color: var(--white);
       margin-bottom: 0.5rem;
     }
+
     .tl-content p {
       color: var(--white-dim);
       font-size: 0.88rem;
@@ -312,29 +379,34 @@
     #makers-difference {
       padding: 7rem 5%;
     }
+
     .makers-inner {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 5rem;
       align-items: start;
     }
+
     .makers-text h2 {
       font-size: clamp(1.8rem, 3vw, 3rem);
       color: var(--white);
       margin-bottom: 1rem;
     }
+
     .makers-text p {
       color: var(--white-dim);
       font-size: 0.95rem;
       line-height: 1.9;
       margin-bottom: 2rem;
     }
+
     .comparison-table {
       width: 100%;
       border-collapse: collapse;
       font-family: var(--font-mono);
       font-size: 0.78rem;
     }
+
     .comparison-table th {
       padding: 0.8rem 1rem;
       text-align: left;
@@ -342,20 +414,35 @@
       text-transform: uppercase;
       font-size: 0.68rem;
     }
-    .comparison-table th:first-child { color: var(--gray); }
-    .comparison-table th:nth-child(2) { color: var(--gold); background: rgba(212,175,55,0.05); }
-    .comparison-table th:nth-child(3) { color: var(--gray); }
+
+    .comparison-table th:first-child {
+      color: var(--gray);
+    }
+
+    .comparison-table th:nth-child(2) {
+      color: var(--gold);
+      background: rgba(212, 175, 55, 0.05);
+    }
+
+    .comparison-table th:nth-child(3) {
+      color: var(--gray);
+    }
+
     .comparison-table td {
       padding: 0.9rem 1rem;
       border-top: 1px solid var(--border);
       color: var(--white-dim);
     }
+
     .comparison-table td:nth-child(2) {
-      background: rgba(212,175,55,0.04);
+      background: rgba(212, 175, 55, 0.04);
       color: var(--gold-bright);
       font-weight: 500;
     }
-    .comparison-table td:nth-child(3) { color: var(--gray); }
+
+    .comparison-table td:nth-child(3) {
+      color: var(--gray);
+    }
 
 
     /* Makers Visual */
@@ -364,15 +451,17 @@
       grid-template-columns: 1fr 1fr;
       gap: 1.5rem;
     }
+
     .makers-stat-card {
       background: #FFFFFF;
-      border: 1px solid rgba(198,167,94,0.12);
+      border: 1px solid rgba(198, 167, 94, 0.12);
       padding: 1.8rem 1.5rem;
       text-align: center;
       transition: var(--transition);
-      box-shadow: 0 10px 30px rgba(0,0,0,0.04), 0 0 30px rgba(198,167,94,0.06);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04), 0 0 30px rgba(198, 167, 94, 0.06);
       border-radius: 10px;
     }
+
     .makers-stat-card:hover {
       border-color: var(--border-bright);
       transform: translateY(-4px);
@@ -391,6 +480,7 @@
       display: block;
       margin-bottom: 0.4rem;
     }
+
     .makers-stat-card .stat-label {
       font-family: var(--font-mono);
       font-size: 0.65rem;
@@ -398,6 +488,7 @@
       text-transform: uppercase;
       color: var(--white-dim);
     }
+
     .makers-stat-card.wide {
       grid-column: 1 / -1;
       display: flex;
@@ -413,15 +504,18 @@
       padding: 7rem 5%;
       background: var(--charcoal);
     }
+
     .craft-header {
       text-align: center;
       margin-bottom: 5rem;
     }
+
     .craft-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
     }
+
     .craft-card {
       border: 1px solid var(--border);
       padding: 2.5rem 2rem;
@@ -429,6 +523,7 @@
       position: relative;
       overflow: hidden;
     }
+
     .craft-card::before {
       content: '';
       position: absolute;
@@ -439,7 +534,11 @@
       background: var(--gold-gradient);
       transition: height 0.4s ease;
     }
-    .craft-card:hover::before { height: 100%; }
+
+    .craft-card:hover::before {
+      height: 100%;
+    }
+
     .craft-card:hover {
       border-color: var(--border-bright);
       transform: translateY(-4px);
@@ -450,11 +549,13 @@
       color: var(--white);
       margin-bottom: 1rem;
     }
+
     .craft-card p {
       color: var(--white-dim);
       font-size: 0.88rem;
       line-height: 1.8;
     }
+
     .craft-card .craft-tag {
       display: inline-block;
       margin-top: 1.2rem;
@@ -475,28 +576,33 @@
       padding: 7rem 5%;
       background: var(--charcoal);
     }
+
     .community-inner {
       display: grid;
       grid-template-columns: 1fr 1.4fr;
       gap: 5rem;
       align-items: center;
     }
+
     .community-text h2 {
       font-size: clamp(1.8rem, 3vw, 3rem);
       color: var(--white);
       margin-bottom: 1.2rem;
     }
+
     .community-text p {
       color: var(--white-dim);
       font-size: 0.95rem;
       line-height: 1.9;
       margin-bottom: 1.2rem;
     }
+
     .testimonials-stack {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
     }
+
     .testimonial-card {
       background: var(--charcoal-mid);
       border: 1px solid var(--border);
@@ -504,10 +610,12 @@
       padding: 1.8rem 2rem;
       transition: var(--transition);
     }
+
     .testimonial-card:hover {
       border-left-color: var(--gold);
       transform: translateX(4px);
     }
+
     .testimonial-card blockquote {
       font-family: var(--font-serif);
       font-size: 1rem;
@@ -516,11 +624,13 @@
       line-height: 1.7;
       margin-bottom: 1rem;
     }
+
     .testimonial-card .reviewer {
       display: flex;
       align-items: center;
       gap: 1rem;
     }
+
     .reviewer-avatar {
       width: 36px;
       height: 36px;
@@ -535,6 +645,7 @@
       color: var(--black);
       flex-shrink: 0;
     }
+
     .reviewer-info .name {
       font-family: var(--font-mono);
       font-size: 0.72rem;
@@ -543,10 +654,12 @@
       color: var(--gold);
       display: block;
     }
+
     .reviewer-info .loc {
       font-size: 0.78rem;
       color: var(--gray);
     }
+
     .review-stars {
       color: var(--gold);
       font-size: 0.75rem;
@@ -561,18 +674,21 @@
       position: relative;
       overflow: hidden;
     }
+
     #promise::before {
       content: '';
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at 50% 50%, rgba(212,175,55,0.06) 0%, transparent 65%);
+      background: radial-gradient(ellipse at 50% 50%, rgba(212, 175, 55, 0.06) 0%, transparent 65%);
     }
+
     .promise-inner {
       position: relative;
       z-index: 1;
       max-width: 760px;
       margin: 0 auto;
     }
+
     .promise-inner .eyebrow {
       font-family: var(--font-mono);
       font-size: 0.72rem;
@@ -582,11 +698,13 @@
       display: block;
       margin-bottom: 1.5rem;
     }
+
     .promise-inner h2 {
       font-size: clamp(2rem, 4vw, 3.5rem);
       color: var(--white);
       margin-bottom: 1.5rem;
     }
+
     .promise-inner h2 em {
       font-style: italic;
       background: var(--gold-gradient);
@@ -594,12 +712,14 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
+
     .promise-inner p {
       color: var(--white-dim);
       font-size: 1rem;
       line-height: 1.9;
       margin-bottom: 3rem;
     }
+
     .promise-pillars {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -607,14 +727,16 @@
       margin-bottom: 3.5rem;
       text-align: center;
     }
+
     .pillar {
       padding: 2rem 1rem;
       border: 1px solid var(--border);
       transition: var(--transition);
     }
+
     .pillar:hover {
       border-color: var(--border-bright);
-      background: rgba(212,175,55,0.04);
+      background: rgba(212, 175, 55, 0.04);
     }
 
     .pillar h4 {
@@ -625,12 +747,14 @@
       color: var(--gold);
       margin-bottom: 0.5rem;
     }
+
     .pillar p {
       font-size: 0.8rem;
       color: var(--white-dim);
       margin: 0;
       line-height: 1.6;
     }
+
     .promise-cta {
       display: flex;
       gap: 1.5rem;
@@ -640,31 +764,96 @@
 
     /* ===== RESPONSIVE ===== */
     @media (max-width: 1024px) {
-      .heritage-hero-inner { grid-template-columns: 1fr; gap: 3rem; }
-      .heritage-hero-visual { display: none; }
-      .founding-inner { grid-template-columns: 1fr; gap: 3rem; }
-      .founding-visual { display: none; }
-      .makers-inner { grid-template-columns: 1fr; gap: 3rem; }
-      .hallmark-inner { grid-template-columns: 1fr; gap: 3rem; }
-      .community-inner { grid-template-columns: 1fr; gap: 3rem; }
-      .craft-grid { grid-template-columns: 1fr 1fr; }
-      .promise-pillars { grid-template-columns: 1fr 1fr; }
+      .heritage-hero-inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .heritage-hero-visual {
+        display: none;
+      }
+
+      .founding-inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .founding-visual {
+        display: none;
+      }
+
+      .makers-inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .hallmark-inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .community-inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .craft-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .promise-pillars {
+        grid-template-columns: 1fr 1fr;
+      }
     }
+
     @media (max-width: 768px) {
-      .timeline-wrap::before { left: 20px; }
-      .timeline-item { grid-template-columns: 40px 1fr; }
-      .timeline-item .tl-node { grid-column: 1; }
+      .timeline-wrap::before {
+        left: 20px;
+      }
+
+      .timeline-item {
+        grid-template-columns: 40px 1fr;
+      }
+
+      .timeline-item .tl-node {
+        grid-column: 1;
+      }
+
       .timeline-item.left .tl-content,
-      .timeline-item.right .tl-content { grid-column: 2; text-align: left; }
-      .timeline-item .tl-empty { display: none; }
-      .tl-year { display: none; }
-      .craft-grid { grid-template-columns: 1fr; }
-      .promise-pillars { grid-template-columns: 1fr 1fr; }
-      .makers-visual { grid-template-columns: 1fr 1fr; }
+      .timeline-item.right .tl-content {
+        grid-column: 2;
+        text-align: left;
+      }
+
+      .timeline-item .tl-empty {
+        display: none;
+      }
+
+      .tl-year {
+        display: none;
+      }
+
+      .craft-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .promise-pillars {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .makers-visual {
+        grid-template-columns: 1fr 1fr;
+      }
     }
+
     @media (max-width: 480px) {
-      .promise-pillars { grid-template-columns: 1fr; }
-      .hero-stat-row { gap: 1.2rem; }
+      .promise-pillars {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-stat-row {
+        gap: 1.2rem;
+      }
     }
   </style>
 
@@ -675,14 +864,16 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://finalmgswebpage.onrender.com/heritage.html">
   <meta property="og:title" content="Our Heritage & Story | MGS Jewellery Davanagere — Since 1999">
-  <meta property="og:description" content="Learn about MGS Jewellery's 24-year legacy as a Senior Goldsmith and Maker in Davanagere. Discover the difference of buying direct from the maker.">
+  <meta property="og:description"
+    content="Learn about MGS Jewellery's 24-year legacy as a Senior Goldsmith and Maker in Davanagere. Discover the difference of buying direct from the maker.">
   <meta property="og:image" content="https://finalmgswebpage.onrender.com/assets/images/hero_main.png">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="https://finalmgswebpage.onrender.com/heritage.html">
   <meta name="twitter:title" content="Our Heritage & Story | MGS Jewellery">
-  <meta name="twitter:description" content="Discover the 24-year legacy of Davanagere's most trusted Senior Goldsmith and Maker. Pure gold, transparent pricing.">
+  <meta name="twitter:description"
+    content="Discover the 24-year legacy of Davanagere's most trusted Senior Goldsmith and Maker. Pure gold, transparent pricing.">
   <meta name="twitter:image" content="https://finalmgswebpage.onrender.com/assets/images/hero_main.png">
 
   <!-- JSON-LD Breadcrumbs -->
@@ -704,502 +895,584 @@
   }
   </script>
 </head>
+
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<nav id="site-navbar">
-  <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
-  <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="collections.html">Collections</a></li>
-    <li><a href="offers.html">Offers</a></li>
-    <li><a href="calculator.html">Calculator</a></li>
-    <li><a href="heritage.html" class="active">Heritage</a></li>
-  </ul>
-  <div class="nav-actions">
-    <a href="https://wa.me/917892314633?text=Hello%20MGS%20Jewellery!%20I%27d%20like%20to%20know%20more%20about%20your%20heritage%20and%20collection." target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">
-      ✦ WhatsApp
-    </a>
-  </div>
-  <div class="nav-hamburger" id="hamburger-btn" role="button" aria-label="Open menu">
-    <span></span><span></span><span></span>
-  </div>
-</nav>
-
-<!-- ===== GOLD TICKER ===== -->
-<div id="gold-ticker">
-  <span class="ticker-label">LIVE RATES ▸</span>
-  <div class="ticker-track" id="ticker-track">
-    <div class="ticker-item" id="t-gold22"><span class="metal">22K GOLD / 10g</span><span class="price" id="gold22">₹6,842</span><span class="change up" id="gold22c">▲ 0.4%</span></div>
-    <div class="ticker-item" id="t-gold24"><span class="metal">24K GOLD / 10g</span><span class="price" id="gold24">₹7,490</span><span class="change up" id="gold24c">▲ 0.3%</span></div>
-    <div class="ticker-item" id="t-silver"><span class="metal">SILVER / kg</span><span class="price" id="silver">₹89,200</span><span class="change down" id="silverc">▼ 0.1%</span></div>
-    <div class="ticker-item" id="t-custom"><span class="metal" id="ticker-custom" style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
-    <!-- Duplicate for seamless scroll -->
-    <div class="ticker-item" id="t-gold22-dup"><span class="metal">22K GOLD / 10g</span><span class="price" id="gold22-dup">₹6,842</span><span class="change up" id="gold22c-dup">▲ 0.4%</span></div>
-    <div class="ticker-item" id="t-gold24-dup"><span class="metal">24K GOLD / 10g</span><span class="price" id="gold24-dup">₹7,490</span><span class="change up" id="gold24c-dup">▲ 0.3%</span></div>
-    <div class="ticker-item" id="t-silver-dup"><span class="metal">SILVER / kg</span><span class="price" id="silver-dup">₹89,200</span><span class="change down" id="silverc-dup">▼ 0.1%</span></div>
-    <div class="ticker-item" id="t-custom-dup"><span class="metal" id="ticker-custom-dup" style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
-  </div>
-</div>
-
-<!-- ===== MOBILE MENU ===== -->
-<div id="mobile-overlay"></div>
-<div id="mobile-menu">
-  <span class="menu-close" id="menu-close">✕</span>
-  <a href="index.html">Home</a>
-  <a href="collections.html">Collections</a>
-  <a href="offers.html">Festival Offers</a>
-  <a href="calculator.html">Gold Calculator</a>
-  <a href="heritage.html">Our Heritage</a>
-</div>
-
-<!-- ===== HERO ===== -->
-<section id="heritage-hero">
-  <div class="heritage-hero-bg"></div>
-  <div class="heritage-grid-pattern"></div>
-  <div class="heritage-hero-inner">
-
-    <div class="heritage-hero-text animate-in">
-      <span class="eyebrow">✦ Est. 1999 · Davanagere, Karnataka</span>
-      <h1>A Legacy <em>Forged<br>in Gold</em></h1>
-      <p>For over two decades, MGS Jewellery has been more than a jewellery store — it is Davanagere's most trusted Senior Goldsmith and Maker. Every piece we craft carries 24 years of inherited skill, transparent values, and an unwavering promise of purity.</p>
-      <div class="hero-stat-row">
-        <div class="hero-stat animate-in">
-          <span class="num">1999</span>
-          <span class="lbl">Year Founded</span>
-        </div>
-        <div class="hero-stat-divider"></div>
-        <div class="hero-stat animate-in">
-          <span class="num">24+</span>
-          <span class="lbl">Years of Craft</span>
-        </div>
-        <div class="hero-stat-divider"></div>
-        <div class="hero-stat animate-in">
-          <span class="num">5000+</span>
-          <span class="lbl">Families Served</span>
-        </div>
-        <div class="hero-stat-divider"></div>
-        <div class="hero-stat animate-in">
-          <span class="num">100%</span>
-          <span class="lbl">BIS Certified</span>
-        </div>
-      </div>
+  <!-- ===== NAVBAR ===== -->
+  <nav id="site-navbar">
+    <a href="index.html" class="nav-logo">MGS JEWELLERY</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="collections.html">Collections</a></li>
+      <li><a href="offers.html">Offers</a></li>
+      <li><a href="calculator.html">Gold Rates</a></li>
+      <li><a href="heritage.html" class="active">Our Legacy</a></li>
+      <li><a href="#" onclick="window.location.href=window.getApiBase()+'/admin/login';return false;">Admin Login</a>
+      </li>
+    </ul>
+    <div class="nav-actions">
+      <a href="https://wa.me/917892314633?text=Hello%20MGS%20Jewellery!%20I%27d%20like%20to%20know%20more%20about%20your%20heritage%20and%20collection."
+        target="_blank" class="btn btn-whatsapp" style="padding:0.5rem 1.2rem;font-size:0.7rem">
+        ✦ WhatsApp
+      </a>
     </div>
-
-    <div class="heritage-hero-visual animate-in">
-      <img src="assets/heritage_necklace.png" alt="MGS Jewellery Heritage Craftsmanship" class="hero-img-main">
-      <img src="assets/heritage_bangles.png" alt="MGS Jewellery Heritage Bangles" class="hero-img-accent">
-      <div class="hero-year-badge">
-        <span class="yr">25</span>
-        <span class="yr-label">Years Legacy</span>
-      </div>
+    <div class="nav-hamburger" id="hamburger-btn" role="button" aria-label="Open menu">
+      <span></span><span></span><span></span>
     </div>
+  </nav>
 
-  </div>
-</section>
-
-<div class="gold-rule"></div>
-
-<!-- ===== FOUNDING STORY ===== -->
-<section id="founding">
-  <div class="founding-inner">
-
-    <div class="founding-visual animate-in">
-      <img src="assets/heritage_maang_tikka.png" alt="MGS Jewellery Craftsmanship — Heritage Maang Tikka" class="founding-img">
-      <div class="founding-quote-card">
-        <blockquote>"Gold is not just a metal. It is the language of trust between a craftsman and the family he serves."</blockquote>
-        <cite>— MGS Master Goldsmith, Davanagere</cite>
-      </div>
+  <!-- ===== GOLD TICKER ===== -->
+  <div id="gold-ticker">
+    <span class="ticker-label">LIVE RATES ▸</span>
+    <div class="ticker-track" id="ticker-track">
+      <div class="ticker-item" id="t-gold22"><span class="metal">22K GOLD / 10g</span><span class="price"
+          id="gold22">₹6,842</span><span class="change up" id="gold22c">▲ 0.4%</span></div>
+      <div class="ticker-item" id="t-gold24"><span class="metal">24K GOLD / 10g</span><span class="price"
+          id="gold24">₹7,490</span><span class="change up" id="gold24c">▲ 0.3%</span></div>
+      <div class="ticker-item" id="t-silver"><span class="metal">SILVER / kg</span><span class="price"
+          id="silver">₹89,200</span><span class="change down" id="silverc">▼ 0.1%</span></div>
+      <div class="ticker-item" id="t-custom"><span class="metal" id="ticker-custom" style="color:var(--gold-bright)">✦
+          LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="ticker-item" id="t-gold22-dup"><span class="metal">22K GOLD / 10g</span><span class="price"
+          id="gold22-dup">₹6,842</span><span class="change up" id="gold22c-dup">▲ 0.4%</span></div>
+      <div class="ticker-item" id="t-gold24-dup"><span class="metal">24K GOLD / 10g</span><span class="price"
+          id="gold24-dup">₹7,490</span><span class="change up" id="gold24c-dup">▲ 0.3%</span></div>
+      <div class="ticker-item" id="t-silver-dup"><span class="metal">SILVER / kg</span><span class="price"
+          id="silver-dup">₹89,200</span><span class="change down" id="silverc-dup">▼ 0.1%</span></div>
+      <div class="ticker-item" id="t-custom-dup"><span class="metal" id="ticker-custom-dup"
+          style="color:var(--gold-bright)">✦ LOWEST WASTAGE & LOWEST MAKING CHARGES IN MGS ✦</span></div>
     </div>
-
-    <div class="founding-text animate-in">
-      <span class="section-label">Our Founding Story</span>
-      <h2>Where It All Began</h2>
-      <p>
-        In 1999, on the bustling P.J. Extension of Davanagere, a Senior Goldsmith opened the doors of
-        <strong>MGS Jewellery</strong> with a single promise: to give every family in Davanagere access to
-        <strong>pure, hallmarked gold at maker-direct prices</strong> — with zero compromise on quality.
-      </p>
-      <p>
-        Unlike large retail chains that source jewellery and add layers of markup, MGS was born as a
-        <strong>goldsmith's workshop first</strong>. Every piece was crafted on-site, by hand, under the direct
-        supervision of a master craftsman who understood that gold was not just commerce — it was a family heirloom,
-        a sacred offering, a daughter's wedding dowry.
-      </p>
-      <p>
-        Over the years, that founding workshop grew into Davanagere's most trusted jewellery destination. But the
-        philosophy never changed: <strong>transparent pricing, certified purity, and maker-direct value</strong> remain
-        the cornerstones of everything we do.
-      </p>
-      <a href="#promise" class="btn btn-outline" style="margin-top:1rem">Our Promise ▸</a>
-    </div>
-
-  </div>
-</section>
-
-<div class="gold-rule"></div>
-
-<!-- ===== TIMELINE ===== -->
-<section id="timeline">
-  <div class="timeline-header animate-in">
-    <span class="label" style="font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:1rem">25 Years of Milestones</span>
-    <h2 style="font-size:clamp(1.8rem,3vw,3rem);color:var(--white);margin-bottom:1rem">Our Journey Through Time</h2>
-    <div class="section-underline"></div>
   </div>
 
-  <div class="timeline-wrap">
-
-    <div class="timeline-item right animate-in">
-      <div class="tl-empty"></div>
-      <div class="tl-node">
-        <div class="tl-dot"></div>
-        <span class="tl-year">1999</span>
-      </div>
-      <div class="tl-content">
-        <h3>The Founding</h3>
-        <p>MGS Jewellery opens its first workshop in P.J. Extension, Davanagere. A goldsmith's vision — pure gold, transparent pricing, maker-direct to Davanagere families.</p>
-      </div>
-    </div>
-
-    <div class="timeline-item left animate-in">
-      <div class="tl-content">
-        <h3>BIS Hallmarking Adoption</h3>
-        <p>MGS becomes one of the earliest independent jewellers in Davanagere to adopt full BIS 916 hallmarking, guaranteeing gold purity to every customer — years before it became mandatory.</p>
-      </div>
-      <div class="tl-node">
-        <div class="tl-dot"></div>
-        <span class="tl-year">2003</span>
-      </div>
-      <div class="tl-empty"></div>
-    </div>
-
-
-    <div class="timeline-item left animate-in">
-      <div class="tl-content">
-        <h3>5,000 Families Milestone</h3>
-        <p>MGS Jewellery crosses 5,000 families served — spanning three generations of Davanagere households. A testament to trust built one hallmarked piece at a time.</p>
-      </div>
-      <div class="tl-node">
-        <div class="tl-dot"></div>
-        <span class="tl-year">2014</span>
-      </div>
-      <div class="tl-empty"></div>
-    </div>
-
-    <div class="timeline-item right animate-in">
-      <div class="tl-empty"></div>
-      <div class="tl-node">
-        <div class="tl-dot"></div>
-        <span class="tl-year">2020</span>
-      </div>
-      <div class="tl-content">
-        <h3>HUID Hallmark Certification</h3>
-        <p>MGS adopts HUID (Hallmark Unique Identification) — India's gold traceability system — making every piece digitally verifiable. A leap forward in buyer protection and transparency.</p>
-      </div>
-    </div>
-
-    <div class="timeline-item left animate-in">
-      <div class="tl-content">
-        <h3>Diamond & 18K Collection</h3>
-        <p>MGS expands into BIS-certified 18K gold diamond jewellery — serving the modern buyer who seeks contemporary luxury without compromising on quality or traceability.</p>
-      </div>
-      <div class="tl-node">
-        <div class="tl-dot"></div>
-        <span class="tl-year">2022</span>
-      </div>
-      <div class="tl-empty"></div>
-    </div>
-
-    <div class="timeline-item right animate-in">
-      <div class="tl-empty"></div>
-      <div class="tl-node">
-        <div class="tl-dot"></div>
-        <span class="tl-year">2024</span>
-      </div>
-      <div class="tl-content">
-        <h3>Digital Transformation</h3>
-        <p>MGS launches its official digital presence — bringing live gold rates, the full jewellery collection, festival offers, and a bespoke design studio directly to your screen. The legacy goes online.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<div class="gold-rule"></div>
-
-<!-- ===== MAKER'S DIFFERENCE ===== -->
-<section id="makers-difference">
-  <div class="section-header animate-in" style="text-align:center;margin-bottom:4rem">
-    <span class="label">The Maker's Difference</span>
-    <h2>Why We're Different From Retail Chains</h2>
-    <p>Being a Goldsmith & Maker — not just a retailer — changes everything about how you buy gold.</p>
-    <div class="section-underline"></div>
+  <!-- ===== MOBILE MENU ===== -->
+  <div id="mobile-overlay"></div>
+  <div id="mobile-menu">
+    <span class="menu-close" id="menu-close">✕</span>
+    <a href="index.html">Home</a>
+    <a href="collections.html">Collections</a>
+    <a href="offers.html">Offers</a>
+    <a href="calculator.html">Gold Rates</a>
+    <a href="heritage.html">Our Legacy</a>
   </div>
 
-  <div class="makers-inner">
+  <!-- ===== HERO ===== -->
+  <section id="heritage-hero">
+    <div class="heritage-hero-bg"></div>
+    <div class="heritage-grid-pattern"></div>
+    <div class="heritage-hero-inner">
 
-    <div class="makers-text animate-in">
-      <h2>Maker Direct.<br>No Middlemen.<br><em style="background:var(--gold-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">No Brand Markups.</em></h2>
-      <p>Large jewellery chains buy jewellery from manufacturers, transport it across states, store it in warehouses, display it in air-conditioned showrooms with hundreds of staff — and pass every rupee of that cost to you as "making charges" and inflated wastage rates.</p>
-      <p>At MGS, we are the <strong style="color:var(--gold-bright)">manufacturer</strong>. Our Senior Goldsmith crafts your jewellery on-site. When you buy from MGS, you pay for the gold — and only the gold.</p>
-
-    </div>
-
-    <div class="makers-visual animate-in">
-      <div class="makers-stat-card">
-
-        <span class="big-num">7.99%</span>
-        <span class="stat-label">Wastage Rate — Lowest in Davanagere</span>
-      </div>
-      <div class="makers-stat-card">
-
-        <span class="big-num">100%</span>
-        <span class="stat-label">Making Charges Off on Festival Offers</span>
-      </div>
-      <div class="makers-stat-card">
-
-        <span class="big-num">₹200</span>
-        <span class="stat-label">Extra Per Gram on Old Gold Exchange</span>
-      </div>
-      <div class="makers-stat-card">
-
-        <span class="big-num">24Yr</span>
-        <span class="stat-label">Goldsmith Experience — On-Site Crafting</span>
-      </div>
-      <div class="makers-stat-card wide">
-
-        <div>
-          <span class="big-num" style="font-size:1.6rem">Senior Goldsmith & Maker</span>
-          <span class="stat-label" style="display:block;margin-top:0.4rem;">Davanagere's only certified maker-direct workshop with on-site crafting, HUID traceability, and bespoke design services.</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<div class="gold-rule"></div>
-
-<!-- ===== CRAFTSMANSHIP ===== -->
-<section id="craftsmanship">
-  <div class="craft-header animate-in">
-    <span class="label">Our Craft</span>
-    <h2>The Art of the Goldsmith</h2>
-    <p>Each piece that leaves MGS carries the mark of century-old techniques married with modern precision.</p>
-    <div class="section-underline"></div>
-  </div>
-
-  <div class="craft-grid">
-    <div class="craft-card animate-in">
-
-      <h3>Wax-Casting & Lost-Wax Method</h3>
-      <p>Traditional South Indian jewellery uses the lost-wax (cire perdue) casting method — where a wax model is encased in clay, the wax melted out, and molten gold poured in. Our master goldsmith has refined this technique over two decades, achieving intricate detail that machines cannot replicate.</p>
-      <span class="craft-tag">Traditional Technique</span>
-    </div>
-    <div class="craft-card animate-in">
-
-      <h3>Hand Filigree & Engraving</h3>
-      <p>Filigree is the art of twisting fine gold wire into lace-like patterns. Our craftsmen hand-engrave temple motifs, floral designs, and peacock patterns directly onto gold — creating one-of-a-kind pieces that cannot be mass-produced. Every groove tells the story of the hand that made it.</p>
-      <span class="craft-tag">Artisan Craft</span>
-    </div>
-    <div class="craft-card animate-in">
-
-      <h3>Stone Setting & Jadau Work</h3>
-      <p>Our goldsmiths are trained in Jadau setting — the royal Rajputana art of embedding uncut gemstones (kundan) into gold. We also set modern-cut rubies, emeralds, and certified diamonds with precision — ensuring stone and gold are in harmony for lifetimes.</p>
-      <span class="craft-tag">Gemstone Excellence</span>
-    </div>
-    <div class="craft-card animate-in">
-
-      <h3>Karatmeter Purity Testing</h3>
-      <p>Every piece undergoes purity verification with calibrated XRF Karatmeter testing before being sent for BIS/HUID hallmarking. We never presume purity — we prove it. The hallmark stamp on your jewellery is backed by government certification and our own in-house quality assurance.</p>
-      <span class="craft-tag">Quality Assurance</span>
-    </div>
-    <div class="craft-card animate-in">
-
-      <h3>Meenakari Enamel Work</h3>
-      <p>Meenakari is the ancient art of filling gold with vibrant enamel colours — peacocks, flowers, and geometric patterns brought to life. Our craftsmen source mineral-based enamel powders and fire them at precise temperatures, creating jewellery that is as much artwork as it is gold.</p>
-      <span class="craft-tag">Heritage Art Form</span>
-    </div>
-
-  </div>
-</section>
-
-<div class="gold-rule"></div>
-
-
-
-
-
-<!-- ===== COMMUNITY IMPACT ===== -->
-<section id="community">
-  <div class="section-header animate-in" style="text-align:center;margin-bottom:4rem">
-    <span class="label">Davanagere's Own</span>
-    <h2>Woven into the Community</h2>
-    <p>Five thousand families. Three generations. One unwavering goldsmith's promise.</p>
-    <div class="section-underline"></div>
-  </div>
-
-  <div class="community-inner">
-    <div class="community-text animate-in">
-      <h2>Trusted Across Generations</h2>
-      <p>
-        In Davanagere, gold is not purchased — it is inherited, gifted, and celebrated. MGS Jewellery has been part of the most important moments in over <strong style="color:var(--gold-bright)">5,000 Davanagere families</strong> — weddings, childbirths, festivals, and anniversaries.
-      </p>
-      <p>
-        Our customers are not just buyers. They are the grandmothers who bring their daughters for bridal sets, the fathers who save for a daughter's wedding necklace, the young professionals buying their first gold investment. We know them. We serve them. We earn their trust anew with every purchase.
-      </p>
-      <p>
-        MGS Jewellery is proud to support local artisans, employ Davanagere craftspeople, and keep the tradition of goldsmithing alive in our city — ensuring that the craft of our ancestors remains a living, breathing art form in the next generation.
-      </p>
-      <a href="https://wa.me/919876543210?text=Hello%20MGS%20Jewellery!%20I%27d%20like%20to%20visit%20your%20store." target="_blank" class="btn btn-gold" id="community-wa-btn" style="margin-top:1.5rem">Visit Us Today ▸</a>
-    </div>
-
-    <div class="testimonials-stack animate-in">
-      <div class="testimonial-card">
-        <blockquote>"My daughter's entire bridal set — necklace, bangles, earrings, and mangalsutra — was crafted at MGS. The quality and the price were both exceptional. No other store in Davanagere comes close."</blockquote>
-        <div class="reviewer">
-          <div class="reviewer-avatar">SR</div>
-          <div class="reviewer-info">
-            <span class="name">Shobha Ramaiah</span>
-            <span class="loc">P.J. Extension, Davanagere</span>
+      <div class="heritage-hero-text animate-in">
+        <span class="eyebrow">✦ Est. 1999 · Davanagere, Karnataka</span>
+        <h1>A Legacy <em>Forged<br>in Gold</em></h1>
+        <p>For over two decades, MGS Jewellery has been more than a jewellery store — it is Davanagere's most trusted
+          Senior Goldsmith and Maker. Every piece we craft carries 24 years of inherited skill, transparent values, and
+          an unwavering promise of purity.</p>
+        <div class="hero-stat-row">
+          <div class="hero-stat animate-in">
+            <span class="num">1999</span>
+            <span class="lbl">Year Founded</span>
           </div>
-          <span class="review-stars">★★★★★</span>
-        </div>
-      </div>
-
-      <div class="testimonial-card">
-        <blockquote>"I've been buying gold from MGS for 15 years. Their wastage rate is genuinely the lowest — I've checked. And when I showed them my daughter's design sketch, they crafted it perfectly within a week."</blockquote>
-        <div class="reviewer">
-          <div class="reviewer-avatar">VK</div>
-          <div class="reviewer-info">
-            <span class="name">Venkatesh Kumar</span>
-            <span class="loc">MCC B Block, Davanagere</span>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat animate-in">
+            <span class="num">24+</span>
+            <span class="lbl">Years of Craft</span>
           </div>
-          <span class="review-stars">★★★★★</span>
-        </div>
-      </div>
-
-      <div class="testimonial-card">
-        <blockquote>"I was skeptical about the 7.99% wastage claim. But they showed me the full calculation, the BIS certificate, the HUID. Fully transparent. I've referred all my relatives here."</blockquote>
-        <div class="reviewer">
-          <div class="reviewer-avatar">PM</div>
-          <div class="reviewer-info">
-            <span class="name">Priya Manjunath</span>
-            <span class="loc">Bapuji Nagar, Davanagere</span>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat animate-in">
+            <span class="num">5000+</span>
+            <span class="lbl">Families Served</span>
           </div>
-          <span class="review-stars">★★★★★</span>
-        </div>
-      </div>
-
-      <div class="testimonial-card">
-        <blockquote>"Bought a custom ring for my wife's anniversary. The Senior Goldsmith personally guided us through the design. The final piece looked better than I imagined. Pure 22K, HUID certified."</blockquote>
-        <div class="reviewer">
-          <div class="reviewer-avatar">AJ</div>
-          <div class="reviewer-info">
-            <span class="name">Arun Joshi</span>
-            <span class="loc">3rd Stage, Davanagere</span>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat animate-in">
+            <span class="num">100%</span>
+            <span class="lbl">BIS Certified</span>
           </div>
-          <span class="review-stars">★★★★★</span>
+        </div>
+      </div>
+
+      <div class="heritage-hero-visual animate-in">
+        <img src="assets/heritage_necklace.png" alt="MGS Jewellery Heritage Craftsmanship" class="hero-img-main">
+        <img src="assets/heritage_bangles.png" alt="MGS Jewellery Heritage Bangles" class="hero-img-accent">
+        <div class="hero-year-badge">
+          <span class="yr">25</span>
+          <span class="yr-label">Years Legacy</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="gold-rule"></div>
+
+  <!-- ===== FOUNDING STORY ===== -->
+  <section id="founding">
+    <div class="founding-inner">
+
+      <div class="founding-visual animate-in">
+        <img src="assets/heritage_maang_tikka.png" alt="MGS Jewellery Craftsmanship — Heritage Maang Tikka"
+          class="founding-img">
+        <div class="founding-quote-card">
+          <blockquote>"Gold is not just a metal. It is the language of trust between a craftsman and the family he
+            serves."</blockquote>
+          <cite>— MGS Master Goldsmith, Davanagere</cite>
+        </div>
+      </div>
+
+      <div class="founding-text animate-in">
+        <span class="section-label">Our Founding Story</span>
+        <h2>Where It All Began</h2>
+        <p>
+          In 1999, on the bustling P.J. Extension of Davanagere, a Senior Goldsmith opened the doors of
+          <strong>MGS Jewellery</strong> with a single promise: to give every family in Davanagere access to
+          <strong>pure, hallmarked gold at maker-direct prices</strong> — with zero compromise on quality.
+        </p>
+        <p>
+          Unlike large retail chains that source jewellery and add layers of markup, MGS was born as a
+          <strong>goldsmith's workshop first</strong>. Every piece was crafted on-site, by hand, under the direct
+          supervision of a master craftsman who understood that gold was not just commerce — it was a family heirloom,
+          a sacred offering, a daughter's wedding dowry.
+        </p>
+        <p>
+          Over the years, that founding workshop grew into Davanagere's most trusted jewellery destination. But the
+          philosophy never changed: <strong>transparent pricing, certified purity, and maker-direct value</strong>
+          remain
+          the cornerstones of everything we do.
+        </p>
+        <a href="#promise" class="btn btn-outline" style="margin-top:1rem">Our Promise ▸</a>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="gold-rule"></div>
+
+  <!-- ===== TIMELINE ===== -->
+  <section id="timeline">
+    <div class="timeline-header animate-in">
+      <span class="label"
+        style="font-family:var(--font-mono);font-size:0.72rem;letter-spacing:0.3em;text-transform:uppercase;color:var(--gold);display:block;margin-bottom:1rem">25
+        Years of Milestones</span>
+      <h2 style="font-size:clamp(1.8rem,3vw,3rem);color:var(--white);margin-bottom:1rem">Our Journey Through Time</h2>
+      <div class="section-underline"></div>
+    </div>
+
+    <div class="timeline-wrap">
+
+      <div class="timeline-item right animate-in">
+        <div class="tl-empty"></div>
+        <div class="tl-node">
+          <div class="tl-dot"></div>
+          <span class="tl-year">1999</span>
+        </div>
+        <div class="tl-content">
+          <h3>The Founding</h3>
+          <p>MGS Jewellery opens its first workshop in P.J. Extension, Davanagere. A goldsmith's vision — pure gold,
+            transparent pricing, maker-direct to Davanagere families.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item left animate-in">
+        <div class="tl-content">
+          <h3>BIS Hallmarking Adoption</h3>
+          <p>MGS becomes one of the earliest independent jewellers in Davanagere to adopt full BIS 916 hallmarking,
+            guaranteeing gold purity to every customer — years before it became mandatory.</p>
+        </div>
+        <div class="tl-node">
+          <div class="tl-dot"></div>
+          <span class="tl-year">2003</span>
+        </div>
+        <div class="tl-empty"></div>
+      </div>
+
+
+      <div class="timeline-item left animate-in">
+        <div class="tl-content">
+          <h3>5,000 Families Milestone</h3>
+          <p>MGS Jewellery crosses 5,000 families served — spanning three generations of Davanagere households. A
+            testament to trust built one hallmarked piece at a time.</p>
+        </div>
+        <div class="tl-node">
+          <div class="tl-dot"></div>
+          <span class="tl-year">2014</span>
+        </div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="timeline-item right animate-in">
+        <div class="tl-empty"></div>
+        <div class="tl-node">
+          <div class="tl-dot"></div>
+          <span class="tl-year">2020</span>
+        </div>
+        <div class="tl-content">
+          <h3>HUID Hallmark Certification</h3>
+          <p>MGS adopts HUID (Hallmark Unique Identification) — India's gold traceability system — making every piece
+            digitally verifiable. A leap forward in buyer protection and transparency.</p>
+        </div>
+      </div>
+
+      <div class="timeline-item left animate-in">
+        <div class="tl-content">
+          <h3>Diamond & 18K Collection</h3>
+          <p>MGS expands into BIS-certified 18K gold diamond jewellery — serving the modern buyer who seeks contemporary
+            luxury without compromising on quality or traceability.</p>
+        </div>
+        <div class="tl-node">
+          <div class="tl-dot"></div>
+          <span class="tl-year">2022</span>
+        </div>
+        <div class="tl-empty"></div>
+      </div>
+
+      <div class="timeline-item right animate-in">
+        <div class="tl-empty"></div>
+        <div class="tl-node">
+          <div class="tl-dot"></div>
+          <span class="tl-year">2024</span>
+        </div>
+        <div class="tl-content">
+          <h3>Digital Transformation</h3>
+          <p>MGS launches its official digital presence — bringing live gold rates, the full jewellery collection,
+            festival offers, and a bespoke design studio directly to your screen. The legacy goes online.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="gold-rule"></div>
+
+  <!-- ===== MAKER'S DIFFERENCE ===== -->
+  <section id="makers-difference">
+    <div class="section-header animate-in" style="text-align:center;margin-bottom:4rem">
+      <span class="label">The Maker's Difference</span>
+      <h2>Why We're Different From Retail Chains</h2>
+      <p>Being a Goldsmith & Maker — not just a retailer — changes everything about how you buy gold.</p>
+      <div class="section-underline"></div>
+    </div>
+
+    <div class="makers-inner">
+
+      <div class="makers-text animate-in">
+        <h2>Maker Direct.<br>No Middlemen.<br><em
+            style="background:var(--gold-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">No
+            Brand Markups.</em></h2>
+        <p>Large jewellery chains buy jewellery from manufacturers, transport it across states, store it in warehouses,
+          display it in air-conditioned showrooms with hundreds of staff — and pass every rupee of that cost to you as
+          "making charges" and inflated wastage rates.</p>
+        <p>At MGS, we are the <strong style="color:var(--gold-bright)">manufacturer</strong>. Our Senior Goldsmith
+          crafts your jewellery on-site. When you buy from MGS, you pay for the gold — and only the gold.</p>
+
+      </div>
+
+      <div class="makers-visual animate-in">
+        <div class="makers-stat-card">
+
+          <span class="big-num">7.99%</span>
+          <span class="stat-label">Wastage Rate — Lowest in Davanagere</span>
+        </div>
+        <div class="makers-stat-card">
+
+          <span class="big-num">100%</span>
+          <span class="stat-label">Making Charges Off on Festival Offers</span>
+        </div>
+        <div class="makers-stat-card">
+
+          <span class="big-num">₹200</span>
+          <span class="stat-label">Extra Per Gram on Old Gold Exchange</span>
+        </div>
+        <div class="makers-stat-card">
+
+          <span class="big-num">24Yr</span>
+          <span class="stat-label">Goldsmith Experience — On-Site Crafting</span>
+        </div>
+        <div class="makers-stat-card wide">
+
+          <div>
+            <span class="big-num" style="font-size:1.6rem">Senior Goldsmith & Maker</span>
+            <span class="stat-label" style="display:block;margin-top:0.4rem;">Davanagere's only certified maker-direct
+              workshop with on-site crafting, HUID traceability, and bespoke design services.</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="gold-rule"></div>
+
+  <!-- ===== CRAFTSMANSHIP ===== -->
+  <section id="craftsmanship">
+    <div class="craft-header animate-in">
+      <span class="label">Our Craft</span>
+      <h2>The Art of the Goldsmith</h2>
+      <p>Each piece that leaves MGS carries the mark of century-old techniques married with modern precision.</p>
+      <div class="section-underline"></div>
+    </div>
+
+    <div class="craft-grid">
+      <div class="craft-card animate-in">
+
+        <h3>Wax-Casting & Lost-Wax Method</h3>
+        <p>Traditional South Indian jewellery uses the lost-wax (cire perdue) casting method — where a wax model is
+          encased in clay, the wax melted out, and molten gold poured in. Our master goldsmith has refined this
+          technique over two decades, achieving intricate detail that machines cannot replicate.</p>
+        <span class="craft-tag">Traditional Technique</span>
+      </div>
+      <div class="craft-card animate-in">
+
+        <h3>Hand Filigree & Engraving</h3>
+        <p>Filigree is the art of twisting fine gold wire into lace-like patterns. Our craftsmen hand-engrave temple
+          motifs, floral designs, and peacock patterns directly onto gold — creating one-of-a-kind pieces that cannot be
+          mass-produced. Every groove tells the story of the hand that made it.</p>
+        <span class="craft-tag">Artisan Craft</span>
+      </div>
+      <div class="craft-card animate-in">
+
+        <h3>Stone Setting & Jadau Work</h3>
+        <p>Our goldsmiths are trained in Jadau setting — the royal Rajputana art of embedding uncut gemstones (kundan)
+          into gold. We also set modern-cut rubies, emeralds, and certified diamonds with precision — ensuring stone and
+          gold are in harmony for lifetimes.</p>
+        <span class="craft-tag">Gemstone Excellence</span>
+      </div>
+      <div class="craft-card animate-in">
+
+        <h3>Karatmeter Purity Testing</h3>
+        <p>Every piece undergoes purity verification with calibrated XRF Karatmeter testing before being sent for
+          BIS/HUID hallmarking. We never presume purity — we prove it. The hallmark stamp on your jewellery is backed by
+          government certification and our own in-house quality assurance.</p>
+        <span class="craft-tag">Quality Assurance</span>
+      </div>
+      <div class="craft-card animate-in">
+
+        <h3>Meenakari Enamel Work</h3>
+        <p>Meenakari is the ancient art of filling gold with vibrant enamel colours — peacocks, flowers, and geometric
+          patterns brought to life. Our craftsmen source mineral-based enamel powders and fire them at precise
+          temperatures, creating jewellery that is as much artwork as it is gold.</p>
+        <span class="craft-tag">Heritage Art Form</span>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="gold-rule"></div>
+
+
+
+
+
+  <!-- ===== COMMUNITY IMPACT ===== -->
+  <section id="community">
+    <div class="section-header animate-in" style="text-align:center;margin-bottom:4rem">
+      <span class="label">Davanagere's Own</span>
+      <h2>Woven into the Community</h2>
+      <p>Five thousand families. Three generations. One unwavering goldsmith's promise.</p>
+      <div class="section-underline"></div>
+    </div>
+
+    <div class="community-inner">
+      <div class="community-text animate-in">
+        <h2>Trusted Across Generations</h2>
+        <p>
+          In Davanagere, gold is not purchased — it is inherited, gifted, and celebrated. MGS Jewellery has been part of
+          the most important moments in over <strong style="color:var(--gold-bright)">5,000 Davanagere families</strong>
+          — weddings, childbirths, festivals, and anniversaries.
+        </p>
+        <p>
+          Our customers are not just buyers. They are the grandmothers who bring their daughters for bridal sets, the
+          fathers who save for a daughter's wedding necklace, the young professionals buying their first gold
+          investment. We know them. We serve them. We earn their trust anew with every purchase.
+        </p>
+        <p>
+          MGS Jewellery is proud to support local artisans, employ Davanagere craftspeople, and keep the tradition of
+          goldsmithing alive in our city — ensuring that the craft of our ancestors remains a living, breathing art form
+          in the next generation.
+        </p>
+        <a href="https://wa.me/919876543210?text=Hello%20MGS%20Jewellery!%20I%27d%20like%20to%20visit%20your%20store."
+          target="_blank" class="btn btn-gold" id="community-wa-btn" style="margin-top:1.5rem">Visit Us Today ▸</a>
+      </div>
+
+      <div class="testimonials-stack animate-in">
+        <div class="testimonial-card">
+          <blockquote>"My daughter's entire bridal set — necklace, bangles, earrings, and mangalsutra — was crafted at
+            MGS. The quality and the price were both exceptional. No other store in Davanagere comes close."
+          </blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SR</div>
+            <div class="reviewer-info">
+              <span class="name">Shobha Ramaiah</span>
+              <span class="loc">P.J. Extension, Davanagere</span>
+            </div>
+            <span class="review-stars">★★★★★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <blockquote>"I've been buying gold from MGS for 15 years. Their wastage rate is genuinely the lowest — I've
+            checked. And when I showed them my daughter's design sketch, they crafted it perfectly within a week."
+          </blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">VK</div>
+            <div class="reviewer-info">
+              <span class="name">Venkatesh Kumar</span>
+              <span class="loc">MCC B Block, Davanagere</span>
+            </div>
+            <span class="review-stars">★★★★★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <blockquote>"I was skeptical about the 7.99% wastage claim. But they showed me the full calculation, the BIS
+            certificate, the HUID. Fully transparent. I've referred all my relatives here."</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">PM</div>
+            <div class="reviewer-info">
+              <span class="name">Priya Manjunath</span>
+              <span class="loc">Bapuji Nagar, Davanagere</span>
+            </div>
+            <span class="review-stars">★★★★★</span>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <blockquote>"Bought a custom ring for my wife's anniversary. The Senior Goldsmith personally guided us through
+            the design. The final piece looked better than I imagined. Pure 22K, HUID certified."</blockquote>
+          <div class="reviewer">
+            <div class="reviewer-avatar">AJ</div>
+            <div class="reviewer-info">
+              <span class="name">Arun Joshi</span>
+              <span class="loc">3rd Stage, Davanagere</span>
+            </div>
+            <span class="review-stars">★★★★★</span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="gold-rule"></div>
+  <div class="gold-rule"></div>
 
-<!-- ===== MGS PROMISE ===== -->
-<section id="promise">
-  <div class="promise-inner">
-    <span class="eyebrow animate-in">Our Commitment to You</span>
-    <h2 class="animate-in">The <em>MGS Promise</em></h2>
-    <p class="animate-in">Every piece we craft, every rate we quote, every hallmark we stamp — is a promise. A promise made in 1999 that we renew with every family we serve.</p>
+  <!-- ===== MGS PROMISE ===== -->
+  <section id="promise">
+    <div class="promise-inner">
+      <span class="eyebrow animate-in">Our Commitment to You</span>
+      <h2 class="animate-in">The <em>MGS Promise</em></h2>
+      <p class="animate-in">Every piece we craft, every rate we quote, every hallmark we stamp — is a promise. A promise
+        made in 1999 that we renew with every family we serve.</p>
 
-    <div class="promise-pillars animate-in">
-      <div class="pillar">
+      <div class="promise-pillars animate-in">
+        <div class="pillar">
 
-        <h4>Purity</h4>
-        <p>100% BIS & HUID certified gold. Every single piece.</p>
+          <h4>Purity</h4>
+          <p>100% BIS & HUID certified gold. Every single piece.</p>
+        </div>
+        <div class="pillar">
+
+          <h4>Transparency</h4>
+          <p>Full price breakdown — gold rate, wastage, making. No hidden charges.</p>
+        </div>
+        <div class="pillar">
+
+          <h4>Craftsmanship</h4>
+          <p>On-site goldsmith. Custom bespoke making. Zero outsourcing.</p>
+        </div>
+        <div class="pillar">
+
+          <h4>Value</h4>
+          <p>7.99% wastage. Festive making charge waivers. Best exchange rates.</p>
+        </div>
       </div>
-      <div class="pillar">
 
-        <h4>Transparency</h4>
-        <p>Full price breakdown — gold rate, wastage, making. No hidden charges.</p>
-      </div>
-      <div class="pillar">
+      <div class="promise-cta animate-in">
+        <a href="collections.html" class="btn btn-gold" id="promise-collection-btn">Explore Our Collection ▸</a>
 
-        <h4>Craftsmanship</h4>
-        <p>On-site goldsmith. Custom bespoke making. Zero outsourcing.</p>
-      </div>
-      <div class="pillar">
-
-        <h4>Value</h4>
-        <p>7.99% wastage. Festive making charge waivers. Best exchange rates.</p>
-      </div>
-    </div>
-
-    <div class="promise-cta animate-in">
-      <a href="collections.html" class="btn btn-gold" id="promise-collection-btn">Explore Our Collection ▸</a>
-
-    </div>
-  </div>
-</section>
-
-<!-- ===== FOOTER ===== -->
-<footer id="site-footer">
-  <div class="footer-grid">
-    <div class="footer-brand">
-      <span class="logo">MGS JEWELLERY</span>
-      <p>Senior Goldsmith & Maker, Davanagere since 1999. Crafting pure gold heirlooms with HUID & BIS hallmark certification. Your trust, our legacy.</p>
-      <div class="footer-social">
-        <a href="#" id="footer-fb" aria-label="Facebook">Facebook</a>
-        <a href="#" id="footer-ig" aria-label="Instagram">Instagram</a>
-        <a href="https://wa.me/919876543210" target="_blank" id="footer-wa" aria-label="WhatsApp">WhatsApp</a>
-        <a href="#" id="footer-yt" aria-label="YouTube">YouTube</a>
       </div>
     </div>
-    <div class="footer-col">
-      <h4>Collections</h4>
-      <ul>
-        <li><a href="collections.html#necklaces">Necklaces & Sets</a></li>
-        <li><a href="collections.html#bangles">Bangles</a></li>
-        <li><a href="collections.html#earrings">Earrings</a></li>
-        <li><a href="collections.html#rings">Rings</a></li>
-        <li><a href="collections.html#chains">Chains</a></li>
-        <li><a href="collections.html#mangalsutra">Mangalsutra</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Heritage</h4>
-      <ul>
-        <li><a href="#founding">Our Story</a></li>
-        <li><a href="#timeline">25-Year Journey</a></li>
-        <li><a href="#makers-difference">Maker's Difference</a></li>
-        <li><a href="#craftsmanship">Craftsmanship</a></li>
-        <li><a href="#hallmark">Hallmark & Purity</a></li>
-        <li><a href="#community">Community</a></li>
-      </ul>
-    </div>
-    <div class="footer-col">
-      <h4>Contact</h4>
-      <ul>
-        <li><a href="tel:+917892314633">📞 +91 78923 14633</a></li>
-        <li><a href="https://wa.me/917892314633">✦ WhatsApp</a></li>
-        <li><a href="mailto:mgsjewellerydvg@gmail.com">✉ mgsjewellerydvg@gmail.com</a></li>
-      </ul>
+  </section>
 
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2024 MGS Jewellery · Est. 1999 · Davanagere, Karnataka · All Rights Reserved</span>
-    <div class="footer-hallmarks">
-      <span>HUID HALLMARK</span>
-      <span>BIS 916</span>
-      <span>22K PURE GOLD</span>
-    </div>
-  </div>
-</footer>
+  <!-- ===== FOOTER ===== -->
+  <footer id="site-footer">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <span class="logo">MGS JEWELLERY</span>
+        <p>Senior Goldsmith & Maker, Davanagere since 1999. Crafting pure gold heirlooms with HUID & BIS hallmark
+          certification. Your trust, our legacy.</p>
+        <div class="footer-social">
+          <a href="https://www.facebook.com/61560854242615/" id="footer-fb" aria-label="Facebook">
+            <svg class="svg-gold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path
+                d="M22 12a10 10 0 1 0-11.5 9.9v-7h-2v-3h2v-2.3c0-2 1.2-3.1 3-3.1.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2V12h2.3l-.4 3h-1.9v7A10 10 0 0 0 22 12z" />
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/_mgs_jewellers_?igsh=MWh5NzFicWFwdWR5cA%3D%3D&utm_source=qr" id="footer-ig"
+            aria-label="Instagram" target="_blank">
+            <svg class="svg-gold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path
+                d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm5 5.5a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+            </svg>
+          </a>
+          <a href="https://wa.me/917892314633" target="_blank" id="footer-wa" aria-label="WhatsApp">
+            <svg class="svg-gold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path
+                d="M20.5 3.5A11 11 0 0 0 3.5 20.5L3 22l1.5-.5A11 11 0 0 0 20.5 3.5zM17 15.2c-.3.9-1.6 1.8-2.2 1.9-.6.2-1 .2-1.8-.1-2.9-1-5-3.6-5.4-3.9-.4-.4-1-.6-1.2-.9-.2-.3-.2-.6.2-1 .4-.4.9-1 1.4-1.1.5-.2 1-.2 1.5.2.5.4 1.6 1.8 3 3 1 1 1.5 1.4 1.8 1.9.3.5.2.9 0 1.1z" />
+            </svg>
+          </a>
+          <a href="#" id="footer-yt" aria-label="YouTube">
+            <svg class="svg-gold" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path
+                d="M23 7.5s-.2-1.6-.8-2.3c-.8-1-1.7-1-2.1-1.1C16.6 4 12 4 12 4s-4.6 0-7.1.1c-.4.1-1.3.1-2.1 1.1C2.2 5.9 2 7.5 2 7.5S2 9.2 2 10.8v2.4C2 16.8 4.3 18 4.3 18s1.1.3 3.7.3c2.6 0 7.1.1 7.1.1s4.6 0 7.1-.1c2.6 0 3.7-.3 3.7-.3s2.3-1.2 2.3-3.3v-2.4c0-1.6-.2-3.3-.2-3.3zM9.8 14V8l5.2 3-5.2 3z" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Collections</h4>
+        <ul>
+          <li><a href="collections.html#necklaces">Necklaces & Sets</a></li>
+          <li><a href="collections.html#bangles">Bangles</a></li>
+          <li><a href="collections.html#earrings">Earrings</a></li>
+          <li><a href="collections.html#rings">Rings</a></li>
+          <li><a href="collections.html#chains">Chains</a></li>
+          <li><a href="collections.html#mangalsutra">Mangalsutra</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Services</h4>
+        <ul>
 
-<script src="global.js"></script>
+          <li><a href="calculator.html">Gold Calculator</a></li>
+          <li><a href="offers.html">Festival Offers</a></li>
+
+          <li><a href="heritage.html">Heritage Story</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:+918025000000">📞 +91 80 2500 0000</a></li>
+          <li><a href="https://wa.me/917892314633">✦ WhatsApp</a></li>
+          <li><a href="mailto:info@mgsjewellery.com">✉ info@mgsjewellery.com</a></li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="developer-credit" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
+        <a href="https://trigonvertexskp.vercel.app/" target="_blank"
+          style="font-weight: 800; font-size: 1.1rem; color: var(--gold-bright); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase;">Developed
+          by Trigon Vertex</a>
+        <a href="mailto:sarvammayadev@gmail.com" target="_blank" class="btn btn-outline"
+          style="padding: 0.4rem 1.2rem; font-size: 0.8rem; border-color: var(--gold-dim); color: var(--gold-bright);">Contact
+          Us</a>
+      </div>
+      <div class="footer-hallmarks">
+        <span>HUID HALLMARK</span>
+        <span>BIS 916</span>
+        <span>22K PURE GOLD</span>
+      </div>
+    </div>
+  </footer>  <script src="global.js"></script>
 </body>
+
 </html>

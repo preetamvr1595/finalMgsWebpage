@@ -30,37 +30,14 @@ async function loadProducts() {
       desc: p.description || p.desc || ''
     }));
     
-    renderFilters();
-    renderProducts(activeFilter);
+    // renderFilters();
+    // renderProducts(activeFilter);
   } catch (e) {
     console.error('Error loading products', e);
   }
 }
 
-function renderFilters() {
-  const filterContainer = document.querySelector('.collection-filter');
-  if (!filterContainer) return;
 
-  const categories = [...new Set(products.map(p => p.category).filter(Boolean))];
-  
-  filterContainer.innerHTML = `
-    <button class="filter-btn ${activeFilter === 'all' ? 'active' : ''}" data-filter="all">All</button>
-  ` + categories.map(cat => `
-    <button class="filter-btn ${activeFilter === cat ? 'active' : ''}" data-filter="${cat}">
-      ${cat.charAt(0).toUpperCase() + cat.slice(1)}
-    </button>
-  `).join('');
-
-  // Re-attach listeners
-  filterContainer.querySelectorAll('.filter-btn').forEach(btn => {
-    btn.addEventListener('click', () => {
-      filterContainer.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      activeFilter = btn.dataset.filter;
-      renderProducts(activeFilter);
-    });
-  });
-}
 
 async function loadOffers() {
   try {
@@ -127,43 +104,7 @@ function getWhatsAppMsg(productName) {
   return `https://wa.me/919876543210?text=Hello%20MGS%20Jewellery!%20I%27m%20interested%20in%20the%20*${encodeURIComponent(productName)}*.%20Please%20share%20the%20current%20price%20and%20availability.`;
 }
 
-function renderProducts(filter = 'all') {
-  const grid = document.getElementById('product-grid');
-  if (!grid) return;
 
-  const filtered = (filter === 'all') 
-    ? products 
-    : products.filter(p => 
-        (p.category && p.category.toLowerCase() === filter.toLowerCase()) || 
-        (p.tag && p.tag.toLowerCase() === filter.toLowerCase())
-      );
-
-  if (filtered.length === 0) {
-    grid.innerHTML = `<div style="grid-column:1/-1;text-align:center;padding:4rem;color:var(--muted)">No items found in this category.</div>`;
-    return;
-  }
-
-  grid.innerHTML = filtered.map(p => `
-    <div class="product-card animate-in" data-id="${p.id}">
-      <div class="product-card-img image-frame">
-        <img src="${p.image}" alt="${p.name} — ${p.hallmark} Hallmark, MGS Jewellery Davanagere" loading="lazy" onerror="this.src='assets/placeholder.png'">
-      </div>
-      <div class="product-card-info">
-        <div class="pc-hallmark-row">
-          <span class="hallmark-badge">${p.hallmark} Hallmark</span>
-          <span class="hallmark-badge">${p.purity}</span>
-        </div>
-        <h3>${p.name}</h3>
-        <div class="pc-meta">${p.weight} · ${p.desc.substring(0, 42)}…</div>
-        <div class="product-card-actions">
-          <a href="${getWhatsAppMsg(p.name)}" target="_blank" class="btn btn-whatsapp" id="wa-${p.id}">✦ WhatsApp Inquiry</a>
-        </div>
-      </div>
-    </div>
-  `).join('');
-
-  grid.querySelectorAll('.animate-in').forEach(el => animObserver.observe(el));
-}
 
 // Filter buttons are now handled by renderFilters()
 

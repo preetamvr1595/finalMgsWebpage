@@ -1,2134 +1,2734 @@
 {
   "products": [
     {
+      "name": "Royal Heritage Nakshi Bridal Choker Set [Gilded Edition]",
+      "price": 146929,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bridal_sets_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "21.47g",
+      "category": "bridal",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bridal_0"
+    },
+    {
+      "name": "Gilded Temple Kundan Haram Set [Gilded Edition]",
+      "price": 169143,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bridal_sets_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "24.72g",
+      "category": "bridal",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bridal_1"
+    },
+    {
+      "name": "Maharani Antique Gold Bridal Set [Gilded Edition]",
+      "price": 193189,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bridal_sets_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "28.24g",
+      "category": "bridal",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bridal_2"
+    },
+    {
+      "name": "Imperial Gold Filigree Bridal Haar [Gilded Edition]",
+      "price": 217870,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bridal_sets_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "31.84g",
+      "category": "bridal",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bridal_3"
+    },
+    {
+      "name": "Exquisite Lakshmi Kasulaperu Set [Gilded Edition]",
+      "price": 241533,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bridal_sets_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "35.30g",
+      "category": "bridal",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bridal_4"
+    },
+    {
+      "name": "Divine Temple South-Indian Bridal Haar [Gilded Edition]",
+      "price": 265434,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bridal_sets_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "38.79g",
+      "category": "bridal",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bridal_5"
+    },
+    {
+      "name": "Sparkling Solitaire Diamond Choker [Gilded Edition]",
+      "price": 110526,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/diamond_1.png"
+      ],
+      "hallmark": "HUID & IGI Certified",
+      "purity": "18K Gold & VS Diamond",
+      "weight": "16.15g",
+      "category": "diamond",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_diamond_0"
+    },
+    {
+      "name": "Ethereal Emerald & Diamond Neckpiece [Gilded Edition]",
+      "price": 145645,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/diamond_2.png"
+      ],
+      "hallmark": "HUID & IGI Certified",
+      "purity": "18K Gold & VS Diamond",
+      "weight": "21.29g",
+      "category": "diamond",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_diamond_1"
+    },
+    {
+      "name": "Brilliant-Cut Floral Diamond Necklace [Gilded Edition]",
+      "price": 179359,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/diamond_1.png"
+      ],
+      "hallmark": "HUID & IGI Certified",
+      "purity": "18K Gold & VS Diamond",
+      "weight": "26.21g",
+      "category": "diamond",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_diamond_2"
+    },
+    {
+      "name": "Luxury Cascade Diamond Gold Choker [Gilded Edition]",
+      "price": 212167,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/diamond_2.png"
+      ],
+      "hallmark": "HUID & IGI Certified",
+      "purity": "18K Gold & VS Diamond",
+      "weight": "31.01g",
+      "category": "diamond",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_diamond_3"
+    },
+    {
+      "name": "Classic Teardrop Diamond Haram Set [Gilded Edition]",
+      "price": 246048,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/diamond_1.png"
+      ],
+      "hallmark": "HUID & IGI Certified",
+      "purity": "18K Gold & VS Diamond",
+      "weight": "35.96g",
+      "category": "diamond",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_diamond_4"
+    },
+    {
+      "name": "Luminous Gold Embedded Diamond Set [Gilded Edition]",
+      "price": 281567,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/diamond_2.png"
+      ],
+      "hallmark": "HUID & IGI Certified",
+      "purity": "18K Gold & VS Diamond",
+      "weight": "41.15g",
+      "category": "diamond",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_diamond_5"
+    },
+    {
+      "name": "Classic 22K Gold Filigree Choker [Gilded Edition]",
+      "price": 46748,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.83g",
+      "category": "necklaces",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_necklaces_0"
+    },
+    {
+      "name": "Royal South-Indian Temple Haram [Gilded Edition]",
+      "price": 59605,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "8.71g",
+      "category": "necklaces",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_necklaces_1"
+    },
+    {
+      "name": "Vibrant Ruby Embedded Gold Necklace [Gilded Edition]",
+      "price": 73836,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "10.79g",
+      "category": "necklaces",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_necklaces_2"
+    },
+    {
+      "name": "Ornate Coin Necklace with Pearls [Gilded Edition]",
+      "price": 88550,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "12.94g",
+      "category": "necklaces",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_necklaces_3"
+    },
+    {
+      "name": "Delicate Textured Gold Collar Choker [Gilded Edition]",
+      "price": 102792,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "15.02g",
+      "category": "necklaces",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_necklaces_4"
+    },
+    {
+      "name": "Vintage Gold Leaf Statement Necklace [Gilded Edition]",
+      "price": 115863,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "16.93g",
+      "category": "necklaces",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_necklaces_5"
+    },
+    {
+      "name": "Peacock Antique Kada Pair [Gilded Edition]",
+      "price": 28073,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "4.10g",
+      "category": "bangles",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bangles_0"
+    },
+    {
+      "name": "Filigree Gold Bangle with Ruby Accents [Gilded Edition]",
+      "price": 37689,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.51g",
+      "category": "bangles",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bangles_1"
+    },
+    {
+      "name": "Solid Gold Temple Design Kada Pair [Gilded Edition]",
+      "price": 46772,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.84g",
+      "category": "bangles",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bangles_2"
+    },
+    {
+      "name": "Ornate Royal South-Indian Kada Set [Gilded Edition]",
+      "price": 56325,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "8.23g",
+      "category": "bangles",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bangles_3"
+    },
+    {
+      "name": "Dazzling Diamond Studded Gold Bangle [Gilded Edition]",
+      "price": 63603,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "9.30g",
+      "category": "bangles",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bangles_4"
+    },
+    {
+      "name": "Classic 22K Polished Gold Bangle Set [Gilded Edition]",
+      "price": 72953,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "10.66g",
+      "category": "bangles",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_bangles_5"
+    },
+    {
+      "name": "Royal Ruby & Pearl South-Indian Jhumkas [Gilded Edition]",
+      "price": 15152,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/earrings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.21g",
+      "category": "earrings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_earrings_0"
+    },
+    {
+      "name": "Elegant Chandelier Pearl Drop Earrings [Gilded Edition]",
+      "price": 20716,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/earrings_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.03g",
+      "category": "earrings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_earrings_1"
+    },
+    {
+      "name": "Ornate Peacock Carved Gold Studs [Gilded Edition]",
+      "price": 25066,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/earrings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.66g",
+      "category": "earrings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_earrings_2"
+    },
+    {
+      "name": "Modern Diamond Studded Gold Drop Earrings [Gilded Edition]",
+      "price": 29364,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/earrings_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "4.29g",
+      "category": "earrings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_earrings_3"
+    },
+    {
+      "name": "Classic 22K Gold Filigree Hoop Earrings [Gilded Edition]",
+      "price": 35198,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/earrings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.14g",
+      "category": "earrings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_earrings_4"
+    },
+    {
+      "name": "Luxury Temple Style Gold Chandbalis [Gilded Edition]",
+      "price": 39620,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/earrings_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.79g",
+      "category": "earrings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_earrings_5"
+    },
+    {
+      "name": "Royal Floral Filigree Gold Ring [Gilded Edition]",
+      "price": 10744,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.57g",
+      "category": "rings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_rings_0"
+    },
+    {
+      "name": "Modern Brilliant Diamond Cluster Ring [Gilded Edition]",
+      "price": 14045,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.05g",
+      "category": "rings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_rings_1"
+    },
+    {
+      "name": "Antique South-Indian Temple Gold Ring [Gilded Edition]",
+      "price": 18227,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.66g",
+      "category": "rings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_rings_2"
+    },
+    {
+      "name": "Ornate Ruby Statement Gold Ring [Gilded Edition]",
+      "price": 21957,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.21g",
+      "category": "rings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_rings_3"
+    },
+    {
+      "name": "Classic 22K Twisted Gold Band Ring [Gilded Edition]",
+      "price": 24721,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.61g",
+      "category": "rings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_rings_4"
+    },
+    {
+      "name": "Luxurious Emerald Cabochon Ring [Gilded Edition]",
+      "price": 28231,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "4.13g",
+      "category": "rings",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_rings_5"
+    },
+    {
+      "name": "Classic Heavy 22K Gold Rope Chain [Gilded Edition]",
+      "price": 25852,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/chains_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.78g",
+      "category": "chains",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_chains_0"
+    },
+    {
+      "name": "Highly Polished Box Chain Set [Gilded Edition]",
+      "price": 33354,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/chains_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "4.87g",
+      "category": "chains",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_chains_1"
+    },
+    {
+      "name": "Italian Design Gold Curb Link Chain [Gilded Edition]",
+      "price": 40541,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/chains_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.93g",
+      "category": "chains",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_chains_2"
+    },
+    {
+      "name": "Sleek Singapore Twist Gold Chain [Gilded Edition]",
+      "price": 50242,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/chains_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "7.34g",
+      "category": "chains",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_chains_3"
+    },
+    {
+      "name": "Ornate Franco Link Gold Chain Set [Gilded Edition]",
+      "price": 57925,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/chains_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "8.47g",
+      "category": "chains",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_chains_4"
+    },
+    {
+      "name": "Vintage Hexagonal Wheat Gold Chain [Gilded Edition]",
+      "price": 66689,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/chains_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "9.75g",
+      "category": "chains",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_chains_5"
+    },
+    {
+      "name": "Modern Circular Black Bead Mangalsutra [Gilded Edition]",
+      "price": 22855,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/mangalsutra_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.34g",
+      "category": "mangalsutra",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_mangalsutra_0"
+    },
+    {
+      "name": "Traditional Sacred Vat Mani Mangalsutra [Gilded Edition]",
+      "price": 35121,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.13g",
+      "category": "mangalsutra",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_mangalsutra_1"
+    },
+    {
+      "name": "Teardrop Diamond Accent Mangalsutra [Gilded Edition]",
+      "price": 44781,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/mangalsutra_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.55g",
+      "category": "mangalsutra",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_mangalsutra_2"
+    },
+    {
+      "name": "Royal Antique Coin Pendant Mangalsutra [Gilded Edition]",
+      "price": 57054,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/chains_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "8.34g",
+      "category": "mangalsutra",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_mangalsutra_3"
+    },
+    {
+      "name": "Dainty Leaf Pattern Gold Mangalsutra [Gilded Edition]",
+      "price": 67393,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/mangalsutra_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "9.85g",
+      "category": "mangalsutra",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_mangalsutra_4"
+    },
+    {
+      "name": "Sleek Contemporary Double Chain Mangalsutra [Gilded Edition]",
+      "price": 79177,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/necklaces_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "11.57g",
+      "category": "mangalsutra",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_mangalsutra_5"
+    },
+    {
+      "name": "Royal Anklets with Delicate Gold Bells [Gilded Edition]",
+      "price": 13248,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/anklets_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.94g",
+      "category": "anklets",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_anklets_0"
+    },
+    {
+      "name": "Filigree Embossed 22K Gold Anklets [Gilded Edition]",
+      "price": 17338,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.53g",
+      "category": "anklets",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_anklets_1"
+    },
+    {
+      "name": "Delicate Gold Bead Ghungroo Payal [Gilded Edition]",
+      "price": 21677,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/anklets_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.17g",
+      "category": "anklets",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_anklets_2"
+    },
+    {
+      "name": "Traditional South-Indian Heavy Anklets [Gilded Edition]",
+      "price": 26117,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.82g",
+      "category": "anklets",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_anklets_3"
+    },
+    {
+      "name": "Elegant Pearl Bordered Gold Anklets [Gilded Edition]",
+      "price": 31573,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/anklets_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "4.61g",
+      "category": "anklets",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_anklets_4"
+    },
+    {
+      "name": "Modern Slim Gold Payal Pair [Gilded Edition]",
+      "price": 35230,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/bangles_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.15g",
+      "category": "anklets",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_anklets_5"
+    },
+    {
+      "name": "Lakshmi Prosperity Gold Coin Pendant [Gilded Edition]",
+      "price": 7838,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/pendants_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.15g",
+      "category": "pendants",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_pendants_0"
+    },
+    {
+      "name": "Divine Ganesha Nakshi Carving Pendant [Gilded Edition]",
+      "price": 11448,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.67g",
+      "category": "pendants",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_pendants_1"
+    },
+    {
+      "name": "Brilliant Floral Diamond Gold Pendant [Gilded Edition]",
+      "price": 13983,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/pendants_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.04g",
+      "category": "pendants",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_pendants_2"
+    },
+    {
+      "name": "Ornate Peacock Patterned Temple Pendant [Gilded Edition]",
+      "price": 17503,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_2.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.56g",
+      "category": "pendants",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_pendants_3"
+    },
+    {
+      "name": "Classic 22K Sacred Om Gold Pendant [Gilded Edition]",
+      "price": 19540,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/pendants_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.86g",
+      "category": "pendants",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_pendants_4"
+    },
+    {
+      "name": "Timeless Filigree Teardrop Gold Pendant [Gilded Edition]",
+      "price": 23913,
+      "description": "Bespoke handcrafted gold piece from MGS Jewellery Davanagere. Inspiring premium gold background aesthetics, BIS and HUID hallmarked for pristine quality.",
+      "images": [
+        "assets/nano_banana/rings_1.png"
+      ],
+      "hallmark": "HUID Certified",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.50g",
+      "category": "pendants",
+      "tag": "exclusive",
+      "_id": "prod_banana_exclusive_pendants_5"
+    },
+    {
       "name": "Royal Bridal Necklace Set",
-      "price": 182150,
+      "price": 90813,
       "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/6.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "26.62g",
+      "weight": "13.27g",
       "category": "bridal",
       "tag": "bridal",
-      "_id": "prod_1778728951005_0"
+      "_id": "prod_original_bridal_0"
     },
     {
       "name": "Temple Kasumalai",
-      "price": 148255,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/13.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "21.67g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_1"
-    },
-    {
-      "name": "Antique Bridal Choker",
-      "price": 95529,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/8.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "13.96g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_2"
-    },
-    {
-      "name": "Gold Temple Necklace",
-      "price": 148265,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/20.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "21.67g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_3"
-    },
-    {
-      "name": "Bridal Haar",
-      "price": 122388,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/10.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "17.89g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_4"
-    },
-    {
-      "name": "South Indian Bridal Set",
-      "price": 162426,
+      "price": 172599,
       "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/5.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "23.74g",
+      "weight": "25.23g",
       "category": "bridal",
       "tag": "bridal",
-      "_id": "prod_1778728951005_5"
+      "_id": "prod_original_bridal_1"
     },
     {
-      "name": "Magnificent Bridal Set",
-      "price": 204758,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/22.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "29.93g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_6"
-    },
-    {
-      "name": "Traditional Bridal Haar",
-      "price": 148773,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/16.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "21.74g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_7"
-    },
-    {
-      "name": "Wedding Gold Set",
-      "price": 93805,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/11.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "13.71g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_8"
-    },
-    {
-      "name": "Antique Nakshi Set",
-      "price": 110879,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/1.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "16.21g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_9"
-    },
-    {
-      "name": "Bridal Jwell",
-      "price": 171735,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/18.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "25.10g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_10"
-    },
-    {
-      "name": "Classic Bridal Collection",
-      "price": 149371,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/17.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "21.83g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_11"
-    },
-    {
-      "name": "Ornate Bridal Set",
-      "price": 112879,
-      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/19.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "16.50g",
-      "category": "bridal",
-      "tag": "bridal",
-      "_id": "prod_1778728951005_12"
-    },
-    {
-      "name": "Royal Bridal Jhumka Set",
-      "price": 134216,
+      "name": "Antique Bridal Choker",
+      "price": 124432,
       "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/15.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "19.62g",
+      "weight": "18.19g",
       "category": "bridal",
       "tag": "bridal",
-      "_id": "prod_1778728951005_13"
+      "_id": "prod_original_bridal_2"
     },
     {
-      "name": "Maharani Bridal Set",
-      "price": 128855,
+      "name": "Gold Temple Necklace",
+      "price": 175084,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/9.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "25.59g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_3"
+    },
+    {
+      "name": "Bridal Haar",
+      "price": 126725,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/23.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "18.52g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_4"
+    },
+    {
+      "name": "South Indian Bridal Set",
+      "price": 195272,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/13.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "28.54g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_5"
+    },
+    {
+      "name": "Magnificent Bridal Set",
+      "price": 101282,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/2.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "14.80g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_6"
+    },
+    {
+      "name": "Traditional Bridal Haar",
+      "price": 185624,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/kasumalai.png"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "27.13g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_7"
+    },
+    {
+      "name": "Wedding Gold Set",
+      "price": 202058,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/16.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "29.53g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_8"
+    },
+    {
+      "name": "Antique Nakshi Set",
+      "price": 188822,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/18.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "27.60g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_9"
+    },
+    {
+      "name": "Bridal Jwell",
+      "price": 150075,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/12.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "21.93g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_10"
+    },
+    {
+      "name": "Classic Bridal Collection",
+      "price": 158962,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/1.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "23.23g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_11"
+    },
+    {
+      "name": "Ornate Bridal Set",
+      "price": 155192,
       "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/25.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "18.83g",
+      "weight": "22.68g",
       "category": "bridal",
       "tag": "bridal",
-      "_id": "prod_1778728951005_14"
+      "_id": "prod_original_bridal_12"
     },
     {
-      "name": "Lakshmi Pendant Necklace",
-      "price": 74969,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Royal Bridal Jhumka Set",
+      "price": 194520,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/24.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "10.96g",
-      "category": "necklaces",
-      "tag": "new",
-      "_id": "prod_1778728951005_15"
+      "weight": "28.43g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_13"
     },
     {
-      "name": "Gold Chain with Pendant",
-      "price": 62119,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Maharani Bridal Set",
+      "price": 203203,
+      "description": "Exquisite 22K bridal from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/12.jpeg"
+        "assets/images/3.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "9.08g",
+      "weight": "29.70g",
+      "category": "bridal",
+      "tag": "bridal",
+      "_id": "prod_original_bridal_14"
+    },
+    {
+      "name": "Lakshmi Pendant Necklace",
+      "price": 126913,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/16.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "18.55g",
+      "category": "necklaces",
+      "tag": "new",
+      "_id": "prod_original_necklaces_0"
+    },
+    {
+      "name": "Gold Chain with Pendant",
+      "price": 67431,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/22.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "9.86g",
       "category": "necklaces",
       "tag": "",
-      "_id": "prod_1778728951005_16"
+      "_id": "prod_original_necklaces_1"
     },
     {
       "name": "Antique Ruby Necklace",
-      "price": 67811,
+      "price": 75873,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/17.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "11.09g",
+      "category": "necklaces",
+      "tag": "",
+      "_id": "prod_original_necklaces_2"
+    },
+    {
+      "name": "Modern Leaf Gold Necklace",
+      "price": 83465,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/18.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "12.20g",
+      "category": "necklaces",
+      "tag": "",
+      "_id": "prod_original_necklaces_3"
+    },
+    {
+      "name": "Filigree Gold Necklace",
+      "price": 45678,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/19.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.68g",
+      "category": "necklaces",
+      "tag": "new",
+      "_id": "prod_original_necklaces_4"
+    },
+    {
+      "name": "Gold Rani Haar",
+      "price": 83097,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/8.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "12.15g",
+      "category": "necklaces",
+      "tag": "",
+      "_id": "prod_original_necklaces_5"
+    },
+    {
+      "name": "Pearl & Gold Necklace",
+      "price": 54044,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/5.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "7.90g",
+      "category": "necklaces",
+      "tag": "",
+      "_id": "prod_original_necklaces_6"
+    },
+    {
+      "name": "Gemstone Pendant Set",
+      "price": 64017,
       "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/hero_necklace.png"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "9.91g",
+      "weight": "9.36g",
       "category": "necklaces",
       "tag": "",
-      "_id": "prod_1778728951005_17"
-    },
-    {
-      "name": "Modern Leaf Gold Necklace",
-      "price": 122140,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/21.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "17.85g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_18"
-    },
-    {
-      "name": "Filigree Gold Necklace",
-      "price": 65992,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/14.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "9.65g",
-      "category": "necklaces",
-      "tag": "new",
-      "_id": "prod_1778728951005_19"
-    },
-    {
-      "name": "Gold Rani Haar",
-      "price": 77573,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/2.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "11.34g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_20"
-    },
-    {
-      "name": "Pearl & Gold Necklace",
-      "price": 75695,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/23.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "11.06g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_21"
-    },
-    {
-      "name": "Gemstone Pendant Set",
-      "price": 55253,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/mangalsutra.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.08g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_22"
+      "_id": "prod_original_necklaces_7"
     },
     {
       "name": "Gold Mangalsutra",
-      "price": 56711,
+      "price": 94676,
       "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/3.jpeg"
+        "assets/images/15.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "8.29g",
-      "category": "mangalsutra",
+      "weight": "13.84g",
+      "category": "necklaces",
       "tag": "new",
-      "_id": "prod_1778728951005_23"
+      "_id": "prod_original_necklaces_8"
     },
     {
       "name": "Traditional Long Necklace",
-      "price": 57102,
+      "price": 113180,
       "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/4.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.35g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_24"
-    },
-    {
-      "name": "Kundan Necklace",
-      "price": 116453,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/kasumalai.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "17.02g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_25"
-    },
-    {
-      "name": "Gold Choker",
-      "price": 112850,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/7.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "16.49g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_26"
-    },
-    {
-      "name": "Bejeweled Necklace",
-      "price": 101725,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/9.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "14.87g",
-      "category": "necklaces",
-      "tag": "new",
-      "_id": "prod_1778728951005_27"
-    },
-    {
-      "name": "Designer Gold Necklace",
-      "price": 93623,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/hero_main.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "13.68g",
-      "category": "necklaces",
-      "tag": "",
-      "_id": "prod_1778728951005_28"
-    },
-    {
-      "name": "Elegant Gold Set",
-      "price": 113190,
-      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/hero_thumb_1.png"
+        "assets/images/2.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "16.54g",
       "category": "necklaces",
       "tag": "",
-      "_id": "prod_1778728951005_29"
+      "_id": "prod_original_necklaces_9"
     },
     {
-      "name": "Heritage Antique Bangles",
-      "price": 30280,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Kundan Necklace",
+      "price": 90541,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/WhatsApp Image 2026-05-08 at 3.33.06 PM.jpeg"
+        "assets/images/21.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.43g",
-      "category": "bangles",
+      "weight": "13.23g",
+      "category": "necklaces",
+      "tag": "",
+      "_id": "prod_original_necklaces_10"
+    },
+    {
+      "name": "Gold Choker",
+      "price": 108937,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/kasumalai.png"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "15.92g",
+      "category": "necklaces",
+      "tag": "",
+      "_id": "prod_original_necklaces_11"
+    },
+    {
+      "name": "Bejeweled Necklace",
+      "price": 65235,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/11.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "9.53g",
+      "category": "necklaces",
       "tag": "new",
-      "_id": "prod_1778728951005_30"
+      "_id": "prod_original_necklaces_12"
     },
     {
-      "name": "Temple Design Bangles",
-      "price": 52104,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Designer Gold Necklace",
+      "price": 73317,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/14.jpeg"
+        "assets/images/3.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "7.62g",
-      "category": "bangles",
+      "weight": "10.72g",
+      "category": "necklaces",
       "tag": "",
-      "_id": "prod_1778728951005_31"
+      "_id": "prod_original_necklaces_13"
     },
     {
-      "name": "Plain Kadas",
-      "price": 26828,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/18.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "3.92g",
-      "category": "bangles",
-      "tag": "",
-      "_id": "prod_1778728951005_32"
-    },
-    {
-      "name": "Peacock Enamel Bangles",
-      "price": 58186,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/24.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.50g",
-      "category": "bangles",
-      "tag": "",
-      "_id": "prod_1778728951005_33"
-    },
-    {
-      "name": "Twisted Rope Bangle",
-      "price": 30421,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Elegant Gold Set",
+      "price": 121489,
+      "description": "Exquisite 22K necklaces from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/12.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.45g",
-      "category": "bangles",
-      "tag": "new",
-      "_id": "prod_1778728951005_34"
+      "weight": "17.76g",
+      "category": "necklaces",
+      "tag": "",
+      "_id": "prod_original_necklaces_14"
     },
     {
-      "name": "Wedding Chooda",
-      "price": 36939,
+      "name": "Heritage Antique Bangles",
+      "price": 55675,
       "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/2.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "5.40g",
-      "category": "bangles",
-      "tag": "",
-      "_id": "prod_1778728951005_35"
-    },
-    {
-      "name": "Antique Temple Bangle",
-      "price": 52738,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/3.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "7.71g",
-      "category": "bangles",
-      "tag": "",
-      "_id": "prod_1778728951005_36"
-    },
-    {
-      "name": "Gold Kada Set",
-      "price": 77006,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/4.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "11.25g",
-      "category": "bangles",
-      "tag": "",
-      "_id": "prod_1778728951005_37"
-    },
-    {
-      "name": "Filigree Bangles",
-      "price": 57891,
-      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/17.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.46g",
+      "weight": "8.14g",
       "category": "bangles",
       "tag": "new",
-      "_id": "prod_1778728951005_38"
+      "_id": "prod_original_bangles_0"
     },
     {
-      "name": "Kundan Bangle Set",
-      "price": 51115,
+      "name": "Temple Design Bangles",
+      "price": 47128,
       "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/9.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "7.47g",
+      "weight": "6.89g",
       "category": "bangles",
       "tag": "",
-      "_id": "prod_1778728951005_39"
+      "_id": "prod_original_bangles_1"
     },
     {
-      "name": "Royal Bangle Pair",
-      "price": 29699,
+      "name": "Plain Kadas",
+      "price": 45258,
       "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "/uploads/1778775775381-IMG_20180501_210416.jpg"
+        "assets/images/1.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.34g",
+      "weight": "6.61g",
       "category": "bangles",
       "tag": "",
-      "_id": "prod_1778728951005_40",
-      "updatedAt": "2026-05-14T16:22:56.347Z",
-      "image": "/uploads/1778775775381-IMG_20180501_210416.jpg"
+      "_id": "prod_original_bangles_2"
     },
     {
-      "name": "Traditional Bangle Set",
-      "price": 58467,
+      "name": "Peacock Enamel Bangles",
+      "price": 72482,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/6.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "10.59g",
+      "category": "bangles",
+      "tag": "",
+      "_id": "prod_original_bangles_3"
+    },
+    {
+      "name": "Twisted Rope Bangle",
+      "price": 63682,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/4.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "9.31g",
+      "category": "bangles",
+      "tag": "new",
+      "_id": "prod_original_bangles_4"
+    },
+    {
+      "name": "Wedding Chooda",
+      "price": 60011,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/13.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "8.77g",
+      "category": "bangles",
+      "tag": "",
+      "_id": "prod_original_bangles_5"
+    },
+    {
+      "name": "Antique Temple Bangle",
+      "price": 58254,
       "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/25.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "8.55g",
+      "weight": "8.51g",
       "category": "bangles",
       "tag": "",
-      "_id": "prod_1778728951005_41"
+      "_id": "prod_original_bangles_6"
     },
     {
-      "name": "Bracelet Gold Set",
-      "price": 50264,
+      "name": "Gold Kada Set",
+      "price": 38184,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/11.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.58g",
+      "category": "bangles",
+      "tag": "",
+      "_id": "prod_original_bangles_7"
+    },
+    {
+      "name": "Filigree Bangles",
+      "price": 27086,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/17.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.96g",
+      "category": "bangles",
+      "tag": "new",
+      "_id": "prod_original_bangles_8"
+    },
+    {
+      "name": "Kundan Bangle Set",
+      "price": 63949,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/5.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "9.35g",
+      "category": "bangles",
+      "tag": "",
+      "_id": "prod_original_bangles_9"
+    },
+    {
+      "name": "Royal Bangle Pair",
+      "price": 48076,
       "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/20.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "7.35g",
+      "weight": "7.03g",
       "category": "bangles",
-      "tag": "new",
-      "_id": "prod_1778728951005_42"
+      "tag": "",
+      "_id": "prod_original_bangles_10"
     },
     {
-      "name": "Antique Nagali",
-      "price": 56382,
+      "name": "Traditional Bangle Set",
+      "price": 71199,
       "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/16.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "8.24g",
+      "weight": "10.41g",
       "category": "bangles",
       "tag": "",
-      "_id": "prod_1778728951005_43"
+      "_id": "prod_original_bangles_11"
+    },
+    {
+      "name": "Bracelet Gold Set",
+      "price": 40412,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/19.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.91g",
+      "category": "bangles",
+      "tag": "new",
+      "_id": "prod_original_bangles_12"
+    },
+    {
+      "name": "Antique Nagali",
+      "price": 74401,
+      "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/3.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "10.87g",
+      "category": "bangles",
+      "tag": "",
+      "_id": "prod_original_bangles_13"
     },
     {
       "name": "Designer Gold Bangles",
-      "price": 33113,
+      "price": 60414,
       "description": "Exquisite 22K bangles from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/7.jpeg"
+        "assets/images/23.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.84g",
+      "weight": "8.83g",
       "category": "bangles",
       "tag": "",
-      "_id": "prod_1778728951005_44"
+      "_id": "prod_original_bangles_14"
     },
     {
       "name": "Diamond Drop Earrings",
-      "price": 34811,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/4.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "5.09g",
-      "category": "diamond",
-      "tag": "new",
-      "_id": "prod_1778728951005_45"
-    },
-    {
-      "name": "Gold Stud Earrings",
-      "price": 42397,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/15.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "6.20g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_46"
-    },
-    {
-      "name": "Antique Jhumka Earrings",
-      "price": 22477,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/8.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "3.29g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_47"
-    },
-    {
-      "name": "Temple Chandbali",
-      "price": 31831,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/2.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "4.65g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_48"
-    },
-    {
-      "name": "Pearl Drop Earrings",
-      "price": 56678,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/1.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.28g",
-      "category": "earrings",
-      "tag": "new",
-      "_id": "prod_1778728951005_49"
-    },
-    {
-      "name": "Gold Hoop Earrings",
-      "price": 31875,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/6.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "4.66g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_50"
-    },
-    {
-      "name": "Kundan Earrings",
-      "price": 29520,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/21.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "4.31g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_51"
-    },
-    {
-      "name": "Ruby Jhumkas",
-      "price": 15095,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/9.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.21g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_52"
-    },
-    {
-      "name": "Gold Dangle Earrings",
-      "price": 32590,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/7.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "4.76g",
-      "category": "earrings",
-      "tag": "new",
-      "_id": "prod_1778728951005_53"
-    },
-    {
-      "name": "Traditional Jhumka Set",
-      "price": 29335,
+      "price": 29405,
       "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/23.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.29g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_54"
-    },
-    {
-      "name": "Antique Filigree Earrings",
-      "price": 16187,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/11.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.37g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_55"
-    },
-    {
-      "name": "Bridal Ear Cuffs",
-      "price": 55211,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/14.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.07g",
-      "category": "earrings",
-      "tag": "",
-      "_id": "prod_1778728951005_56"
-    },
-    {
-      "name": "Gold Statement Earrings",
-      "price": 53702,
-      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/studs.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "7.85g",
+      "weight": "4.30g",
       "category": "earrings",
       "tag": "new",
-      "_id": "prod_1778728951005_57"
+      "_id": "prod_original_earrings_0"
     },
     {
-      "name": "Pearl Jhumka Set",
-      "price": 18184,
+      "name": "Gold Stud Earrings",
+      "price": 55279,
       "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/3.jpeg"
+        "assets/diamond_earrings.png"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.66g",
+      "weight": "8.08g",
       "category": "earrings",
       "tag": "",
-      "_id": "prod_1778728951005_58"
+      "_id": "prod_original_earrings_1"
     },
     {
-      "name": "Designer Gold Earrings",
-      "price": 23290,
+      "name": "Antique Jhumka Earrings",
+      "price": 32035,
       "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/12.jpeg"
+        "assets/images/16.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "3.40g",
+      "weight": "4.68g",
       "category": "earrings",
       "tag": "",
-      "_id": "prod_1778728951005_59"
+      "_id": "prod_original_earrings_2"
     },
     {
-      "name": "Floral Emerald Ring",
-      "price": 41264,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/10.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "6.03g",
-      "category": "rings",
-      "tag": "new",
-      "_id": "prod_1778728951005_60"
-    },
-    {
-      "name": "Diamond Solitaire Ring",
-      "price": 41045,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/9.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "6.00g",
-      "category": "diamond",
-      "tag": "",
-      "_id": "prod_1778728951005_61"
-    },
-    {
-      "name": "Temple Toe Rings",
-      "price": 30515,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Temple Chandbali",
+      "price": 53736,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/21.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.46g",
-      "category": "rings",
+      "weight": "7.85g",
+      "category": "earrings",
       "tag": "",
-      "_id": "prod_1778728951005_62"
+      "_id": "prod_original_earrings_3"
     },
     {
-      "name": "Ruby Cocktail Ring",
-      "price": 41055,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Pearl Drop Earrings",
+      "price": 27249,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/3.jpeg"
+        "assets/images/13.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "6.00g",
-      "category": "rings",
-      "tag": "",
-      "_id": "prod_1778728951005_63"
-    },
-    {
-      "name": "Gold Band Ring",
-      "price": 19057,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/5.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.79g",
-      "category": "rings",
+      "weight": "3.98g",
+      "category": "earrings",
       "tag": "new",
-      "_id": "prod_1778728951005_64"
+      "_id": "prod_original_earrings_4"
     },
     {
-      "name": "Kundan Ring",
-      "price": 29166,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Gold Hoop Earrings",
+      "price": 18289,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/11.jpeg"
+        "assets/images/24.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.26g",
-      "category": "rings",
+      "weight": "2.67g",
+      "category": "earrings",
       "tag": "",
-      "_id": "prod_1778728951005_65"
+      "_id": "prod_original_earrings_5"
     },
     {
-      "name": "Antique Signet Ring",
-      "price": 37543,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Kundan Earrings",
+      "price": 38673,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/6.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.65g",
+      "category": "earrings",
+      "tag": "",
+      "_id": "prod_original_earrings_6"
+    },
+    {
+      "name": "Ruby Jhumkas",
+      "price": 34572,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/20.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.05g",
+      "category": "earrings",
+      "tag": "",
+      "_id": "prod_original_earrings_7"
+    },
+    {
+      "name": "Gold Dangle Earrings",
+      "price": 39385,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/1.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "5.49g",
-      "category": "rings",
-      "tag": "",
-      "_id": "prod_1778728951005_66"
-    },
-    {
-      "name": "Gemstone Gold Ring",
-      "price": 30317,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/12.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "4.43g",
-      "category": "rings",
-      "tag": "",
-      "_id": "prod_1778728951005_67"
-    },
-    {
-      "name": "Bridal Ring Set",
-      "price": 32740,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/7.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "4.79g",
-      "category": "rings",
+      "weight": "5.76g",
+      "category": "earrings",
       "tag": "new",
-      "_id": "prod_1778728951005_68"
+      "_id": "prod_original_earrings_8"
     },
     {
-      "name": "Wedding Gold Ring",
-      "price": 14890,
+      "name": "Traditional Jhumka Set",
+      "price": 23355,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/25.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.41g",
+      "category": "earrings",
+      "tag": "",
+      "_id": "prod_original_earrings_9"
+    },
+    {
+      "name": "Antique Filigree Earrings",
+      "price": 24654,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/10.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.60g",
+      "category": "earrings",
+      "tag": "",
+      "_id": "prod_original_earrings_10"
+    },
+    {
+      "name": "Bridal Ear Cuffs",
+      "price": 31380,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/3.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "4.59g",
+      "category": "earrings",
+      "tag": "",
+      "_id": "prod_original_earrings_11"
+    },
+    {
+      "name": "Gold Statement Earrings",
+      "price": 33947,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/8.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "4.96g",
+      "category": "earrings",
+      "tag": "new",
+      "_id": "prod_original_earrings_12"
+    },
+    {
+      "name": "Pearl Jhumka Set",
+      "price": 40155,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/22.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.87g",
+      "category": "earrings",
+      "tag": "",
+      "_id": "prod_original_earrings_13"
+    },
+    {
+      "name": "Designer Gold Earrings",
+      "price": 47604,
+      "description": "Exquisite 22K earrings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/5.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.96g",
+      "category": "earrings",
+      "tag": "",
+      "_id": "prod_original_earrings_14"
+    },
+    {
+      "name": "Floral Emerald Ring",
+      "price": 39525,
       "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/ring.png"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.18g",
+      "weight": "5.78g",
       "category": "rings",
-      "tag": "",
-      "_id": "prod_1778728951005_69"
+      "tag": "new",
+      "_id": "prod_original_rings_0"
     },
     {
-      "name": "Designer Finger Ring",
-      "price": 19846,
+      "name": "Diamond Solitaire Ring",
+      "price": 22591,
       "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/diamond_earrings.png"
+        "assets/images/14.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.90g",
-      "category": "diamond",
-      "tag": "",
-      "_id": "prod_1778728951005_70"
-    },
-    {
-      "name": "Traditional Gold Ring",
-      "price": 17265,
-      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/24.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.52g",
+      "weight": "3.30g",
       "category": "rings",
       "tag": "",
-      "_id": "prod_1778728951005_71"
+      "_id": "prod_original_rings_1"
     },
     {
-      "name": "Paisley Pattern Ring",
-      "price": 29878,
+      "name": "Temple Toe Rings",
+      "price": 29399,
       "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/8.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.37g",
+      "weight": "4.30g",
       "category": "rings",
-      "tag": "new",
-      "_id": "prod_1778728951005_72"
+      "tag": "",
+      "_id": "prod_original_rings_2"
     },
     {
-      "name": "Filigree Gold Ring",
-      "price": 19021,
+      "name": "Ruby Cocktail Ring",
+      "price": 34563,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/25.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.05g",
+      "category": "rings",
+      "tag": "",
+      "_id": "prod_original_rings_3"
+    },
+    {
+      "name": "Gold Band Ring",
+      "price": 13045,
       "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/6.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.78g",
+      "weight": "1.91g",
       "category": "rings",
-      "tag": "",
-      "_id": "prod_1778728951005_73"
+      "tag": "new",
+      "_id": "prod_original_rings_4"
     },
     {
-      "name": "Statement Gold Ring",
-      "price": 24003,
+      "name": "Kundan Ring",
+      "price": 44890,
       "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/17.jpeg"
+        "assets/images/21.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "3.51g",
+      "weight": "6.56g",
       "category": "rings",
       "tag": "",
-      "_id": "prod_1778728951005_74"
+      "_id": "prod_original_rings_5"
     },
     {
-      "name": "Solid Gold Rope Chain",
-      "price": 82449,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Antique Signet Ring",
+      "price": 16990,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/22.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "12.05g",
-      "category": "chains",
-      "tag": "new",
-      "_id": "prod_1778728951005_75"
+      "weight": "2.48g",
+      "category": "rings",
+      "tag": "",
+      "_id": "prod_original_rings_6"
     },
     {
-      "name": "Franco Box Chain",
-      "price": 40833,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Gemstone Gold Ring",
+      "price": 19999,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/2.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.92g",
+      "category": "rings",
+      "tag": "",
+      "_id": "prod_original_rings_7"
+    },
+    {
+      "name": "Bridal Ring Set",
+      "price": 43283,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/3.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.33g",
+      "category": "rings",
+      "tag": "new",
+      "_id": "prod_original_rings_8"
+    },
+    {
+      "name": "Wedding Gold Ring",
+      "price": 20067,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/23.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.93g",
+      "category": "rings",
+      "tag": "",
+      "_id": "prod_original_rings_9"
+    },
+    {
+      "name": "Designer Finger Ring",
+      "price": 12636,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/13.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.85g",
+      "category": "rings",
+      "tag": "",
+      "_id": "prod_original_rings_10"
+    },
+    {
+      "name": "Traditional Gold Ring",
+      "price": 17494,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/24.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "5.97g",
-      "category": "chains",
+      "weight": "2.56g",
+      "category": "rings",
       "tag": "",
-      "_id": "prod_1778728951005_76"
+      "_id": "prod_original_rings_11"
     },
     {
-      "name": "Herringbone Flat Chain",
-      "price": 88655,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Paisley Pattern Ring",
+      "price": 37939,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/5.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "5.55g",
+      "category": "rings",
+      "tag": "new",
+      "_id": "prod_original_rings_12"
+    },
+    {
+      "name": "Filigree Gold Ring",
+      "price": 18761,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/12.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.74g",
+      "category": "rings",
+      "tag": "",
+      "_id": "prod_original_rings_13"
+    },
+    {
+      "name": "Statement Gold Ring",
+      "price": 43462,
+      "description": "Exquisite 22K rings from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/9.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "12.96g",
-      "category": "chains",
+      "weight": "6.35g",
+      "category": "rings",
       "tag": "",
-      "_id": "prod_1778728951005_77"
+      "_id": "prod_original_rings_14"
     },
     {
-      "name": "Singapore Twist Chain",
-      "price": 59335,
+      "name": "Solid Gold Rope Chain",
+      "price": 97098,
       "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/14.jpeg"
+        "assets/gold_chain.png"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "8.67g",
+      "weight": "14.19g",
       "category": "chains",
-      "tag": "",
-      "_id": "prod_1778728951005_78"
+      "tag": "new",
+      "_id": "prod_original_chains_0"
     },
     {
-      "name": "Gold Curb Chain",
-      "price": 50326,
+      "name": "Franco Box Chain",
+      "price": 73592,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/10.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "10.76g",
+      "category": "chains",
+      "tag": "",
+      "_id": "prod_original_chains_1"
+    },
+    {
+      "name": "Herringbone Flat Chain",
+      "price": 44637,
       "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/hero_necklace.png"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "7.36g",
+      "weight": "6.52g",
       "category": "chains",
-      "tag": "new",
-      "_id": "prod_1778728951005_79"
+      "tag": "",
+      "_id": "prod_original_chains_2"
     },
     {
-      "name": "Spiga Chain",
-      "price": 89593,
+      "name": "Singapore Twist Chain",
+      "price": 46798,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/1.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.84g",
+      "category": "chains",
+      "tag": "",
+      "_id": "prod_original_chains_3"
+    },
+    {
+      "name": "Gold Curb Chain",
+      "price": 83799,
       "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/2.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "13.09g",
+      "weight": "12.25g",
+      "category": "chains",
+      "tag": "new",
+      "_id": "prod_original_chains_4"
+    },
+    {
+      "name": "Spiga Chain",
+      "price": 75516,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/8.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "11.04g",
       "category": "chains",
       "tag": "",
-      "_id": "prod_1778728951005_80"
+      "_id": "prod_original_chains_5"
     },
     {
       "name": "Rope Gold Chain",
-      "price": 35661,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/18.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "5.21g",
-      "category": "chains",
-      "tag": "",
-      "_id": "prod_1778728951005_81"
-    },
-    {
-      "name": "Miami Cuban Link",
-      "price": 72201,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/17.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "10.55g",
-      "category": "chains",
-      "tag": "",
-      "_id": "prod_1778728951005_82"
-    },
-    {
-      "name": "Gold Wheat Chain",
-      "price": 60600,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/19.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.86g",
-      "category": "chains",
-      "tag": "new",
-      "_id": "prod_1778728951005_83"
-    },
-    {
-      "name": "Venetian Chain",
-      "price": 89750,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/16.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "13.12g",
-      "category": "chains",
-      "tag": "",
-      "_id": "prod_1778728951005_84"
-    },
-    {
-      "name": "Singapore Chain",
-      "price": 67663,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/11.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "9.89g",
-      "category": "chains",
-      "tag": "",
-      "_id": "prod_1778728951005_85"
-    },
-    {
-      "name": "Box Chain Gold",
-      "price": 45821,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/6.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "6.70g",
-      "category": "chains",
-      "tag": "",
-      "_id": "prod_1778728951005_86"
-    },
-    {
-      "name": "Snake Chain Gold",
-      "price": 98154,
-      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/1.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "14.35g",
-      "category": "chains",
-      "tag": "new",
-      "_id": "prod_1778728951005_87"
-    },
-    {
-      "name": "Mariner Chain",
-      "price": 69770,
+      "price": 86644,
       "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/21.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "10.20g",
+      "weight": "12.66g",
       "category": "chains",
       "tag": "",
-      "_id": "prod_1778728951005_88"
+      "_id": "prod_original_chains_6"
     },
     {
-      "name": "Figaro Chain",
-      "price": 52071,
+      "name": "Miami Cuban Link",
+      "price": 44049,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/4.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.44g",
+      "category": "chains",
+      "tag": "",
+      "_id": "prod_original_chains_7"
+    },
+    {
+      "name": "Gold Wheat Chain",
+      "price": 37454,
       "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/5.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "7.61g",
+      "weight": "5.47g",
+      "category": "chains",
+      "tag": "new",
+      "_id": "prod_original_chains_8"
+    },
+    {
+      "name": "Venetian Chain",
+      "price": 99076,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/14.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "14.48g",
       "category": "chains",
       "tag": "",
-      "_id": "prod_1778728951005_89"
+      "_id": "prod_original_chains_9"
+    },
+    {
+      "name": "Singapore Chain",
+      "price": 93121,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/17.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "13.61g",
+      "category": "chains",
+      "tag": "",
+      "_id": "prod_original_chains_10"
+    },
+    {
+      "name": "Box Chain Gold",
+      "price": 83409,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/12.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "12.19g",
+      "category": "chains",
+      "tag": "",
+      "_id": "prod_original_chains_11"
+    },
+    {
+      "name": "Snake Chain Gold",
+      "price": 42773,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/7.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "6.25g",
+      "category": "chains",
+      "tag": "new",
+      "_id": "prod_original_chains_12"
+    },
+    {
+      "name": "Mariner Chain",
+      "price": 80733,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/11.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "11.80g",
+      "category": "chains",
+      "tag": "",
+      "_id": "prod_original_chains_13"
+    },
+    {
+      "name": "Figaro Chain",
+      "price": 80392,
+      "description": "Exquisite 22K chains from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/22.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "11.75g",
+      "category": "chains",
+      "tag": "",
+      "_id": "prod_original_chains_14"
     },
     {
       "name": "Traditional Mangalsutra",
-      "price": 130434,
+      "price": 112069,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/13.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "16.38g",
+      "category": "mangalsutra",
+      "tag": "new",
+      "_id": "prod_original_mangalsutra_0"
+    },
+    {
+      "name": "Diamond Mangalsutra",
+      "price": 102913,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/6.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "15.04g",
+      "category": "mangalsutra",
+      "tag": "",
+      "_id": "prod_original_mangalsutra_1"
+    },
+    {
+      "name": "Antique Gold Mangalsutra",
+      "price": 99149,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/5.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "14.49g",
+      "category": "mangalsutra",
+      "tag": "",
+      "_id": "prod_original_mangalsutra_2"
+    },
+    {
+      "name": "Black Bead Mangalsutra",
+      "price": 147992,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/23.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "21.63g",
+      "category": "mangalsutra",
+      "tag": "",
+      "_id": "prod_original_mangalsutra_3"
+    },
+    {
+      "name": "Temple Pendant Mangalsutra",
+      "price": 58072,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/25.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "8.49g",
+      "category": "mangalsutra",
+      "tag": "new",
+      "_id": "prod_original_mangalsutra_4"
+    },
+    {
+      "name": "Modern Diamond Set",
+      "price": 122778,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/7.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "17.94g",
+      "category": "mangalsutra",
+      "tag": "",
+      "_id": "prod_original_mangalsutra_5"
+    },
+    {
+      "name": "Royal Mangalsutra",
+      "price": 93486,
       "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/1.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "19.06g",
+      "weight": "13.66g",
       "category": "mangalsutra",
-      "tag": "new",
-      "_id": "prod_1778728951005_90"
+      "tag": "",
+      "_id": "prod_original_mangalsutra_6"
     },
     {
-      "name": "Diamond Mangalsutra",
-      "price": 138267,
+      "name": "Bridal Mangalsutra Set",
+      "price": 119048,
       "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/18.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "20.21g",
-      "category": "diamond",
+      "weight": "17.40g",
+      "category": "mangalsutra",
       "tag": "",
-      "_id": "prod_1778728951005_91"
+      "_id": "prod_original_mangalsutra_7"
     },
     {
-      "name": "Antique Gold Mangalsutra",
-      "price": 91949,
+      "name": "Antique Bead Mangalsutra",
+      "price": 134313,
       "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/12.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "13.44g",
+      "weight": "19.63g",
       "category": "mangalsutra",
-      "tag": "",
-      "_id": "prod_1778728951005_92"
+      "tag": "new",
+      "_id": "prod_original_mangalsutra_8"
     },
     {
-      "name": "Black Bead Mangalsutra",
-      "price": 60795,
+      "name": "Gold Temple Mangalsutra",
+      "price": 61273,
       "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/23.jpeg"
+        "assets/images/19.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "8.96g",
+      "category": "mangalsutra",
+      "tag": "",
+      "_id": "prod_original_mangalsutra_9"
+    },
+    {
+      "name": "Contemporary Mangalsutra",
+      "price": 88658,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/2.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "12.96g",
+      "category": "mangalsutra",
+      "tag": "",
+      "_id": "prod_original_mangalsutra_10"
+    },
+    {
+      "name": "Traditional Bead Set",
+      "price": 90363,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/14.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "13.21g",
+      "category": "mangalsutra",
+      "tag": "",
+      "_id": "prod_original_mangalsutra_11"
+    },
+    {
+      "name": "Diamond Accent Mangalsutra",
+      "price": 128585,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/kasumalai.png"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "18.79g",
+      "category": "mangalsutra",
+      "tag": "new",
+      "_id": "prod_original_mangalsutra_12"
+    },
+    {
+      "name": "Ornate Gold Mangalsutra",
+      "price": 60802,
+      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/24.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
       "weight": "8.89g",
       "category": "mangalsutra",
       "tag": "",
-      "_id": "prod_1778728951005_93"
+      "_id": "prod_original_mangalsutra_13"
     },
     {
-      "name": "Temple Pendant Mangalsutra",
-      "price": 137331,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/2.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "20.07g",
-      "category": "mangalsutra",
-      "tag": "new",
-      "_id": "prod_1778728951005_94"
-    },
-    {
-      "name": "Modern Diamond Set",
-      "price": 94733,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/25.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "13.85g",
-      "category": "diamond",
-      "tag": "",
-      "_id": "prod_1778728951005_95"
-    },
-    {
-      "name": "Royal Mangalsutra",
-      "price": 135008,
+      "name": "Classic South Indian",
+      "price": 126845,
       "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/10.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "19.73g",
+      "weight": "18.54g",
       "category": "mangalsutra",
       "tag": "",
-      "_id": "prod_1778728951005_96"
+      "_id": "prod_original_mangalsutra_14"
     },
     {
-      "name": "Bridal Mangalsutra Set",
-      "price": 129938,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/16.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "18.99g",
-      "category": "mangalsutra",
-      "tag": "",
-      "_id": "prod_1778728951005_97"
-    },
-    {
-      "name": "Antique Bead Mangalsutra",
-      "price": 149348,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/19.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "21.83g",
-      "category": "mangalsutra",
-      "tag": "new",
-      "_id": "prod_1778728951005_98"
-    },
-    {
-      "name": "Gold Temple Mangalsutra",
-      "price": 69323,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/3.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "10.13g",
-      "category": "mangalsutra",
-      "tag": "",
-      "_id": "prod_1778728951005_99"
-    },
-    {
-      "name": "Contemporary Mangalsutra",
-      "price": 120220,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "name": "Ghungroo Anklet",
+      "price": 9647,
+      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/7.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "17.57g",
-      "category": "mangalsutra",
-      "tag": "",
-      "_id": "prod_1778728951005_100"
-    },
-    {
-      "name": "Traditional Bead Set",
-      "price": 100230,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/6.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "14.65g",
-      "category": "mangalsutra",
-      "tag": "",
-      "_id": "prod_1778728951005_101"
-    },
-    {
-      "name": "Diamond Accent Mangalsutra",
-      "price": 109098,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/17.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "15.95g",
-      "category": "diamond",
-      "tag": "new",
-      "_id": "prod_1778728951005_102"
-    },
-    {
-      "name": "Ornate Gold Mangalsutra",
-      "price": 57365,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/15.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.38g",
-      "category": "mangalsutra",
-      "tag": "",
-      "_id": "prod_1778728951005_103"
-    },
-    {
-      "name": "Classic South Indian",
-      "price": 135333,
-      "description": "Exquisite 22K mangalsutra from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/8.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "19.78g",
-      "category": "mangalsutra",
-      "tag": "",
-      "_id": "prod_1778728951005_104"
-    },
-    {
-      "name": "Ghungroo Anklet",
-      "price": 12448,
-      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/16.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.82g",
+      "weight": "1.41g",
       "category": "anklets",
       "tag": "new",
-      "_id": "prod_1778728951005_105"
+      "_id": "prod_original_anklets_0"
     },
     {
       "name": "Flat Link Anklet",
-      "price": 28483,
+      "price": 8355,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/2.jpeg"
+        "assets/images/21.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.16g",
+      "weight": "1.22g",
       "category": "anklets",
       "tag": "",
-      "_id": "prod_1778728951005_106"
+      "_id": "prod_original_anklets_1"
     },
     {
       "name": "Gold Payal Set",
-      "price": 29802,
+      "price": 27978,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/19.jpeg"
+        "assets/images/20.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.36g",
+      "weight": "4.09g",
       "category": "anklets",
       "tag": "",
-      "_id": "prod_1778728951005_107"
+      "_id": "prod_original_anklets_2"
     },
     {
       "name": "Bell Anklets",
-      "price": 12816,
-      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/23.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.87g",
-      "category": "anklets",
-      "tag": "",
-      "_id": "prod_1778728951005_108"
-    },
-    {
-      "name": "Traditional Payal",
-      "price": 17307,
-      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/9.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.53g",
-      "category": "anklets",
-      "tag": "new",
-      "_id": "prod_1778728951005_109"
-    },
-    {
-      "name": "Antique Anklet",
-      "price": 11227,
-      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/antique_bangles.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.64g",
-      "category": "anklets",
-      "tag": "",
-      "_id": "prod_1778728951005_110"
-    },
-    {
-      "name": "Designer Gold Anklet",
-      "price": 16463,
+      "price": 21813,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/22.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.41g",
+      "weight": "3.19g",
       "category": "anklets",
       "tag": "",
-      "_id": "prod_1778728951005_111"
+      "_id": "prod_original_anklets_3"
     },
     {
-      "name": "Pearl Anklet Set",
-      "price": 22230,
+      "name": "Traditional Payal",
+      "price": 17657,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/21.jpeg"
+        "assets/images/8.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "3.25g",
+      "weight": "2.58g",
+      "category": "anklets",
+      "tag": "new",
+      "_id": "prod_original_anklets_4"
+    },
+    {
+      "name": "Antique Anklet",
+      "price": 20556,
+      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/9.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.00g",
       "category": "anklets",
       "tag": "",
-      "_id": "prod_1778728951005_112"
+      "_id": "prod_original_anklets_5"
+    },
+    {
+      "name": "Designer Gold Anklet",
+      "price": 8971,
+      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/2.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.31g",
+      "category": "anklets",
+      "tag": "",
+      "_id": "prod_original_anklets_6"
+    },
+    {
+      "name": "Pearl Anklet Set",
+      "price": 23502,
+      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/25.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "3.44g",
+      "category": "anklets",
+      "tag": "",
+      "_id": "prod_original_anklets_7"
     },
     {
       "name": "Filigree Anklet",
-      "price": 24269,
+      "price": 9035,
+      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/1.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.32g",
+      "category": "anklets",
+      "tag": "new",
+      "_id": "prod_original_anklets_8"
+    },
+    {
+      "name": "Beaded Gold Anklet",
+      "price": 14006,
+      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/13.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.05g",
+      "category": "anklets",
+      "tag": "",
+      "_id": "prod_original_anklets_9"
+    },
+    {
+      "name": "Traditional Ghungroo",
+      "price": 11810,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/5.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "3.55g",
+      "weight": "1.73g",
       "category": "anklets",
-      "tag": "new",
-      "_id": "prod_1778728951005_113"
+      "tag": "",
+      "_id": "prod_original_anklets_10"
     },
     {
-      "name": "Beaded Gold Anklet",
-      "price": 28560,
+      "name": "Wedding Payal",
+      "price": 10316,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/10.jpeg"
+        "assets/images/15.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "4.17g",
+      "weight": "1.51g",
       "category": "anklets",
       "tag": "",
-      "_id": "prod_1778728951005_114"
+      "_id": "prod_original_anklets_11"
     },
     {
-      "name": "Traditional Ghungroo",
-      "price": 16538,
+      "name": "Gold Paayal Set",
+      "price": 11337,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/11.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.42g",
-      "category": "anklets",
-      "tag": "",
-      "_id": "prod_1778728951005_115"
-    },
-    {
-      "name": "Wedding Payal",
-      "price": 29488,
-      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/8.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "4.31g",
-      "category": "anklets",
-      "tag": "",
-      "_id": "prod_1778728951005_116"
-    },
-    {
-      "name": "Gold Paayal Set",
-      "price": 22167,
-      "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/7.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "3.24g",
+      "weight": "1.66g",
       "category": "anklets",
       "tag": "new",
-      "_id": "prod_1778728951005_117"
+      "_id": "prod_original_anklets_12"
     },
     {
       "name": "Antique Paayal",
-      "price": 20169,
+      "price": 21191,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/14.jpeg"
+        "assets/images/17.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.95g",
+      "weight": "3.10g",
       "category": "anklets",
       "tag": "",
-      "_id": "prod_1778728951005_118"
+      "_id": "prod_original_anklets_13"
     },
     {
       "name": "Designer Payal",
-      "price": 16956,
+      "price": 8967,
       "description": "Exquisite 22K anklets from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/24.jpeg"
+        "assets/images/12.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "2.48g",
+      "weight": "1.31g",
       "category": "anklets",
       "tag": "",
-      "_id": "prod_1778728951005_119"
+      "_id": "prod_original_anklets_14"
     },
     {
       "name": "Ganesh Gold Pendant",
-      "price": 12296,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/13.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.80g",
-      "category": "pendants",
-      "tag": "new",
-      "_id": "prod_1778728951005_120"
-    },
-    {
-      "name": "Om Diamond Pendant",
-      "price": 6288,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/10.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "0.92g",
-      "category": "diamond",
-      "tag": "",
-      "_id": "prod_1778728951005_121"
-    },
-    {
-      "name": "Lakshmi Coin Pendant",
-      "price": 7325,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/18.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.07g",
-      "category": "pendants",
-      "tag": "",
-      "_id": "prod_1778728951005_122"
-    },
-    {
-      "name": "Lord Murugan Pendant",
-      "price": 20202,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/kasumalai.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.95g",
-      "category": "pendants",
-      "tag": "",
-      "_id": "prod_1778728951005_123"
-    },
-    {
-      "name": "Hanuman Pendant",
-      "price": 21834,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/16.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "3.19g",
-      "category": "pendants",
-      "tag": "new",
-      "_id": "prod_1778728951005_124"
-    },
-    {
-      "name": "Omkara Pendant",
-      "price": 18682,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/8.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.73g",
-      "category": "pendants",
-      "tag": "",
-      "_id": "prod_1778728951005_125"
-    },
-    {
-      "name": "Lakshmi Narayana Pendant",
-      "price": 13101,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/21.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.91g",
-      "category": "pendants",
-      "tag": "",
-      "_id": "prod_1778728951005_126"
-    },
-    {
-      "name": "Trishul Pendant",
-      "price": 7780,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/5.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.14g",
-      "category": "pendants",
-      "tag": "",
-      "_id": "prod_1778728951005_127"
-    },
-    {
-      "name": "Ganesha Gold Pendant",
-      "price": 12692,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/25.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "1.85g",
-      "category": "pendants",
-      "tag": "new",
-      "_id": "prod_1778728951005_128"
-    },
-    {
-      "name": "Sacred Om Pendant",
-      "price": 6635,
+      "price": 15731,
       "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/4.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "0.97g",
+      "weight": "2.30g",
       "category": "pendants",
-      "tag": "",
-      "_id": "prod_1778728951005_129"
+      "tag": "new",
+      "_id": "prod_original_pendants_0"
     },
     {
-      "name": "Temple Pendant",
-      "price": 6163,
+      "name": "Om Diamond Pendant",
+      "price": 8042,
       "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/images/7.jpeg"
+        "assets/ring.png"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "0.90g",
+      "weight": "1.18g",
       "category": "pendants",
       "tag": "",
-      "_id": "prod_1778728951005_130"
+      "_id": "prod_original_pendants_1"
     },
     {
-      "name": "Gemstone Pendant",
-      "price": 21369,
+      "name": "Lakshmi Coin Pendant",
+      "price": 20249,
       "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/3.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "3.12g",
+      "weight": "2.96g",
       "category": "pendants",
       "tag": "",
-      "_id": "prod_1778728951005_131"
+      "_id": "prod_original_pendants_2"
+    },
+    {
+      "name": "Lord Murugan Pendant",
+      "price": 7748,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/23.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.13g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_3"
+    },
+    {
+      "name": "Hanuman Pendant",
+      "price": 11955,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/13.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.75g",
+      "category": "pendants",
+      "tag": "new",
+      "_id": "prod_original_pendants_4"
+    },
+    {
+      "name": "Omkara Pendant",
+      "price": 15143,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/22.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.21g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_5"
+    },
+    {
+      "name": "Lakshmi Narayana Pendant",
+      "price": 13686,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/11.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.00g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_6"
+    },
+    {
+      "name": "Trishul Pendant",
+      "price": 17347,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/kasumalai.png"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.54g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_7"
+    },
+    {
+      "name": "Ganesha Gold Pendant",
+      "price": 13545,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/18.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.98g",
+      "category": "pendants",
+      "tag": "new",
+      "_id": "prod_original_pendants_8"
+    },
+    {
+      "name": "Sacred Om Pendant",
+      "price": 15251,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/16.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.23g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_9"
+    },
+    {
+      "name": "Temple Pendant",
+      "price": 6124,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/20.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "0.90g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_10"
+    },
+    {
+      "name": "Gemstone Pendant",
+      "price": 10137,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/7.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "1.48g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_11"
     },
     {
       "name": "Kundan Pendant",
-      "price": 14745,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/2.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "2.16g",
-      "category": "pendants",
-      "tag": "new",
-      "_id": "prod_1778728951005_132"
-    },
-    {
-      "name": "Diamond Pendant",
-      "price": 5801,
-      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
-      "images": [
-        "assets/images/24.jpeg"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "0.85g",
-      "category": "diamond",
-      "tag": "",
-      "_id": "prod_1778728951005_133"
-    },
-    {
-      "name": "Antique Coin Pendant",
-      "price": 5504,
+      "price": 14763,
       "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
         "assets/images/12.jpeg"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "0.80g",
+      "weight": "2.16g",
+      "category": "pendants",
+      "tag": "new",
+      "_id": "prod_original_pendants_12"
+    },
+    {
+      "name": "Diamond Pendant",
+      "price": 16026,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
+      "images": [
+        "assets/images/2.jpeg"
+      ],
+      "hallmark": "HUID",
+      "purity": "22K Gold (91.6%)",
+      "weight": "2.34g",
       "category": "pendants",
       "tag": "",
-      "_id": "prod_1778728951005_134"
+      "_id": "prod_original_pendants_13"
     },
     {
-      "name": "Golden Heritage Bridal Set",
-      "price": 0,
-      "description": "New arrival! Golden Heritage Bridal Set on beautiful golden cloth background. HUID & BIS Certified.",
+      "name": "Antique Coin Pendant",
+      "price": 10932,
+      "description": "Exquisite 22K pendants from MGS Jewellery Davanagere. Handcrafted with traditional craftsmanship and BIS/HUID certified for purity.",
       "images": [
-        "assets/generated/bridal_sets_1.png"
+        "assets/diamond_earrings.png"
       ],
       "hallmark": "HUID",
       "purity": "22K Gold (91.6%)",
-      "weight": "5.48g",
-      "category": "bridal",
-      "tag": "new",
-      "_id": "gen_1778762374346_0"
-    },
-    {
-      "name": "Royal Silk Bridal Set",
-      "price": 0,
-      "description": "New arrival! Royal Silk Bridal Set on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/bridal_sets_2.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "23.45g",
-      "category": "bridal",
-      "tag": "new",
-      "_id": "gen_1778762374346_1"
-    },
-    {
-      "name": "Majestic Gold Bridal Set",
-      "price": 0,
-      "description": "New arrival! Majestic Gold Bridal Set on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/bridal_sets_3.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "23.83g",
-      "category": "bridal",
-      "tag": "new",
-      "_id": "gen_1778762374346_2"
-    },
-    {
-      "name": "Glimmering Gold Necklace",
-      "price": 0,
-      "description": "New arrival! Glimmering Gold Necklace on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/necklaces_1.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "9.28g",
-      "category": "necklaces",
-      "tag": "new",
-      "_id": "gen_1778762374346_3"
-    },
-    {
-      "name": "Shimmering Silk Necklace",
-      "price": 0,
-      "description": "New arrival! Shimmering Silk Necklace on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/necklaces_2.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "19.73g",
-      "category": "necklaces",
-      "tag": "new",
-      "_id": "gen_1778762374346_4"
-    },
-    {
-      "name": "Premium Craft Necklace",
-      "price": 0,
-      "description": "New arrival! Premium Craft Necklace on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/necklaces_3.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "8.56g",
-      "category": "necklaces",
-      "tag": "new",
-      "_id": "gen_1778762374346_5"
-    },
-    {
-      "name": "Traditional Gold Bangles",
-      "price": 0,
-      "description": "New arrival! Traditional Gold Bangles on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/bangles_1.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "11.47g",
-      "category": "bangles",
-      "tag": "new",
-      "_id": "gen_1778762374346_6"
-    },
-    {
-      "name": "Luxury Silk Bangles",
-      "price": 0,
-      "description": "New arrival! Luxury Silk Bangles on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/bangles_2.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "12.96g",
-      "category": "bangles",
-      "tag": "new",
-      "_id": "gen_1778762374346_7"
-    },
-    {
-      "name": "Artisan Crafted Bangles",
-      "price": 0,
-      "description": "New arrival! Artisan Crafted Bangles on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/bangles_3.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "5.90g",
-      "category": "bangles",
-      "tag": "new",
-      "_id": "gen_1778762374346_8"
-    },
-    {
-      "name": "Exquisite Jhumkas",
-      "price": 0,
-      "description": "New arrival! Exquisite Jhumkas on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/earrings_1.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "23.71g",
-      "category": "earrings",
-      "tag": "new",
-      "_id": "gen_1778762374346_9"
-    },
-    {
-      "name": "Royal Gold Studs",
-      "price": 0,
-      "description": "New arrival! Royal Gold Studs on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/earrings_2.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "12.79g",
-      "category": "earrings",
-      "tag": "new",
-      "_id": "gen_1778762374346_10"
-    },
-    {
-      "name": "Majestic Drop Earrings",
-      "price": 0,
-      "description": "New arrival! Majestic Drop Earrings on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/earrings_3.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "13.66g",
-      "category": "earrings",
-      "tag": "new",
-      "_id": "gen_1778762374346_11"
-    },
-    {
-      "name": "Premium Gold Ring",
-      "price": 0,
-      "description": "New arrival! Premium Gold Ring on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/rings_1.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "19.46g",
-      "category": "rings",
-      "tag": "new",
-      "_id": "gen_1778762374346_12"
-    },
-    {
-      "name": "Traditional Wedding Ring",
-      "price": 0,
-      "description": "New arrival! Traditional Wedding Ring on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/rings_2.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "7.22g",
-      "category": "rings",
-      "tag": "new",
-      "_id": "gen_1778762374346_13"
-    },
-    {
-      "name": "Royal Artisan Ring",
-      "price": 0,
-      "description": "New arrival! Royal Artisan Ring on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/rings_3.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "11.87g",
-      "category": "rings",
-      "tag": "new",
-      "_id": "gen_1778762374346_14"
-    },
-    {
-      "name": "Elegant Gold Chain",
-      "price": 0,
-      "description": "New arrival! Elegant Gold Chain on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/chains_1.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "21.64g",
-      "category": "chains",
-      "tag": "new",
-      "_id": "gen_1778762374346_15"
-    },
-    {
-      "name": "Fine Silk Gold Chain",
-      "price": 0,
-      "description": "New arrival! Fine Silk Gold Chain on beautiful golden cloth background. HUID & BIS Certified.",
-      "images": [
-        "assets/generated/chains_2.png"
-      ],
-      "hallmark": "HUID",
-      "purity": "22K Gold (91.6%)",
-      "weight": "13.16g",
-      "category": "chains",
-      "tag": "new",
-      "_id": "gen_1778762374346_16"
+      "weight": "1.60g",
+      "category": "pendants",
+      "tag": "",
+      "_id": "prod_original_pendants_14"
     }
   ],
   "collections": [],

@@ -855,6 +855,93 @@
         gap: 1.2rem;
       }
     }
+
+    /* ===== SHOWROOM SECTION ===== */
+    #showroom {
+      padding: 7rem 5%;
+      background: var(--section-contrast);
+      overflow: hidden;
+    }
+
+    .showroom-inner {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: 5rem;
+      align-items: center;
+    }
+
+    .showroom-visual {
+      position: relative;
+      border-radius: 15px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      border: 1px solid var(--border-bright);
+    }
+
+    .showroom-img {
+      width: 100%;
+      height: auto;
+      display: block;
+      transition: transform 0.8s ease;
+    }
+
+    .showroom-visual:hover .showroom-img {
+      transform: scale(1.05);
+    }
+
+    .showroom-text h2 {
+      font-size: clamp(2rem, 3.5vw, 3.5rem);
+      color: var(--white);
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .showroom-text p {
+      color: var(--white-dim);
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+    }
+
+    .showroom-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2rem;
+    }
+
+    .showroom-feature-item {
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .showroom-feature-icon {
+      color: var(--gold);
+      font-size: 1.2rem;
+      margin-top: 0.2rem;
+    }
+
+    .showroom-feature-text h4 {
+      font-family: var(--font-mono);
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--gold-bright);
+      margin-bottom: 0.3rem;
+    }
+
+    .showroom-feature-text p {
+      font-size: 0.85rem;
+      margin: 0;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 1024px) {
+      .showroom-inner {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+    }
   </style>
 
   <link rel="canonical" href="https://finalmgswebpage.onrender.com/heritage.html">
@@ -1353,6 +1440,58 @@
 
   <div class="gold-rule"></div>
 
+  <!-- ===== SHOWROOM SECTION ===== -->
+  <section id="showroom">
+    <div class="showroom-inner">
+      <div class="showroom-visual animate-in">
+        <img src="assets/MGS_shop.jpeg" alt="MGS Jewellery Showroom Davanagere"
+          class="showroom-img">
+      </div>
+      <div class="showroom-text animate-in">
+        <span class="section-label">Visit Our Showroom</span>
+        <h2>Experience the <em>Legacy In-Person</em></h2>
+        <p>Step into our Davanagere showroom where heritage meets modern luxury. Witness the artistry of our senior
+          goldsmiths and explore our full collection of HUID-certified gold masterpieces.</p>
+
+        <div class="showroom-features">
+          <div class="showroom-feature-item">
+            <span class="showroom-feature-icon">✦</span>
+            <div class="showroom-feature-text">
+              <h4>Expert Guidance</h4>
+              <p>Personal consultations with our master makers.</p>
+            </div>
+          </div>
+          <div class="showroom-feature-item">
+            <span class="showroom-feature-icon">✦</span>
+            <div class="showroom-feature-text">
+              <h4>Live Purity Test</h4>
+              <p>Instant Karatmeter verification for your peace of mind.</p>
+            </div>
+          </div>
+          <div class="showroom-feature-item">
+            <span class="showroom-feature-icon">✦</span>
+            <div class="showroom-feature-text">
+              <h4>Bespoke Design</h4>
+              <p>Turn your sketches into golden realities on-site.</p>
+            </div>
+          </div>
+          <div class="showroom-feature-item">
+            <span class="showroom-feature-icon">✦</span>
+            <div class="showroom-feature-text">
+              <h4>Direct Value</h4>
+              <p>Transparent pricing without retail markups.</p>
+            </div>
+          </div>
+        </div>
+
+        <a href="https://www.google.com/maps/search/34%2F1,+Vijayalakshmi+Road,+Near+Clock+Tower,+Davanagere"
+          target="_blank" class="btn btn-gold" style="margin-top:2.5rem">Get Directions ▸</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="gold-rule"></div>
+
   <!-- ===== MGS PROMISE ===== -->
   <section id="promise">
     <div class="promise-inner">
@@ -1450,7 +1589,7 @@
       <div class="footer-col">
         <h4>Contact</h4>
         <ul>
-          <li><a href="tel:+918025000000">📞 +91 80 2500 0000</a></li>
+          <li><a href="tel:+917892314633">📞 +91 78923 14633</a></li>
           <li><a href="https://wa.me/917892314633">✦ WhatsApp</a></li>
           <li><a href="mailto:info@mgsjewellery.com">✉ info@mgsjewellery.com</a></li>
         </ul>
@@ -1458,13 +1597,20 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="developer-credit" style="display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;">
-        <a href="https://trigonvertexskp.vercel.app/" target="_blank"
-          style="font-weight: 800; font-size: 1.1rem; color: var(--gold-bright); text-decoration: none; letter-spacing: 0.05em; text-transform: uppercase;">Developed
-          by Trigon Vertex</a>
-        <a href="mailto:sarvammayadev@gmail.com" target="_blank" class="btn btn-outline"
-          style="padding: 0.4rem 1.2rem; font-size: 0.8rem; border-color: var(--gold-dim); color: var(--gold-bright);">Contact
-          Us</a>
+      <div class="developer-credit">
+        <span class="dev-tagline">Experience Crafted By</span>
+        <div class="dev-main">
+          <a href="https://trigonvertexskp.vercel.app/" target="_blank" class="dev-brand">
+            <span class="dev-sparkle">✦</span>
+            <img src="assets/SKP_logo.jpeg" alt="SKP" class="dev-logo">
+            Trigon Vertex
+            <span class="dev-sparkle">✦</span>
+          </a>
+          <a href="mailto:sarvammayadev@gmail.com" class="dev-contact-btn">
+            <svg class="dev-mail-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
+            Contact Maker
+          </a>
+        </div>
       </div>
       <div class="footer-hallmarks">
         <span>HUID HALLMARK</span>
@@ -1472,7 +1618,8 @@
         <span>22K PURE GOLD</span>
       </div>
     </div>
-  </footer>  <script src="global.js"></script>
+  </footer>
+  <script src="global.js"></script>
 </body>
 
 </html>

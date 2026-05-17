@@ -495,3 +495,129 @@ h3 { font-size: clamp(1.2rem, 2vw, 1.6rem); }
   .footer-grid { grid-template-columns:1fr; }
   .footer-bottom { flex-direction:column; gap:1rem; text-align:center; }
 }
+
+/* ===== PREMIUM DEVELOPER SIGNATURE ===== */
+.developer-credit {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.dev-tagline {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  opacity: 0.8;
+}
+
+.dev-main {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  flex-wrap: wrap;
+}
+
+.dev-brand {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  text-shadow: var(--gold-text-shadow);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  transition: var(--transition);
+  position: relative;
+  letter-spacing: 0.05em;
+}
+
+.dev-logo {
+  height: 1.3rem;
+  width: auto;
+  border-radius: 4px;
+  object-fit: contain;
+  vertical-align: middle;
+  display: inline-block;
+  border: 1px solid rgba(198, 167, 94, 0.2);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: var(--transition);
+}
+
+.dev-brand:hover .dev-logo {
+  transform: scale(1.1) rotate(5deg);
+  border-color: var(--gold-bright);
+}
+
+
+.dev-sparkle {
+  color: var(--gold-bright);
+  font-size: 0.8rem;
+  animation: dev-sparkle-anim 3s infinite ease-in-out;
+}
+
+.dev-sparkle:last-child {
+  animation-delay: 1.5s;
+}
+
+@keyframes dev-sparkle-anim {
+  0%, 100% { opacity: 0.3; transform: scale(0.8) rotate(0deg); }
+  50% { opacity: 1; transform: scale(1.25) rotate(90deg); }
+}
+
+.dev-brand:hover {
+  color: var(--gold-bright);
+  letter-spacing: 0.08em;
+}
+
+.dev-contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1.2rem;
+  border-radius: 30px;
+  background: rgba(143, 113, 36, 0.05);
+  border: 1px solid rgba(143, 113, 36, 0.18);
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gold-dim);
+  transition: var(--transition);
+}
+
+.dev-mail-icon {
+  width: 13px;
+  height: 13px;
+  stroke: var(--gold);
+  transition: var(--transition);
+}
+
+.dev-contact-btn:hover {
+  background: var(--gold-gradient);
+  border-color: transparent;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(143, 113, 36, 0.15);
+}
+
+.dev-contact-btn:hover .dev-mail-icon {
+  stroke: #fff;
+  transform: rotate(-10deg) scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .developer-credit {
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+  .dev-main {
+    justify-content: center;
+    gap: 1rem;
+  }
+}
+

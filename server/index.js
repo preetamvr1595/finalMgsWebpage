@@ -28,6 +28,21 @@ if (fs.existsSync(adminDist)) {
   })
 }
 
+// Explicit endpoints for SEO Sitemap and Robots.txt to avoid general HTTP fetch errors and set explicit headers
+app.get('/sitemap.xml', (req, res) => {
+  res.header('Content-Type', 'application/xml');
+  res.header('Cache-Control', 'public, max-age=86400');
+  console.log(`[SEO] sitemap.xml requested by user-agent: ${req.headers['user-agent'] || 'Unknown'}`);
+  res.sendFile(path.resolve(rootPath, 'sitemap.xml'));
+});
+
+app.get('/robots.txt', (req, res) => {
+  res.header('Content-Type', 'text/plain');
+  res.header('Cache-Control', 'public, max-age=86400');
+  console.log(`[SEO] robots.txt requested by user-agent: ${req.headers['user-agent'] || 'Unknown'}`);
+  res.sendFile(path.resolve(rootPath, 'robots.txt'));
+});
+
 // Serve top-level static site
 app.use('/', express.static(rootPath))
 

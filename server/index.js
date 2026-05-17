@@ -59,4 +59,44 @@ app.use('/api/rates', rateRoutes)
 
 const PORT = process.env.PORT || 5000
 
-app.listen(PORT, () => console.log('Server running on', PORT))
+const startServer = async () => {
+  const mongoUri = process.env.MONGO_URI || process.env.MONGODB_URI;
+  if (mongoUri) {
+    console.log('[Database] Connecting to MongoDB...');
+    const mongoose = require('mongoose');
+    try {
+      await mongoose.connect(mongoUri);
+      console.log('[Database] Connected to MongoDB.');
+
+      // Load backup
+      let DBBackup;
+      try {
+        DBBackup = mongoose.model('DBBackup');
+      } catch (e) {
+        const dbBackupSchema = new mongoose.Schema({
+          key: { type: String, default: 'mgs_db_backup', unique: true },
+          data: mongoose.Schema.Types.Mixed,
+          updatedAt: { type: Date, default: Date.now }
+        });
+        DBBackup = mongoose.model('DBBackup', dbBackupSchema);
+      }
+
+      const backup = await DBBackup.findOne({ key: 'mgs_db_backup' });
+      if (backup && backup.data) {
+        const dataPath = path.resolve(__dirname, 'data.json');
+        fs.writeFileSync(dataPath, JSON.stringify(backup.data, null, 2));
+        console.log('[Database] Successfully restored data from MongoDB Atlas backup.');
+      } else {
+        console.log('[Database] No backup found in MongoDB. Operating with default database state.');
+      }
+    } catch (err) {
+      console.error('[Database] MongoDB connection or restore failed:', err);
+    }
+  } else {
+    console.log('[Database] No MONGO_URI/MONGODB_URI found. Operating in local JSON mode only.');
+  }
+
+  app.listen(PORT, () => console.log('Server running on', PORT));
+};
+
+startServer();

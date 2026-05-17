@@ -23,8 +23,32 @@ const getDB = () => {
   }
 };
 
+const mongoose = require('mongoose');
+
 const saveDB = (data) => {
   fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
+
+  // Background backup to MongoDB Atlas if connected
+  const mongoUri = process.env.MONGO_URI || process.env.MONGODB_URI;
+  if (mongoUri && mongoose.connection && mongoose.connection.readyState === 1) {
+    let DBBackup;
+    try {
+      DBBackup = mongoose.model('DBBackup');
+    } catch (e) {
+      const dbBackupSchema = new mongoose.Schema({
+        key: { type: String, default: 'mgs_db_backup', unique: true },
+        data: mongoose.Schema.Types.Mixed,
+        updatedAt: { type: Date, default: Date.now }
+      });
+      DBBackup = mongoose.model('DBBackup', dbBackupSchema);
+    }
+
+    DBBackup.updateOne(
+      { key: 'mgs_db_backup' },
+      { data, updatedAt: new Date() },
+      { upsert: true }
+    ).catch(err => console.error('[DB Backup] Failed to backup to MongoDB Atlas:', err));
+  }
 };
 
 module.exports = {

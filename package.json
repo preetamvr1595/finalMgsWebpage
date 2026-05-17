@@ -5,6 +5,7 @@
   "scripts": {
     "start": "cd server && node index.js",
     "dev": "cd server && node index.js",
-    "static-only": "npx http-server -p 8000"
+    "static-only": "npx http-server -p 8000",
+    "build": "cd client && npm install && npm run build && cd ../server && npm install"
   }
 }
